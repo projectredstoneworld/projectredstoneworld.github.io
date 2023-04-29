@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>DC embed</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style id="compiled-css" type="text/css">
+    body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    max-height:100%;
+}
+
+.card1{
+    background-color:#36393b;
+    color:#fff;
+    padding:8px 0;
+    border: 3px solid #34363b;
+    border-left: 5px solid #b200ff;
+    border-radius:4px;
+    display: inline-block;
+}
+.card1{
+    margin:0 10px;
+}
+ .button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-right: 5px;
+  border-radius: 8px;
+  color: white;
+  padding: 13px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.box1 {
+     display: inline-block; 
+    width:50px; 
+    vertical-align:top
+     margin-top: 10px;
+    padding: 5px;
+    }
+.box2 {
+     display: inline-block; 
+    width:200px; 
+    vertical-align:top
+    }
+.thumb {
+  border-radius: 30%;
+}
+
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+    <script src="/js/stringify.js?9c307ec363c36b1d0dfbf2ee64220cc5ab9c45f2" charset="utf-8"></script>
+    <script>
+      const customConsole = (w) => {
+        const pushToConsole = (payload, type) => {
+          w.parent.postMessage({
+            console: {
+              payload: stringify(payload),
+              type:    type
+            }
+          }, "*")
+        }
+
+        w.onerror = (message, url, line, column) => {
+          // the line needs to correspond with the editor panel
+          // unfortunately this number needs to be altered every time this view is changed
+          line = line - 70
+          if (line < 0){
+            pushToConsole(message, "error")
+          } else {
+            pushToConsole(`[${line}:${column}] ${message}`, "error")
+          }
+        }
+
+        let console = (function(systemConsole){
+          return {
+            log: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "log")
+              systemConsole.log.apply(this, args)
+            },
+            info: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "info")
+              systemConsole.info.apply(this, args)
+            },
+            warn: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "warn")
+              systemConsole.warn.apply(this, args)
+            },
+            error: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "error")
+              systemConsole.error.apply(this, args)
+            },
+            system: function(arg){
+              pushToConsole(arg, "system")
+            },
+            clear: function(){
+              systemConsole.clear.apply(this, {})
+            },
+            time: function(){
+              let args = Array.from(arguments)
+              systemConsole.time.apply(this, args)
+            },
+            assert: function(assertion, label){
+              if (!assertion){
+                pushToConsole(label, "log")
+              }
+
+              let args = Array.from(arguments)
+              systemConsole.assert.apply(this, args)
+            }
+          }
+        }(window.console))
+
+        window.console = { ...window.console, ...console }
+
+        console.system("Running fiddle")
+      }
+
+      if (window.parent){
+        customConsole(window)
+      }
+    </script>
+</head>
+<body>
+    <div class="card1">
+  <center><img src="https://media.discordapp.net/attachments/1002369209826820150/1061078292733636608/Redstone_Park_-_Copy_-_Copy.png" width=250></img></center>
+<div class="box1"><p>
+
+</p> <small></small>
+<img class="thumb" src="https://images-ext-2.discordapp.net/external/ao0Flpvs25Uqik8YVLRjcKYTv4E2TgwlV38klH1w-50/%3Fitemid%3D27303058/https/media1.tenor.com/images/744ce3447e11eb4f99a19bc8eb1cd333/tenor.gif" width=50>
+</div><div class="box2">  
+    <p><small>Discord</small><br>
+   
+    <b>Project Redstoneworld Reborn</b>
+    </p>
+    <center></div><a target="_blank" href="https://discord.gg/G4UYpxy"><button class="button1">
+     Join 
+     </button></a></center>
+</div>
+</body>
+</html>

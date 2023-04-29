@@ -6,5 +6,8 @@ minima:
   skin: dark
   
   header_pages:
-  - about.md
   - index.md
+  - about.md
+  - discord.md
+  - youtube.md
+  
