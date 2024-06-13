@@ -2,7 +2,7 @@
 
 ### Server IP (for now): mc.theredstoneworld.work.gd or theredstoneworld.us.to
 
-Here's some important links related to our project:
+Here's some important links related to our project:  
 [Discord Server](https://discord.gg/G4UYpxy) -- [Online Map](http://theredstoneworld.us.to:7777/) -- [Planet Minecraft - Project](https://www.planetminecraft.com/project/the-redstone-theme-park/) -- [Planet Minecraft - Server](https://www.planetminecraft.com/server/agent-ij-s-server/)
 
 
