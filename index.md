@@ -1,4 +1,6 @@
-## Welcome to the official website of Project Redstoneworld Reborn!  
+---
+title: Welcome to the official website of Project Redstoneworld Reborn!  
+---
 
 ### Server IP: mc.theredstoneworld.net or foundingisland.theredstoneworld.net
 
