@@ -1,4 +1,6 @@
-# About
+---
+title: About
+---
 
 ![RW STAFF](https://static.planetminecraft.com/files/resource_media/screenshot/17877143.png)
 
