@@ -1,11 +1,11 @@
 ---
 title: Home
 ---
-<p align="center">
+
 # Welcome to the official website of Project Redstoneworld Reborn!!
 
 ### Server IP: mc.theredstoneworld.net or foundingisland.theredstoneworld.net
-
+<p align="center">
 Here's some important links related to our project:  
 [Discord Server](https://discord.gg/G4UYpxy) -- [Online Map](http://map.theredstoneworld.net:7777/) -- [Planet Minecraft - Project](https://www.planetminecraft.com/project/the-redstone-theme-park/) -- [Planet Minecraft - Server](https://www.planetminecraft.com/server/agent-ij-s-server/)
 
