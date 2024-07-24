@@ -10,12 +10,18 @@
 
     {%- if page.background -%}
     <a class="pagebg" id="a">
-      <script type="text/JavaScript">
+      <script type="text/JavaScript"> 
         var now = new Date();
-        if (now.getHours() > 6 && now.getHours() < 20) {
+        if (now.getHours() > 9 && now.getHours() < 17) {
           //document.body.pagebg.className += " day";
           document.getElementById('a').style.backgroundImage="url('../default_2024-06-12_00-42-17-1000.png')";
           //document.getElementByID('pagebg').className = "day";
+
+        } else if (now.getHours() > 6 && now.getHours() <= 9) {
+          document.getElementById('a').style.backgroundImage="url('../img/default_2024-06-14_13-05-31-17.denoised.png')";        }
+
+        } else if (now.getHours() >= 17 && now.getHours() < 20) {
+          document.getElementById('a').style.backgroundImage="url('../img/2024-07-24_14.38.25.png')";        }
 
         } else {
           document.getElementById('a').style.backgroundImage="url('../img/2024-05-28_18.06.29.png')";        }
