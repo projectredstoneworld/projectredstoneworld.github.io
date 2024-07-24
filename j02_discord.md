@@ -1,5 +1,6 @@
 ---
 title: Discord Server
+redirect_to: https://discord.gg/G4UYpxy
 ---
 
 Feel free to join the official Project Redstoneworld Reborn Discord server.
