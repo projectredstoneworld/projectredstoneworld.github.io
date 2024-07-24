@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- if page.background -%}
+  
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    {%- if page.background -%}
     <a class="pagebg">
       <img 
         style="display: block; 
@@ -12,18 +19,13 @@
         alt="Our logo">
       </img>
       <p style="text-align: center; text-decoration-line: none; font-size: 72px;">
-        <br><br><br>Welcome!
+        <br>Welcome!
         <br><br>Please Scroll Down
         <br>|
         <br>\/
       </p>
     </a>
   {%- endif -%}
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
