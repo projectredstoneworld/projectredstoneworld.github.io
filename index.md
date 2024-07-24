@@ -1,7 +1,7 @@
 ---
 title: Home
 ---
-
+<p align="center">
 # Welcome to the official website of Project Redstoneworld Reborn!!
 
 ### Server IP: mc.theredstoneworld.net or foundingisland.theredstoneworld.net
@@ -12,3 +12,4 @@ Here's some important links related to our project:
 
 
 <a href="https://discord.gg/G4UYpxy"><img src="https://discordapp.com/api/guilds/620746079155126292/widget.png?style=banner3"></a>
+</p>
