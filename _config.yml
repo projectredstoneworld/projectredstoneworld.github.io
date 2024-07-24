@@ -1,13 +1,22 @@
 title: Project Redstoneworld Reborn
+author:
+  name: Lenni-Builder and Ijd
+  email: ij@theredstoneworld.net
+
+description: >
+  The official website and info for Project Redstoneworld Reborn!
 
 theme: minima
 
 minima:
-  skin: dark
+  skin: solarized-dark
   
   header_pages:
   - index.md
   - about.md
   - discord.md
   - youtube.md
+
+  social_links:
+  - { platform: youtube,        user_url: "https://www.youtube.com/ijdtm7" }
   
