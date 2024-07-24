@@ -3,6 +3,11 @@ title: Home
 image: /android-chrome-512x512.png
 background: true
 ---
+<style type="text/css">
+h1.title {
+  text-align: center;
+}
+</style>
 
 # Welcome to the official website of Project Redstoneworld Reborn!!
 
@@ -13,5 +18,5 @@ Here's some important links related to our project:
 
 
 
-<a href="https://discord.gg/G4UYpxy"><img src="https://discordapp.com/api/guilds/620746079155126292/widget.png?style=banner3"></a>
+<p style="text-align:center;"><a href="https://discord.gg/G4UYpxy"><img src="https://discordapp.com/api/guilds/620746079155126292/widget.png?style=banner3"></a></p>
 
