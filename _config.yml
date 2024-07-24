@@ -25,6 +25,7 @@ minima:
   - about.md
   - discord.md
   - youtube.md
+  - helprw.md
 
   social_links:
   - { platform: youtube,        user_url: "https://www.youtube.com/ijdtm7" }
