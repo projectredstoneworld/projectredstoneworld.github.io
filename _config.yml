@@ -11,6 +11,7 @@ twitter:
 
 logo: /android-chrome-512x512.png
 #youtube_username: ijdtm7
+google_analytics: G-3P18R4FEGC
 
 plugins:
   - jekyll-remote-theme
