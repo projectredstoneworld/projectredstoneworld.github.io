@@ -24,6 +24,7 @@ minima:
   header_pages:
   - j05_about.md
   - j02_discord.md
+  - j02_dynmap.md
   - j03_showcase.md
   - j04_helprw.md
 
