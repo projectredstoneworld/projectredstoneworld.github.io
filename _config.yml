@@ -9,7 +9,7 @@ description: >
 twitter:
   card: summary_large_image
 
-logo: https://theredstoneworld.net/android-chrome-512x512.png
+logo: /android-chrome-512x512.png
 #youtube_username: ijdtm7
 
 plugins:
