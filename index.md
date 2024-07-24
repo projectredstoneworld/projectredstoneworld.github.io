@@ -9,14 +9,16 @@ h1.title {
 }
 </style>
 
-# Welcome to the official website of Project Redstoneworld Reborn!!
+<h1 class="centered-header"> Welcome to the official website of Project Redstoneworld Reborn!!</h1>
 
-### Server IP: mc.theredstoneworld.net or foundingisland.theredstoneworld.net
+<h2 class="centered-header"> Server IP: mc.theredstoneworld.net or foundingisland.theredstoneworld.net </h2>
 
-Here's some important links related to our project:  
-[Discord Server](https://discord.gg/G4UYpxy) -- [Online Map](http://map.theredstoneworld.net:7777/) -- [Planet Minecraft - Project](https://www.planetminecraft.com/project/the-redstone-theme-park/) -- [Planet Minecraft - Server](https://www.planetminecraft.com/server/agent-ij-s-server/)
+<p style="text-align:center;"> Here's some important links related to our project:  
+<a href="https://discord.gg/G4UYpxy">Discord Server</a> -- <a href="http://map.theredstoneworld.net:7777/">Online Map</a> -- <a href="https://www.planetminecraft.com/project/the-redstone-theme-park/">Planet Minecraft - Project</a> -- <a href="https://www.planetminecraft.com/server/agent-ij-s-server/">Planet Minecraft - Server</a></p>
 
 
 
 <p style="text-align:center;"><a href="https://discord.gg/G4UYpxy"><img src="https://discordapp.com/api/guilds/620746079155126292/widget.png?style=banner3"></a></p>
+
+<p style="text-align:center; font-size:24px;> 2013 - 2024<br>RW by Ijd and TJC
 
