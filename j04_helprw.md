@@ -10,9 +10,9 @@ Also, subscribe to Ij's youtube channel for redstoneworld related content (Click
 [![Ij's Youtube Channel, click here!](https://media.discordapp.net/attachments/601782239021367307/1265531845416587275/image.png?ex=66a1d9e0&is=66a08860&hm=47358e2991a4b2df989f0a38a3235da7f5f8fbb6854aa60d7fa670bc9fd98f30&=&format=webp&quality=lossless&width=1073&height=619)](https://youtube.com/ijdtm7)
 
 If you have a planetminecraft account, please diamond and favorite these two submissions (and subscribe to my profile if you want too :D)
-[Planet Minecraft - Project](https://www.planetminecraft.com/project/the-redstone-theme-park/)
-[Planet Minecraft - Server](https://www.planetminecraft.com/server/agent-ij-s-server/)
-^ Also please vote for our server on the server page in order to boost our server on the rankings!
+[Planet Minecraft - Project](https://www.planetminecraft.com/project/the-redstone-theme-park/)  
+[Planet Minecraft - Server](https://www.planetminecraft.com/server/agent-ij-s-server/)  
+^ Also please vote for our server on the server page in order to boost our server on the rankings!  
 
-Same thing with Minecraft Server List
+Same thing with Minecraft Server List  
 [RW on Minecraft Server List, Please Vote!](https://minecraft-server-list.com/server/484167/)
