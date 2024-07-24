@@ -14,7 +14,9 @@
         var now = new Date();
         if (now.getHours() > 6 && now.getHours() < 20) {
           //document.body.pagebg.className += " day";
-          document.getElementByID('pagebg').style.backgroundImage="url('../default_2024-06-12_00-42-17-1000.png')";
+          //document.getElementByID('pagebg').style.backgroundImage="url('../default_2024-06-12_00-42-17-1000.png')";
+          document.getElementByID('pagebg').className += " day";
+
         } else {
           document.body.className += " night";
         }
