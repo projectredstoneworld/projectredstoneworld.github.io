@@ -1,13 +1,21 @@
 title: Project Redstoneworld Reborn
-author: Lenni-Builder and Ijd
-email: ij@theredstoneworld.net
+author: 
+  name: Lenni-Builder and Ijd
+  email: ij@theredstoneworld.net
 
 description: >
   The official website and info for Project Redstoneworld Reborn!
 
-youtube_username: ijdtm7
+#youtube_username: ijdtm7
 
-theme: minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+remote_theme: jekyll/minima
+
+#theme: minima
 
 minima:
   skin: solarized-dark
@@ -17,5 +25,8 @@ minima:
   - about.md
   - discord.md
   - youtube.md
+
+  social_links:
+  - { platform: youtube,        user_url: "https://www.youtube.com/ijdtm7" }
 
  
