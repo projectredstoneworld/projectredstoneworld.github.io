@@ -1,5 +1,6 @@
 ---
 title: Home
+image: /android-chrome-512x512.png
 background: true
 ---
 
