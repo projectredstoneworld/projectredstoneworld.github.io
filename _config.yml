@@ -21,11 +21,11 @@ minima:
   skin: solarized-dark
   
   header_pages:
-  - index.md
-  - about.md
-  - discord.md
-  - youtube.md
-  - helprw.md
+  - 01_index.md
+  - 05_about.md
+  - 02_discord.md
+  - 03_showcase.md
+  - 04_helprw.md
 
   social_links:
   - { platform: youtube,        user_url: "https://www.youtube.com/ijdtm7" }
