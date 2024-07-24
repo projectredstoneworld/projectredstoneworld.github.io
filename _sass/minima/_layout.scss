@@ -4,6 +4,9 @@
 .site-header {
   border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
+
+  border:none
+  
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -13,10 +16,12 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  font-family: Georgia, serif;
+  
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -26,6 +31,7 @@
   &:visited {
     color: $site-title-color;
   }
+  color:red;
 }
 
 .site-nav {
