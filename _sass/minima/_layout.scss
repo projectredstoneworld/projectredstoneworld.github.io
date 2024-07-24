@@ -33,7 +33,6 @@
   top: 9px;
   right: $spacing-unit * .5;
   background-color: $background-color;
-  background: url('../default_2024-06-12_00-42-17-1000.png');
   border: 1px solid $border-color-01;
   border-radius: 5px;
   text-align: right;
@@ -330,12 +329,6 @@
   }
 }
 
-/* Cover Image */
-.hero {
-  background: url('../default_2024-06-12_00-42-17-1000.png');
-  background-size: 1920px 1080px;
-}
-
 /**
  * Grid helpers
  */
@@ -343,4 +336,13 @@
   .one-half {
     width: calc(50% - (#{$spacing-unit} / 2));
   }
+}
+
+/* Cover Image */
+.herobg {
+  background-image: url('../default_2024-06-12_00-42-17-1000.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
