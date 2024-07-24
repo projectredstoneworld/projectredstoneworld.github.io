@@ -1,5 +1,6 @@
 ---
 title: Home
+background: true
 ---
 
 # Welcome to the official website of Project Redstoneworld Reborn!!
