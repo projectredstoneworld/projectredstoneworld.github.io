@@ -6,12 +6,16 @@ author:
 description: >
   The official website and info for Project Redstoneworld Reborn!
 
+twitter:
+  card: summary_large_image
+
+logo: https://theredstoneworld.net/android-chrome-512x512.png
 #youtube_username: ijdtm7
 
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
-#  - jekyll-seo-tag
+  - jekyll-seo-tag
   - jekyll-redirect-from
 
 remote_theme: jekyll/minima
