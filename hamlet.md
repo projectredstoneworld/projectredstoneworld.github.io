@@ -8,4 +8,6 @@ and precisely cut out the weird Shakespearean "art" and replaced it with an easi
 <h2 class="centered-header">Not only has Hamlet been amazingly translated, but we have also created a beautiful visual representation of the play inside Minecraft.
 <br><br>AND ALL OF IT IS ONLY FOR THE CHEAP PRICE OF $12.99!!!<br><br>BUY NOW AND BE ENLIGHTENED!!!</h2>
 
-![BUY](https://theredstoneworld.net/img/IMG_1669.png)
+<p align="center">
+  <img src="https://theredstoneworld.net/img/IMG_1669.png">
+</p>
