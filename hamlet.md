@@ -11,3 +11,5 @@ and precisely cut out the weird Shakespearean "art" and replaced it with an easi
 <p align="center">
   <img src="https://theredstoneworld.net/img/IMG_1669.png">
 </p>
+
+<p align="center"><br><br><br>We promise this is trustworthy. Consult Ian for potential side effects.</p>
