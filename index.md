@@ -13,6 +13,9 @@ h1.title {
 
 <h2 class="centered-header"> Server IP:<br> mc.theredstoneworld.net or foundingisland.theredstoneworld.net </h2>
 
+12 Year Anniversary Group Photo 1/1/25
+{% include youtube.html id="M7lNCtFoiM4" %} 
+
 <p style="text-align:center;"> Here's some important links related to our project:<br>
 <a href="https://discord.gg/G4UYpxy">Discord Server</a> -- <a href="http://map.theredstoneworld.net:7777/">Online Map</a> -- <a href="https://www.planetminecraft.com/project/the-redstone-theme-park/">Planet Minecraft - Project</a> -- <a href="https://www.planetminecraft.com/server/agent-ij-s-server/">Planet Minecraft - Server</a></p>
 
