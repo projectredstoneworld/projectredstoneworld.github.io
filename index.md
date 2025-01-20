@@ -23,5 +23,5 @@ h1.title {
 
 <p style="text-align:center;"><a href="https://discord.gg/G4UYpxy"><img src="https://discordapp.com/api/guilds/620746079155126292/widget.png?style=banner3"></a></p>
 
-<p style="text-align:center; font-size:24px;"> 2013 - 2024<br>RW by Ijd and TJC </p>
+<p style="text-align:center; font-size:24px;"> 2013 - 2025<br>RW by Ijd and TJC </p>
 
