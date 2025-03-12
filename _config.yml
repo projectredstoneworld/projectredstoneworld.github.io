@@ -33,7 +33,6 @@ minima:
   - j02_dynmap.md
   - j03_showcase.md
   - j04_helprw.md
-  - j06_status.md
 
   social_links:
   - { platform: youtube,        user_url: "https://www.youtube.com/ijdtm7" }
