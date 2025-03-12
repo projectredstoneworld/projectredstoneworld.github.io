@@ -17,7 +17,7 @@ h1.title {
 {% include youtube.html id="8tV2R4TescU" %} 
 
 <p style="text-align:center;"> Here's some important links related to our project:<br>
-<a href="https://discord.gg/G4UYpxy">Discord Server</a> -- <a href="http://map.theredstoneworld.net:7777/">Online Map</a> -- <a href="https://www.planetminecraft.com/project/the-redstone-theme-park/">Planet Minecraft - Project</a> -- <a href="https://www.planetminecraft.com/server/agent-ij-s-server/">Planet Minecraft - Server</a></p>
+<a href="https://discord.gg/G4UYpxy">Discord Server</a> -- <a href="http://map.theredstoneworld.net:7777/">Online Map</a> -- <a href="https://www.planetminecraft.com/project/the-redstone-theme-park/">Planet Minecraft - Project</a> -- <a href="https://www.planetminecraft.com/server/agent-ij-s-server/">Planet Minecraft - Server</a> -- <a href="https://status.theredstoneworld.net/">RW Server Status</a></p>
 
 
 
