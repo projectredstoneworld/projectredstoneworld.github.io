@@ -20,7 +20,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@6b9b78d
 
 #theme: minima
 
