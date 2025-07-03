@@ -11,7 +11,7 @@ h1.title {
 
 <h1 class="centered-header"> Welcome to the official website of Project Redstoneworld Reborn!!</h1>
 
-<h2 class="centered-header"> Server IP:<br> mc.theredstoneworld.net or foundingisland.theredstoneworld.net </h2>
+<h2 class="centered-header"> Server IP:<br> mc.theredstoneworld.net (Java) </h2>
 
 12 Year Anniversary Special Video 1/18/25
 {% include youtube.html id="8tV2R4TescU" %} 
