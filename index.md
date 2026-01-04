@@ -13,8 +13,8 @@ h1.title {
 
 <h2 class="centered-header"> Server IP:<br> mc.theredstoneworld.net (Java) </h2>
 
-12 Year Anniversary Special Video 1/18/25
-{% include youtube.html id="8tV2R4TescU" %} 
+13 Year Anniversary Group Photo (2026/1/3) Full video coming soon!
+{% include youtube.html id="CjRfxAK5UPY" %} 
 
 <p style="text-align:center;"> Here's some important links related to our project:<br>
 <a href="https://discord.gg/G4UYpxy">Discord Server</a> -- <a href="http://map.theredstoneworld.net:7777/">Online Map</a> -- <a href="https://www.planetminecraft.com/project/the-redstone-theme-park/">Planet Minecraft - Project</a> -- <a href="https://www.planetminecraft.com/server/agent-ij-s-server/">Planet Minecraft - Server</a> -- <a href="https://status.theredstoneworld.net/">RW Server Status</a></p>
