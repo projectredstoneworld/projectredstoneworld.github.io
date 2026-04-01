@@ -10,7 +10,7 @@ Donating one barrel of oil even makes the difference...<br> Please click below t
 Redstoneworld NFT</h2>
 
 <p align="center">
-  <a href="/buyoil" target="_blank">
+  <a href="/buyoil.html" target="_blank">
     <img src="https://theredstoneworld.net/img/IMG_1669.png">
   </a>
 </p>
