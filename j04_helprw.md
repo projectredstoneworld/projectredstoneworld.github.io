@@ -6,9 +6,10 @@ title: Help us out!
 
 The best way to help us out is to join our build team! We are currently looking for decently skilled builders to help push progress on the project, please contact Ij over discord if interested!!
 
-Also, subscribe to Ij's youtube channel for redstoneworld related content (Click below):
-[![Ij's Youtube Channel, click here!](https://theredstoneworld.net/img/ytchannelpage.webp)](https://youtube.com/ijdtm7)  
-
+Also, subscribe to Ij's youtube channel for redstoneworld related content (Click below):  
+<script src="https://apis.google.com/js/platform.js"></script>
+<div class="g-ytsubscribe" data-channelid="UCAH8tS-gR1vPnzCbxavfxQw" data-layout="full" data-theme="dark" data-count="default"></div>
+  
   
 If you have a planetminecraft account, please diamond and favorite these two submissions (and subscribe to my profile if you want too :D)  
 [Planet Minecraft - Project](https://www.planetminecraft.com/project/the-redstone-theme-park/)  
