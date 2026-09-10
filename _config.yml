@@ -1,4 +1,6 @@
 title: Project Redstoneworld Reborn
+url: https://theredstoneworld.net
+baseurl: ""
 author: 
   name: Site made by Lenni-Builder and Ijd
   email: ij@theredstoneworld.net
@@ -19,6 +21,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 remote_theme: jekyll/minima@6b9b78d
 
