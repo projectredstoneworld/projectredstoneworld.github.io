@@ -22,6 +22,19 @@ plugins:
 
 remote_theme: jekyll/minima@6b9b78d
 
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: wiki
+    values:
+      layout: wiki
+      wiki: true
+
 #theme: minima
 
 minima:
@@ -33,6 +46,7 @@ minima:
   - j02_dynmap.md
   - j03_showcase.md
   - j04_helprw.md
+  - j07_wiki.md
 
   social_links:
   - { platform: youtube,        user_url: "https://www.youtube.com/ijdtm7" }

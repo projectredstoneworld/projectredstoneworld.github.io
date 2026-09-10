@@ -4,7 +4,7 @@
   
   {%- include head.html -%}
 
-  <body>
+  <body{% if page.wiki %} class="wiki-page"{% endif %}>
 
     {%- include header.html -%}
 
