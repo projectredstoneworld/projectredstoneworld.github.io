@@ -7,13 +7,6 @@ image: "/img/default_2024-06-14_13-05-31-17.denoised.png"
 image_alt: "A wide view across Project Redstoneworld"
 last_modified: "2026-06-28T20:34:03Z"
 contributor: "Mr.Voidfromrw"
-toc: [
-    {"level": 2, "title": "General Information", "id": "general-information"}, 
-    {"level": 2, "title": "Server IP", "id": "server-ip"}, 
-    {"level": 2, "title": "Redstoneworld Sectors", "id": "redstoneworld-sectors"}, 
-    {"level": 2, "title": "Redstoneworld Staff", "id": "redstoneworld-staff"}, 
-    {"level": 2, "title": "Website and important links", "id": "website-and-important-links"}
-]
 ---
 
 <strong>Welcome to the official wiki page of <br></strong>

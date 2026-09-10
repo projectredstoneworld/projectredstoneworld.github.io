@@ -7,10 +7,6 @@ image: "/wiki/assets/images/rw-all-sector-render-rtc-bias.webp"
 image_alt: "The main Redstone Tower Complex towers, bridge, and surrounding sectors"
 last_modified: "2025-12-22T01:20:25Z"
 contributor: "Ijdtm7"
-toc: [
-    {"level": 2, "title": "Primary Elements", "id": "primary-elements"}, 
-    {"level": 2, "title": "RTC Reactor", "id": "rtc-reactor"}
-]
 infobox: {"Started": "July 10th, 2017", "Main creators": "Mr. Ij, LLucas, xKingEmilx", "Type": "Primary Sector"}
 ---
 

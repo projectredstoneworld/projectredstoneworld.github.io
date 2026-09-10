@@ -5,34 +5,6 @@ section: "Community"
 description: "Staff ranks, responsibilities, the Coalition, and the current Redstoneworld team."
 last_modified: "2026-09-09T20:26:37Z"
 contributor: "Ijdtm7"
-toc: [
-    {"level": 2, "title": "Staff Ranks", "id": "staff-ranks"}, 
-        {"level": 3, "title": "Owner", "id": "owner"}, 
-        {"level": 3, "title": "Co-Owner", "id": "co-owner"}, 
-        {"level": 3, "title": "Head Admin", "id": "head-admin"}, 
-        {"level": 3, "title": "Senior Admin", "id": "senior-admin"}, 
-        {"level": 3, "title": "Admin", "id": "admin"}, 
-        {"level": 3, "title": "Supervisor", "id": "supervisor"}, 
-        {"level": 3, "title": "Team Senior Member", "id": "team-senior-member"}, 
-        {"level": 3, "title": "Team Member", "id": "team-member"}, 
-        {"level": 3, "title": "Trusted Creative", "id": "trusted-creative"}, 
-        {"level": 3, "title": "Flyer", "id": "flyer"}, 
-        {"level": 3, "title": "Default", "id": "default"}, 
-        {"level": 2, "title": "Redstoneworld Coalition", "id": "redstoneworld-coalition"}, 
-        {"level": 3, "title": "Role", "id": "role"}, 
-        {"level": 3, "title": "Formation", "id": "formation"}, 
-        {"level": 3, "title": "Member List", "id": "member-list"}, 
-    {"level": 2, "title": "Current Staff List", "id": "current-staff-list"}, 
-        {"level": 3, "title": "Owner", "id": "owner"}, 
-        {"level": 3, "title": "Co-Owner", "id": "co-owner"},
-        {"level": 3, "title": "Head Admins", "id": "head-admins"}, 
-        {"level": 3, "title": "Senior Admins", "id": "senior-admins"}, 
-        {"level": 3, "title": "Admins", "id": "admins"}, 
-        {"level": 3, "title": "Supervisors", "id": "supervisors"}, 
-        {"level": 3, "title": "Team Senior Members", "id": "team-senior-members"}, 
-        {"level": 3, "title": "Team Members", "id": "team-members"}, 
-    {"level": 2, "title": "Build Team slots are OPEN", "id": "build-team-slots-are-open"}
-]
 ---
 
 <a href="/wiki/">Redstoneworld</a> staff actively build the world. Typically, the staff are split by specialization in either building or redstone. Applications are always open if you would like to contribute to our world!

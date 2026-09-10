@@ -7,11 +7,6 @@ image: "/img/default_2024-06-14_13-05-31-17.denoised.png"
 image_alt: "A wide view across Project Redstoneworld"
 last_modified: "2026-05-20T21:00:19Z"
 contributor: "Ijdtm7"
-toc: [
-  {"level": 2, "title": "Definition of a Sector", "id": "definition-of-a-sector"}, 
-    {"level": 3, "title": "Primary Sectors", "id": "primary-sectors"}, 
-    {"level": 3, "title": "Sector Regions", "id": "sector-regions"}
-]
 ---
 
 ## Definition of a Sector {#definition-of-a-sector}
