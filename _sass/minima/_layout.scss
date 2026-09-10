@@ -272,10 +272,11 @@
 
 .wiki-hero {
   position: relative;
+  z-index: 30;
   min-height: 430px;
   display: flex;
   align-items: flex-end;
-  overflow: hidden;
+  overflow: visible;
   border: 1px solid rgba(255, 255, 255, .12);
   border-radius: 18px;
   background:
@@ -288,6 +289,7 @@
   content: "";
   position: absolute;
   inset: 0;
+  border-radius: 18px;
   background: linear-gradient(0deg, rgba(7, 10, 18, .9), transparent 70%);
   pointer-events: none;
 }
@@ -320,7 +322,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  z-index: 21;
+  z-index: 100;
 }
 
 .wiki-search svg {
