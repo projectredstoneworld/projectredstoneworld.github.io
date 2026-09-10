@@ -22,34 +22,109 @@ description: The official archive and guide to Project Redstoneworld Reborn.
   </div>
 </section>
 
-<section class="wiki-intro">
-  <p><strong>Project Redstoneworld</strong> is a long-running Minecraft project started by TheJoCraft on January 18, 2013. Ij began continuing the world in 2016 through the BTCC approach—bugfix, translate, continue, and complete—and it remains an active archive of redstone engineering, large-scale construction, and collaborative storytelling.</p>
-</section>
+{% assign wiki_pages = site.wiki | sort: "order" %}
+{% assign wiki_number = 0 %}
 
-<section class="wiki-section" aria-labelledby="browse-wiki">
-  <div class="wiki-section__heading">
-    <p class="wiki-kicker">Browse the archive</p>
-    <h2 id="browse-wiki">Wiki pages</h2>
-  </div>
-  <div class="wiki-card-grid">
-  {% assign wiki_pages = site.wiki | sort: "order" %}
-  {% for article in wiki_pages %}
-    <a class="wiki-card" href="{{ article.url | relative_url }}">
-      <span class="wiki-card__number">0{{ forloop.index }}</span>
-      <span class="wiki-card__body">
-        <strong>{{ article.title }}</strong>
-        <span>{{ article.description }}</span>
-      </span>
-      <span class="wiki-card__arrow" aria-hidden="true">→</span>
-    </a>
-  {% endfor %}
-  </div>
-</section>
+<div class="wiki-home-layout">
+  <main class="wiki-directory" aria-labelledby="wiki-directory-heading">
+    <header class="wiki-directory__header">
+      <div>
+        <p class="wiki-directory__label">Browse the archive</p>
+        <h2 id="wiki-directory-heading">All wiki pages</h2>
+      </div>
+      <span>{{ wiki_pages.size }} articles</span>
+    </header>
 
-<section class="wiki-quickfacts" aria-label="Quick information">
-  <div><span>Server</span><strong>mc.theredstoneworld.net</strong></div>
-  <div><span>Current version</span><strong>Java 1.20.4</strong></div>
-  <div><span>Project founded</span><strong>January 18, 2013</strong></div>
-</section>
+    <section class="wiki-directory-group" aria-labelledby="wiki-world-heading">
+      <header class="wiki-directory-group__header">
+        <span>World</span>
+        <h3 id="wiki-world-heading">The project and its world</h3>
+      </header>
+      <ol class="wiki-index">
+        {% for article in wiki_pages %}
+          {% if article.section == "Project overview" or article.section == "World guide" %}
+            {% assign wiki_number = wiki_number | plus: 1 %}
+            <li>
+              <a href="{{ article.url | relative_url }}">
+                <span class="wiki-index__number">{% if wiki_number < 10 %}0{% endif %}{{ wiki_number }}</span>
+                <span class="wiki-index__entry">
+                  <span class="wiki-index__section">{{ article.section | default: "Wiki article" }}</span>
+                  <strong>{{ article.title }}</strong>
+                  {% if article.description %}<span class="wiki-index__description">{{ article.description }}</span>{% endif %}
+                </span>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section class="wiki-directory-group" aria-labelledby="wiki-places-heading">
+      <header class="wiki-directory-group__header">
+        <span>Places</span>
+        <h3 id="wiki-places-heading">Sectors and infrastructure</h3>
+      </header>
+      <ol class="wiki-index">
+        {% for article in wiki_pages %}
+          {% if article.section contains "Sector" %}
+            {% assign wiki_number = wiki_number | plus: 1 %}
+            <li>
+              <a href="{{ article.url | relative_url }}">
+                <span class="wiki-index__number">{% if wiki_number < 10 %}0{% endif %}{{ wiki_number }}</span>
+                <span class="wiki-index__entry">
+                  <span class="wiki-index__section">{{ article.section | default: "Wiki article" }}</span>
+                  <strong>{{ article.title }}</strong>
+                  {% if article.description %}<span class="wiki-index__description">{{ article.description }}</span>{% endif %}
+                </span>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section class="wiki-directory-group" aria-labelledby="wiki-records-heading">
+      <header class="wiki-directory-group__header">
+        <span>Records</span>
+        <h3 id="wiki-records-heading">People, development, and help</h3>
+      </header>
+      <ol class="wiki-index">
+        {% for article in wiki_pages %}
+          {% unless article.section == "Project overview" or article.section == "World guide" %}
+            {% unless article.section contains "Sector" %}
+              {% assign wiki_number = wiki_number | plus: 1 %}
+              <li>
+                <a href="{{ article.url | relative_url }}">
+                  <span class="wiki-index__number">{% if wiki_number < 10 %}0{% endif %}{{ wiki_number }}</span>
+                  <span class="wiki-index__entry">
+                    <span class="wiki-index__section">{{ article.section | default: "Wiki article" }}</span>
+                    <strong>{{ article.title }}</strong>
+                    {% if article.description %}<span class="wiki-index__description">{{ article.description }}</span>{% endif %}
+                  </span>
+                </a>
+              </li>
+            {% endunless %}
+          {% endunless %}
+        {% endfor %}
+      </ol>
+    </section>
+  </main>
+
+  <aside class="wiki-home-rail" aria-label="About Project Redstoneworld">
+    <section>
+      <p class="wiki-home-rail__label">Welcome</p>
+      <h2>A record of the world</h2>
+      <p><strong>Project Redstoneworld</strong> began with TheJoCraft on January 18, 2013. Ij continued the world in 2016 through the BTCC approach: bugfix, translate, continue, and complete.</p>
+      <p>The wiki records the world’s sectors, infrastructure, history, staff, and development.</p>
+    </section>
+
+    <dl class="wiki-home-facts">
+      <div><dt>Founded</dt><dd>January 18, 2013</dd></div>
+      <div><dt>Reborn</dt><dd>March 15, 2016</dd></div>
+      <div><dt>Server</dt><dd>mc.theredstoneworld.net</dd></div>
+      <div><dt>Version</dt><dd>Java 1.20.4</dd></div>
+    </dl>
+  </aside>
+</div>
 
 <script src="{{ '/assets/js/wiki-search.js' | relative_url }}" defer></script>
