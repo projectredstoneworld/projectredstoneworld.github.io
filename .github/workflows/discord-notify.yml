@@ -10,7 +10,9 @@ on:
   pull_request_review:
   release:
     types: [published]
-  page_build:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
 
 jobs:
   notify:
@@ -35,7 +37,8 @@ jobs:
           RELEASE_NAME: ${{ github.event.release.name }}
           RELEASE_URL: ${{ github.event.release.html_url }}
 
-          PAGE_BUILD_STATUS: ${{ github.event.build.status }}
+          PAGES_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          PAGES_RUN_URL: ${{ github.event.workflow_run.html_url }}
           ACTION: ${{ github.event.action }}
 
         run: |
@@ -51,11 +54,11 @@ jobs:
           DESC=""
           URL="https://github.com/${REPO}"
 
-          if [ "$EVENT" = "page_build" ]; then
-            STATUS="$PAGE_BUILD_STATUS"
+          if [ "$EVENT" = "workflow_run" ]; then
+            STATUS="$PAGES_CONCLUSION"
             URL="https://theredstoneworld.net"
 
-            if [ "$STATUS" = "built" ]; then
+            if [ "$STATUS" = "success" ]; then
               COLOR=5763719
               TITLE="🚀 Website Deployment Succeeded"
               DESC="The latest website changes are now live."
@@ -63,7 +66,7 @@ jobs:
               COLOR=15548997
               TITLE="🔥 Website Deployment Failed!"
               DESC="Status: $STATUS"
-              URL="https://github.com/${REPO}/actions"
+              URL="$PAGES_RUN_URL"
             fi
 
           elif [ "$EVENT" = "push" ]; then
