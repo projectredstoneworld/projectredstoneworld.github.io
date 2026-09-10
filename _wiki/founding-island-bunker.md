@@ -7,7 +7,32 @@ image: "/wiki/assets/images/fi-bunker-shaders.webp"
 image_alt: "A view of the redstone above the Founding Island Bunker's Blue Zone"
 last_modified: "2026-06-28T20:10:56Z"
 contributor: "Mr.Voidfromrw"
-toc: [{"level": 2, "title": "Establishment", "id": "establishment"}, {"level": 3, "title": "Original State", "id": "original-state"}, {"level": 3, "title": "First Iteration", "id": "first-iteration"}, {"level": 3, "title": "Present Iteration Catalyst", "id": "present-iteration-catalyst"}, {"level": 2, "title": "Full Description", "id": "full-description"}, {"level": 3, "title": "Ownership", "id": "ownership"}, {"level": 3, "title": "Rooms", "id": "rooms"}, {"level": 4, "title": "Blue Zone", "id": "blue-zone"}, {"level": 5, "title": "Admin Room", "id": "admin-room"}, {"level": 6, "title": "Primary Section", "id": "primary-section"}, {"level": 6, "title": "Secondary Section", "id": "secondary-section"}, {"level": 6, "title": "Tertiary Section", "id": "tertiary-section"}, {"level": 5, "title": "Guard Barracks", "id": "guard-barracks"}, {"level": 5, "title": "Reactor", "id": "reactor"}, {"level": 5, "title": "Offices", "id": "offices"}, {"level": 5, "title": "Housing", "id": "housing"}, {"level": 5, "title": "Armory", "id": "armory"}, {"level": 4, "title": "Green Zone", "id": "green-zone"}, {"level": 5, "title": "Admin Room/Maintenance Hatch", "id": "admin-room-maintenance-hatch"}, {"level": 5, "title": "Keycard Center", "id": "keycard-center"}, {"level": 5, "title": "Storage/Farms", "id": "storage-farms"}, {"level": 5, "title": "Transit Center", "id": "transit-center"}, {"level": 5, "title": "RCorp Rail Admin Station", "id": "rcorp-rail-admin-station"}, {"level": 5, "title": "Secret Bunker", "id": "secret-bunker"}]
+toc: [
+  {"level": 2, "title": "Establishment", "id": "establishment"}, 
+    {"level": 3, "title": "Original State", "id": "original-state"}, 
+    {"level": 3, "title": "First Iteration", "id": "first-iteration"}, 
+    {"level": 3, "title": "Present Iteration Catalyst", "id": "present-iteration-catalyst"}, 
+  {"level": 2, "title": "Full Description", "id": "full-description"}, 
+    {"level": 3, "title": "Ownership", "id": "ownership"}, 
+    {"level": 3, "title": "Rooms", "id": "rooms"}, 
+      {"level": 4, "title": "Blue Zone", "id": "blue-zone"}, 
+        {"level": 5, "title": "Admin Room", "id": "admin-room"}, 
+          {"level": 6, "title": "Primary Section", "id": "primary-section"}, 
+          {"level": 6, "title": "Secondary Section", "id": "secondary-section"}, 
+          {"level": 6, "title": "Tertiary Section", "id": "tertiary-section"}, 
+        {"level": 5, "title": "Guard Barracks", "id": "guard-barracks"}, 
+        {"level": 5, "title": "Reactor", "id": "reactor"}, 
+        {"level": 5, "title": "Offices", "id": "offices"}, 
+        {"level": 5, "title": "Housing", "id": "housing"}, 
+        {"level": 5, "title": "Armory", "id": "armory"}, 
+      {"level": 4, "title": "Green Zone", "id": "green-zone"}, 
+        {"level": 5, "title": "Admin Room/Maintenance Hatch", "id": "admin-room-maintenance-hatch"}, 
+        {"level": 5, "title": "Keycard Center", "id": "keycard-center"}, 
+        {"level": 5, "title": "Storage/Farms", "id": "storage-farms"}, 
+        {"level": 5, "title": "Transit Center", "id": "transit-center"}, 
+        {"level": 5, "title": "RCorp Rail Admin Station", "id": "rcorp-rail-admin-station"}, 
+        {"level": 5, "title": "Secret Bunker", "id": "secret-bunker"}
+]
 infobox: {"Started": "August 9th, 2021", "Main creators": "Mr. Void, Mr. Ij, Huddo, Chambo", "Type": "Mini-Bunker (Sub-Sector of Founding Island)"}
 ---
 

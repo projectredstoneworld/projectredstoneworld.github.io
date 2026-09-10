@@ -5,7 +5,10 @@ section: "Development history"
 description: "A chronological index of official devlogs, specials, and anniversary videos."
 last_modified: "2026-09-09T20:35:00Z"
 contributor: "Ijdtm7"
-toc: [{"level": 2, "title": "Devlog List", "id": "devlog-list"}, {"level": 2, "title": "Special Episodes and Anniversary Videos", "id": "special-episodes-and-anniversary-videos"}]
+toc: [
+    {"level": 2, "title": "Devlog List", "id": "devlog-list"}, 
+    {"level": 2, "title": "Special Episodes and Anniversary Videos", "id": "special-episodes-and-anniversary-videos"}
+]
 ---
 
 <small><em>Return to <a href="/wiki/">home page</a></em></small>

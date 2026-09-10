@@ -5,7 +5,12 @@ section: "Visitor guide"
 description: "Answers about joining the server, supported editions, downloads, and staff applications."
 last_modified: "2025-07-12T19:34:02Z"
 contributor: "Ijdtm7"
-toc: [{"level": 2, "title": "Will there be / is there a world download?", "id": "will-there-be-is-there-a-world-download"}, {"level": 2, "title": "What is the Server IP?", "id": "what-is-the-server-ip"}, {"level": 3, "title": "Does Bedrock Edition work?", "id": "does-bedrock-edition-work"}, {"level": 2, "title": "Can I join staff?", "id": "can-i-join-staff"}]
+toc: [
+    {"level": 2, "title": "Will there be / is there a world download?", "id": "will-there-be-is-there-a-world-download"}, 
+    {"level": 2, "title": "What is the Server IP?", "id": "what-is-the-server-ip"}, 
+        {"level": 3, "title": "Does Bedrock Edition work?", "id": "does-bedrock-edition-work"}, 
+    {"level": 2, "title": "Can I join staff?", "id": "can-i-join-staff"}
+]
 ---
 
 These are some of the questions we get often on the <a href="/wiki/">Redstoneworld</a>. Hopefully this guide helps you out.
