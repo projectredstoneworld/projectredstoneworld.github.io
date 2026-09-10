@@ -4,7 +4,7 @@ title: Help us out!
 
 ### There are many ways to help us out with our project, and we appreciate everyone who does greatly!
 
-The best way to help us out is to join our build team! We are currently looking for decently skilled builders to help push progress on the project, please contact Ij over discord if interested!!
+The best way to help us out is to join our build team! We are currently looking for decently skilled builders to help push progress on the project, please contact Ij over discord if interested!! Also, make sure to check out the [FAQ](/wiki/frequently-asked-questions) on the wiki for information on the server and the application process.
 
 Also, subscribe to Ij's youtube channel for redstoneworld related content (Click below):  
 <script src="https://apis.google.com/js/platform.js"></script>
