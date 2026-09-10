@@ -1,6 +1,7 @@
 # Editing the Project Redstoneworld Wiki
 
 Wiki articles are Markdown files in `_wiki`. The shared layout automatically supplies the page title, wiki navigation, search, and table of contents.
+Wiki can be edited at https://github.com/projectredstoneworld/projectredstoneworld.github.io if you are not an added user please use pull requests for your changes.
 
 ## Preview locally
 
