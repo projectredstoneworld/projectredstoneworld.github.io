@@ -1,0 +1,15 @@
+{%- assign wiki_image_file = include.file | default: include.src -%}
+{%- assign wiki_image_side = include.side | default: 'right' -%}
+{%- assign wiki_image_caption = include.caption -%}
+{%- assign wiki_image_alt = include.alt | default: wiki_image_caption | default: page.title -%}
+{%- if wiki_image_file contains '/' -%}
+  {%- assign wiki_image_path = wiki_image_file -%}
+{%- else -%}
+  {%- capture wiki_image_path -%}/wiki/assets/images/{{ wiki_image_file }}{%- endcapture -%}
+{%- endif -%}
+<figure class="wiki-inline-image wiki-inline-image--{{ wiki_image_side | escape }}">
+  <img src="{{ wiki_image_path | relative_url }}" alt="{{ wiki_image_alt | escape }}" loading="lazy">
+  {%- if wiki_image_caption %}
+  <figcaption>{{ wiki_image_caption | escape }}</figcaption>
+  {%- endif %}
+</figure>

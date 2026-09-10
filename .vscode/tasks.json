@@ -4,8 +4,23 @@
     {
       "label": "Preview website",
       "type": "shell",
-      "command": "bundle exec jekyll serve --host 0.0.0.0 --port 4000",
+      "command": "bundle exec jekyll serve --host 0.0.0.0 --port 4000 --unpublished",
       "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "Create new wiki page",
+      "type": "shell",
+      "command": "python3 scripts/new_wiki_page.py",
       "problemMatcher": [],
       "presentation": {
         "reveal": "always",

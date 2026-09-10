@@ -684,6 +684,13 @@
   float: left;
 }
 
+.wiki-inline-image--full {
+  width: 100%;
+  max-width: none;
+  margin: 24px 0;
+  float: none;
+}
+
 .wiki-inline-image img {
   display: block;
   width: 100%;

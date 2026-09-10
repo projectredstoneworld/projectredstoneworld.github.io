@@ -1,0 +1,10 @@
+{%- assign wiki_link_title = include.title | default: include.text -%}
+{%- assign wiki_link_label = include.text | default: wiki_link_title -%}
+{%- assign wiki_link_slug = include.slug | default: wiki_link_title | slugify -%}
+{%- assign wiki_link_url = '/wiki/' | append: wiki_link_slug | append: '/' -%}
+{%- assign wiki_link_target = site.wiki | where: 'url', wiki_link_url | first -%}
+{%- if wiki_link_target -%}
+<a href="{{ wiki_link_target.url | relative_url }}">{{ wiki_link_label | escape }}</a>
+{%- else -%}
+<span class="wiki-redlink" title="This page is not available yet">{{ wiki_link_label | escape }}</span>
+{%- endif -%}

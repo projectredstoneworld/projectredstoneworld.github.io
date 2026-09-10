@@ -42,28 +42,41 @@ layout: base
     {% endif %}
 
     <div class="wiki-article__body">
-      {{ content }}
+      {% assign rendered_wiki_content = content %}
+      {% for article in site.wiki %}
+        {% capture unavailable_link %}<span class="wiki-redlink" title="This page is not available yet">{{ article.title | escape }}</span>{% endcapture %}
+        {% capture available_link %}<a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a>{% endcapture %}
+        {% assign rendered_wiki_content = rendered_wiki_content | replace: unavailable_link, available_link %}
+      {% endfor %}
+      {{ rendered_wiki_content }}
     </div>
 
     <footer class="wiki-article__footer">
+      {% if page.last_modified or page.contributor %}
       <span>Imported from the original Project Redstoneworld Fandom wiki.</span>
       {% if page.last_modified %}<span>Source revision: {{ page.last_modified | date: "%B %-d, %Y" }}{% if page.contributor %} · {{ page.contributor }}{% endif %}</span>{% endif %}
+      {% else %}
+      <span>Project Redstoneworld Wiki</span>
+      {% endif %}
     </footer>
   </article>
 
-  {% if page.toc and page.toc.size > 0 %}
-  <aside class="wiki-toc" aria-label="Contents">
+  {% unless page.toc == false %}
+  <aside class="wiki-toc" aria-label="Contents" data-wiki-toc{% unless page.toc and page.toc.size > 0 %} hidden{% endunless %}>
     <strong>On this page</strong>
-    <ol>
+    <ol data-wiki-toc-list>
+      {% if page.toc and page.toc.size > 0 %}
       {% for item in page.toc %}
       <li class="wiki-toc__level-{{ item.level }}"><a href="#{{ item.id }}">{{ item.title }}</a></li>
       {% endfor %}
+      {% endif %}
     </ol>
   </aside>
-  {% endif %}
+  {% endunless %}
 </div>
 
 <script src="{{ '/assets/js/wiki-search.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/wiki-toc.js' | relative_url }}" defer></script>
 {% else %}
 {{ content }}
 {% endunless %}
