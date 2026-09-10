@@ -1,0 +1,142 @@
+name: Discord Notify
+
+on:
+  push:
+  pull_request:
+    types: [opened, closed, reopened]
+  issues:
+    types: [opened, closed, reopened]
+  issue_comment:
+  pull_request_review:
+  release:
+    types: [published]
+  page_build:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Discord embed
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          COMMIT_URL: ${{ github.event.head_commit.url }}
+
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+
+          COMMENT_URL: ${{ github.event.comment.html_url }}
+
+          RELEASE_NAME: ${{ github.event.release.name }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+
+          PAGE_BUILD_STATUS: ${{ github.event.build.status }}
+          ACTION: ${{ github.event.action }}
+
+        run: |
+          set -euo pipefail
+
+          EVENT="${{ github.event_name }}"
+          ACTOR="${{ github.actor }}"
+          AVATAR="https://github.com/${ACTOR}.png"
+          REPO="${{ github.repository }}"
+
+          COLOR=3447003
+          TITLE="GitHub Update"
+          DESC=""
+          URL="https://github.com/${REPO}"
+
+          if [ "$EVENT" = "page_build" ]; then
+            STATUS="$PAGE_BUILD_STATUS"
+            URL="https://theredstoneworld.net"
+
+            if [ "$STATUS" = "built" ]; then
+              COLOR=5763719
+              TITLE="🚀 Website Deployment Succeeded"
+              DESC="The latest website changes are now live."
+            else
+              COLOR=15548997
+              TITLE="🔥 Website Deployment Failed!"
+              DESC="Status: $STATUS"
+              URL="https://github.com/${REPO}/actions"
+            fi
+
+          elif [ "$EVENT" = "push" ]; then
+            BEFORE="${{ github.event.before }}"
+            AFTER="${{ github.event.after }}"
+
+            DATA=$(curl --fail --silent --show-error \
+              "https://api.github.com/repos/${REPO}/compare/$BEFORE...$AFTER")
+
+            ADDED=$(echo "$DATA" | jq '[.files[]? | select(.status=="added")] | length')
+            MODIFIED=$(echo "$DATA" | jq '[.files[]? | select(.status=="modified")] | length')
+            REMOVED=$(echo "$DATA" | jq '[.files[]? | select(.status=="removed")] | length')
+
+            ADDEDL=$(echo "$DATA" | jq '[.files[]?.additions] | add // 0')
+            REMOVEDL=$(echo "$DATA" | jq '[.files[]?.deletions] | add // 0')
+
+            FILE_LIST=$(echo "$DATA" | jq -r '[.files[]?.filename][0:8][]' | awk -F/ '{print $NF}' | sed 's/^/> /')
+
+            TITLE="📦 New Website Push"
+            DESC="$COMMIT_MESSAGE"
+            DESC+=$'\n> Files: +'"${ADDED}"' ~'"${MODIFIED}"' -'"${REMOVED}"
+            DESC+=$'\n> Lines: +'"${ADDEDL}"' -'"${REMOVEDL}"
+            DESC+=$'\n\nFiles changed:\n'"$FILE_LIST"
+            URL="$COMMIT_URL"
+
+          elif [ "$EVENT" = "pull_request" ]; then
+            TITLE="🔀 Pull Request $ACTION"
+            DESC="$PR_TITLE"
+            URL="$PR_URL"
+
+          elif [ "$EVENT" = "issues" ]; then
+            TITLE="🐛 Issue $ACTION"
+            DESC="$ISSUE_TITLE"
+            URL="$ISSUE_URL"
+
+          elif [ "$EVENT" = "issue_comment" ]; then
+            TITLE="💬 Comment Added"
+            DESC="Comment on issue/PR"
+            URL="$COMMENT_URL"
+
+          elif [ "$EVENT" = "pull_request_review" ]; then
+            TITLE="👀 PR Review $ACTION"
+            DESC="Review submitted"
+            URL="$PR_URL"
+
+          elif [ "$EVENT" = "release" ]; then
+            TITLE="🏷️ Release Published"
+            DESC="$RELEASE_NAME"
+            URL="$RELEASE_URL"
+          fi
+
+          jq -n \
+            --arg title "$TITLE" \
+            --arg desc "$DESC" \
+            --arg url "$URL" \
+            --arg actor "$ACTOR" \
+            --arg avatar "$AVATAR" \
+            --arg repo "$REPO" \
+            --arg time "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --argjson color "$COLOR" \
+            '{
+              embeds: [{
+                title: $title,
+                description: $desc,
+                url: $url,
+                color: $color,
+                footer: { text: $repo },
+                author: { name: $actor, icon_url: $avatar },
+                timestamp: $time
+              }]
+            }' \
+          | curl \
+              --fail-with-body \
+              -H "Content-Type: application/json" \
+              -d @- \
+              "$WEBHOOK"
