@@ -12,6 +12,7 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  z-index: 1000;
 }
 
 .site-title {
@@ -42,6 +43,7 @@
   border: 1px solid $border-color-01;
   border-radius: 5px;
   text-align: right;
+  z-index: 1001;
 
   .nav-trigger {
     display: none;
