@@ -284,6 +284,7 @@
   background:
     linear-gradient(90deg, rgba(7, 10, 18, .96) 0%, rgba(7, 10, 18, .78) 43%, rgba(7, 10, 18, .2) 100%),
     url('/img/default_2024-06-14_13-05-31-17.denoised.png') center / cover;
+  background-clip: padding-box;
   box-shadow: 0 24px 70px rgba(0, 0, 0, .28);
 }
 
@@ -291,7 +292,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: 18px;
+  border-radius: inherit;
   background: linear-gradient(0deg, rgba(7, 10, 18, .9), transparent 70%);
   pointer-events: none;
 }
