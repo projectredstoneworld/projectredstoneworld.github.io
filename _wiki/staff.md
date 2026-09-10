@@ -44,7 +44,7 @@ This rank allows a player to enter any gamemode in mainworld. However, this rank
 <em>Note: There is technically an obsolete "Untrusted Creative" permission level, however it will not be covered here.</em>
 
 ### Flyer {#flyer}
-This rank allows you to use /fly in mainworld sectors and can be obtained while having at least 10 minutes of playtime by contacting a coalition member. It is also given automatically after 5 hours of mainworld playtime 
+A now obsolete rank that has been removed since flying became a main mode of transport for players rather than the transportation infrastructure within the world (such as RCorp, U1, etc.).
 
 ### Default {#default}
 This is the rank that you get when you first join the Minecraft Server. This rank is designed to allow players to explore mainworld in survival without letting then build on or grief the sectors. It also gives players access to plotworld, where they may enter any gamemode and have unrestricted use to WorldEdit within their plots (16 max can be claimed).
