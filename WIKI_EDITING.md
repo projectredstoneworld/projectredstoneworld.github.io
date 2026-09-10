@@ -1,7 +1,12 @@
-# Editing the Project Redstoneworld Wiki
+---
+layout: page
+title: Editing the Project Redstoneworld Wiki
+permalink: /wiki/editing/
+---
+
 
 Wiki articles are Markdown files in `_wiki`. The shared layout automatically supplies the page title, wiki navigation, search, and table of contents.
-Wiki can be edited at https://github.com/projectredstoneworld/projectredstoneworld.github.io if you are not an added user please use pull requests for your changes.
+Wiki can be edited at <https://github.com/projectredstoneworld/projectredstoneworld.github.io> if you are not an added user please use pull requests for your changes.
 
 ## Preview locally
 
@@ -39,30 +44,38 @@ That page is available in the local preview but excluded from the public site. R
 
 Use the wiki link helper:
 
+{% raw %}
 ```liquid
 {% include wiki-link.html title="Tower 1" %}
 ```
+{% endraw %}
 
 If the corresponding page does not exist, it appears as “not available yet.” Once `_wiki/tower-1.md` is published, it automatically becomes a link. To display different text, add `text`:
 
+{% raw %}
 ```liquid
 {% include wiki-link.html title="Redstone Tower Complex (RTC) Sector" text="RTC" %}
 ```
+{% endraw %}
 
 ## Add an inline image
 
 Upload the image to `wiki/assets/images`, then add one line:
 
+{% raw %}
 ```liquid
 {% include wiki-image.html file="example.png" caption="Description of the image." %}
 ```
+{% endraw %}
 
 Images appear on the right by default. Use `side="left"` or `side="full"` when needed:
 
+{% raw %}
 ```liquid
 {% include wiki-image.html file="example.png" caption="Description." side="left" %}
 {% include wiki-image.html file="wide-example.png" caption="Wide image." side="full" %}
 ```
+{% endraw %}
 
 The caption is also used as alternative text by default. When the visual description should differ from the visible caption, provide `alt="..."` separately.
 

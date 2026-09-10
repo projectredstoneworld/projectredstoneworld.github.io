@@ -44,6 +44,6 @@ Yes, Redstoneworld <em>does</em> have an official website: <a href="https://ther
 
 <strong>Important Pages</strong>
 
-* <a href="/WIKI_EDITING.md">Wiki Editing Guide</a>
+* <a href="/wiki/editing">Wiki Editing Guide</a>
 * <a href="/wiki/staff/">Redstoneworld Staff Info</a>
 * <a href="/wiki/frequently-asked-questions/">Frequently Asked Questions</a>
