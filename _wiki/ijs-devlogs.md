@@ -3,7 +3,7 @@ title: "Ij's devlogs"
 order: 6
 section: "Development history"
 description: "A chronological index of official devlogs, specials, and anniversary videos."
-last_modified: "2026-05-20T20:35:00Z"
+last_modified: "2026-09-09T20:35:00Z"
 contributor: "Ijdtm7"
 toc: [{"level": 2, "title": "Devlog List", "id": "devlog-list"}, {"level": 2, "title": "Special Episodes and Anniversary Videos", "id": "special-episodes-and-anniversary-videos"}]
 ---
@@ -50,6 +50,11 @@ toc: [{"level": 2, "title": "Devlog List", "id": "devlog-list"}, {"level": 2, "t
 <tr><td>29</td><td>Aug 15, 2025</td><td>Summer 2025 Major Progress</td><td>0:58:28</td><td><a href="https://www.youtube.com/watch?v=uqphOihMMC0">Watch</a></td><td>TPS System, Axiom & Spawn w/ LLucas; Western Sectors; RCRail Physical Complete; Bunkers; Part of RTC</td></tr>
 <tr><td>30</td><td>Aug 17, 2025</td><td>Tower 3.0 Adventures! (feat. LLucas)</td><td>0:54:40</td><td><a href="https://www.youtube.com/watch?v=vFPZBMasxQQ">Watch</a></td><td>RTC Reactor, Industry Complex, T3.0, Vault, Limbo. Fully covered w/ LLucas</td></tr>
 <tr><td>31</td><td>Jan 18, 2026</td><td>13 Year Anniversary Special</td><td>0:26:01</td><td><a href="https://www.youtube.com/watch?v=QMjg96g0vL0">Watch</a></td><td>Summary of major changes from Jan 2025 to Jan 2026; 13 Year Edit</td></tr>
+<tr><td>32</td><td>Jul 10, 2026</td><td>10 Years of Redstoneworld Reborn</td><td>0:31:44</td><td><a href="https://www.youtube.com/watch?v=GE72JaRnDkA">Watch</a></td><td>The major Reborn 10 year anniversary special, featuring the history of the seven chapters, a look at the museum, and the special cinematic</td></tr>
+<tr><td>33</td><td>Jun 26, 2026</td><td>Building The Reborn Museum</td><td>0:11:11</td><td><a href="https://www.youtube.com/watch?v=qmeYKQwmrig">Watch</a></td><td>Labeled as 33 despite coming out before the Reborn X special itself. Fully made by EzraThunder with a brief commentary by Ij; Museum Building</td></tr>
+<tr><td>34</td><td>Aug 6, 2026</td><td>RCorp Rail: A Deep Dive</td><td>0:54:25</td><td><a href="https://www.youtube.com/watch?v=RRM3Q0KPga4">Watch</a></td><td>Full Deep Dive on RCorp Rail System, history, and stations</td></tr>
+<tr><td>35</td><td>Aug 9, 2026</td><td>Reborn X and Industry</td><td>0:45:21</td><td><a href="https://www.youtube.com/watch?v=C7cWqUASD18">Watch</a></td><td>First Normal Devlog in a year w/ LLucas - Waterpark, FI, Reborn X, Industry Complex</td></tr>
+<tr><td>36/37</td><td>Aug 12, 2026</td><td>Tower 3.0 Adventures Reloaded! (Combined Pt. 3 & 4)</td><td>1:06:10</td><td><a href="https://www.youtube.com/watch?v=wJL3q1MoAfs">Watch</a></td><td>Extremely long Tower 3.0 devlog w/ LLucas fully focusing on above ground floors and Reactor</td></tr>
 </tbody>
 </table>
 </div>
@@ -80,6 +85,11 @@ Other Redstoneworld videos separate from normal devlogs, including certain speci
 <tr><td>May 27, 2025</td><td>Project RW Summer 2025 Catalyst Mandate</td><td>0:19:41</td><td><a href="https://youtu.be/trK76u4P14I">Watch</a></td><td>Discusses plans for RW for Summer 2025, focused on Staff.</td></tr>
 <tr><td>May 31, 2025</td><td>RedstoneWorld Cinematic EDIT | 12 Year Anniversary</td><td>0:02:07</td><td><a href="https://www.youtube.com/watch?v=9SM82oSiA5o">Watch</a></td><td>Cinematic recorded in January 2025, now posted as a separate video as per tradition (in the summer).</td></tr>
 <tr><td>Jan 18, 2026</td><td>13 Year Anniversary Special</td><td>0:26:01</td><td><a href="https://www.youtube.com/watch?v=QMjg96g0vL0">Watch</a></td><td>Combo of Devlog 31 Summary and RW 13 Year Edits</td></tr>
+<tr><td>Mar 18, 2026</td><td>Minecraft Mega Transport Network | Introducing RCorp Rail</td><td>0:03:29</td><td><a href="https://www.youtube.com/watch?v=1IB7DyI7OLE">Watch</a></td><td>Trailer for RCorp Rail with nearly being fully complete</td></tr>
+<tr><td>May 31, 2026</td><td>Redstoneworld Lore Trailers Compilation (2023-2026)</td><td>0:18:30</td><td><a href="https://www.youtube.com/watch?v=qrIRxmCKtqU">Watch</a></td><td>A compilation of all lore segments prior to Reborn X Fragments</td></tr>
+<tr><td>July 10, 2026</td><td>10 Years of Redstoneworld Reborn</td><td>0:31:44</td><td><a href="https://www.youtube.com/watch?v=GE72JaRnDkA">Watch</a></td><td>The major Reborn 10 year anniversary special, featuring the history of the seven chapters, a look at the museum, and the special cinematic</td></tr>
+<tr><td>July 17, 2026</td><td>Reborn Revisited Episode 1: Project RW Trailer and Bunker Cinematic</td><td>0:10:44</td><td><a href="https://www.youtube.com/watch?v=KLEPjrEYulE">Watch</a></td><td>Reborn Revisited on two of the earlier videos in this list</td></tr>
+<tr><td>July 24, 2026</td><td>“Welcome to my channel” Reborn Revisited Ep. 2 From July 2017</td><td>0:16:55</td><td><a href="https://www.youtube.com/watch?v=QDxr_QSslDU">Watch</a></td><td>Reborn Revisited on the first proper video of this channel, done as a reaction video</td></tr>
 </tbody>
 </table>
 </div>
