@@ -9,35 +9,87 @@
     {%- include header.html -%}
 
     {%- if page.background -%}
-    <a class="pagebg" id="a">
-      <script type="text/JavaScript">
-        var now = new Date();
-        if (now.getHours() > 9 && now.getHours() < 17) {
-          //document.body.pagebg.className += " day";
-          document.getElementById('a').style.backgroundImage="url('../default_2024-06-12_00-42-17-1000.png')";
-          //document.getElementByID('pagebg').className = "day";
+    <div class="pagebg" id="page-background">
+      <div class="pagebg__layer"></div>
+      <div class="pagebg__layer"></div>
 
-        } else if (now.getHours() > 6 && now.getHours() <= 9) {
-          document.getElementById('a').style.backgroundImage="url('../img/default_2024-06-14_13-05-31-17.denoised.png')";        
+      <img
+        class="pagebg__logo"
+        src="{{ '/img/redstoneworld1upper.png' | relative_url }}"
+        alt="Project Redstoneworld Reborn">
 
-        } else if (now.getHours() >= 17 && now.getHours() < 20) {
-          document.getElementById('a').style.backgroundImage="url('../img/2024-07-24_14.38.25.png')";        
+      {% assign sunrise_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/sunrise/'" %}
+      {% assign day_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/day/'" %}
+      {% assign sunset_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/sunset/'" %}
+      {% assign night_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/night/'" %}
 
-        } else {
-          document.getElementById('a').style.backgroundImage="url('../img/2024-05-28_18.06.29.png')";        }
+      <script>
+        (() => {
+          const backgrounds = {
+            sunrise: [
+              {{ '/img/default_2024-06-14_13-05-31-17.denoised.png' | relative_url | jsonify }}{% if sunrise_images.size > 0 %},{% endif %}
+              {% for image in sunrise_images %}{{ image.path | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+            ],
+            day: [
+              {{ '/default_2024-06-12_00-42-17-1000.png' | relative_url | jsonify }}{% if day_images.size > 0 %},{% endif %}
+              {% for image in day_images %}{{ image.path | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+            ],
+            sunset: [
+              {{ '/img/2024-07-24_14.38.25.png' | relative_url | jsonify }}{% if sunset_images.size > 0 %},{% endif %}
+              {% for image in sunset_images %}{{ image.path | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+            ],
+            night: [
+              {{ '/img/2024-05-28_18.06.29.png' | relative_url | jsonify }}{% if night_images.size > 0 %},{% endif %}
+              {% for image in night_images %}{{ image.path | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+            ]
+          };
+
+          const layers = document.querySelectorAll('.pagebg__layer');
+          let activeLayer = 0;
+          let currentImage;
+
+          function updateBackground() {
+            const hour = new Date().getHours();
+            let timeOfDay;
+
+            if (hour >= 7 && hour < 10) {
+              timeOfDay = 'sunrise';
+            } else if (hour >= 10 && hour < 17) {
+              timeOfDay = 'day';
+            } else if (hour >= 17 && hour < 20) {
+              timeOfDay = 'sunset';
+            } else {
+              timeOfDay = 'night';
+            }
+
+            const allChoices = backgrounds[timeOfDay].filter(image =>
+              /\.(avif|gif|jpe?g|png|webp)$/i.test(image)
+            );
+            const newChoices = allChoices.filter(image => image !== currentImage);
+            const choices = newChoices.length > 0 ? newChoices : allChoices;
+
+            if (choices.length === 0) return;
+
+            const selected = choices[Math.floor(Math.random() * choices.length)];
+            const nextLayer = activeLayer === 0 ? 1 : 0;
+            const preloader = new Image();
+
+            preloader.onload = () => {
+              layers[nextLayer].style.backgroundImage = `url("${selected}")`;
+              layers[nextLayer].classList.add('is-visible');
+              layers[activeLayer].classList.remove('is-visible');
+              activeLayer = nextLayer;
+              currentImage = selected;
+            };
+
+            preloader.src = selected;
+          }
+
+          updateBackground();
+          setInterval(updateBackground, 1 * 60 * 1000);
+        })();
       </script>
-      <img 
-        style="display: block; 
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;"
-        src="https://theredstoneworld.net/img/redstoneworld1upper.png" 
-        alt="Our logo">
-      </img>
-      <p style="text-align: center; text-decoration-line: none; font-size: 72px;">
-        
-      </p>
-    </a>
+    </div>
   {%- endif -%}
 
     <main class="page-content" aria-label="Content">

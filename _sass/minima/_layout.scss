@@ -928,37 +928,39 @@
 
 /* Cover Image */
 .pagebg {
+  position: relative;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height:1080px;
-  width:100%;
-  background-image: url('../ddd.png');
-  //background-image: url('../default_2024-06-12_00-42-17-1000.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-/*  .day {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height:1080px;
-    width:100%;
-    background-image: url('../default_2024-06-12_00-42-17-1000.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }*/
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  background: #000;
 }
 
-/*.day {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height:1080px;
-  width:100%;
-  background-image: url('../default_2024-06-12_00-42-17-1000.png');
+.pagebg__layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}*/
+  transition: opacity 1.5s ease-in-out;
+}
+
+.pagebg__layer.is-visible {
+  opacity: 1;
+}
+
+.pagebg__logo {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pagebg__layer {
+    transition: none;
+  }
+}
