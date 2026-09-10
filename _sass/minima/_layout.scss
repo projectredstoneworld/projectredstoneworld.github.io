@@ -320,7 +320,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  z-index: 5;
+  z-index: 21;
 }
 
 .wiki-search svg {
@@ -363,6 +363,7 @@
   top: calc(100% + 7px);
   left: 0;
   right: 0;
+  z-index: 100;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .14);
   border-radius: 10px;
@@ -522,6 +523,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index:20;
   gap: 24px;
   margin-bottom: 22px;
   padding: 13px 16px;
