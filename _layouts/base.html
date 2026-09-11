@@ -18,6 +18,15 @@
         src="{{ '/img/redstoneworld1upper.png' | relative_url }}"
         alt="Project Redstoneworld Reborn">
 
+      {% if page.url == "/" %}
+         <a class="pagebg__explore" href="https://redstoneworld.org/">
+         <span class="pagebg__explore-kicker">Project archive · Established 2013</span>
+         <span class="pagebg__explore-title">
+           Explore the work
+           <span aria-hidden="true">→</span>
+          </span>
+         </a>
+      {% endif %}
       {% assign sunrise_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/sunrise/'" %}
       {% assign day_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/day/'" %}
       {% assign sunset_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/sunset/'" %}
