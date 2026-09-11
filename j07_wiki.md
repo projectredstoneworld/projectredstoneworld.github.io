@@ -91,7 +91,7 @@ description: The official archive and guide to Project Redstoneworld Reborn.
       <ol class="wiki-index">
         {% for article in wiki_pages %}
           {% unless article.section == "Project overview" or article.section == "World guide" %}
-            {% unless article.section contains "Sector" %}
+            {% unless article.section contains "Sector" or article.section contains "Reactor" %}
               {% assign wiki_number = wiki_number | plus: 1 %}
               <li>
                 <a href="{{ article.url | relative_url }}">

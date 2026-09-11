@@ -22,6 +22,7 @@
       {% assign day_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/day/'" %}
       {% assign sunset_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/sunset/'" %}
       {% assign night_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/night/'" %}
+      {% assign insanity_images = site.static_files | where_exp: "file", "file.path contains '/img/backgrounds/insanity/'" %}
 
       <script>
         (() => {
@@ -41,6 +42,9 @@
             night: [
               {{ '/img/2024-05-28_18.06.29.png' | relative_url | jsonify }}{% if night_images.size > 0 %},{% endif %}
               {% for image in night_images %}{{ image.path | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+            ],
+            insanity: [
+              {% for image in insanity_images %}{{ image.path | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
             ]
           };
 
@@ -51,15 +55,19 @@
           function updateBackground() {
             const hour = new Date().getHours();
             let timeOfDay;
-
-            if (hour >= 7 && hour < 10) {
-              timeOfDay = 'sunrise';
-            } else if (hour >= 10 && hour < 17) {
-              timeOfDay = 'day';
-            } else if (hour >= 17 && hour < 20) {
-              timeOfDay = 'sunset';
+            
+            if (Math.random() < 0.08) {
+              timeOfDay = 'insanity';
             } else {
-              timeOfDay = 'night';
+              if (hour >= 7 && hour < 10) {
+                timeOfDay = 'sunrise';
+              } else if (hour >= 10 && hour < 17) {
+                timeOfDay = 'day';
+              } else if (hour >= 17 && hour < 21) {
+                timeOfDay = 'sunset';
+              } else {
+                timeOfDay = 'night';
+              }
             }
 
             const allChoices = backgrounds[timeOfDay].filter(image =>
@@ -86,7 +94,7 @@
           }
 
           updateBackground();
-          setInterval(updateBackground, 1 * 60 * 1000);
+          setInterval(updateBackground, 20000);
         })();
       </script>
     </div>
