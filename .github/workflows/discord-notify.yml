@@ -119,7 +119,7 @@ jobs:
             ADDEDL=$(echo "$DATA" | jq '[.files[]?.additions] | add // 0')
             REMOVEDL=$(echo "$DATA" | jq '[.files[]?.deletions] | add // 0')
 
-            FILE_LIST=$(echo "$DATA" | jq -r '[.files[]?.filename][0:8][]' | awk -F/ '{print $NF}' | sed 's/^/> /')
+            FILE_LIST=$(echo "$DATA" | jq -r '[.files[]?.filename][0:32][]' | awk -F/ '{print $NF}' | sed 's/^/> /')
 
             TITLE="📦 New Website Push"
             DESC="$COMMIT_MESSAGE"
