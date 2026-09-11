@@ -8,7 +8,9 @@
   {%- capture wiki_image_path -%}/wiki/assets/images/{{ wiki_image_file }}{%- endcapture -%}
 {%- endif -%}
 <figure class="wiki-inline-image wiki-inline-image--{{ wiki_image_side | escape }}">
-  <img src="{{ wiki_image_path | relative_url }}" alt="{{ wiki_image_alt | escape }}" loading="lazy">
+  <a href="{{ wiki_image_path | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ wiki_image_path | relative_url }}" alt="{{ wiki_image_alt | escape }}" loading="lazy">
+  </a>
   {%- if wiki_image_caption %}
   <figcaption>{{ wiki_image_caption | escape }}</figcaption>
   {%- endif %}
