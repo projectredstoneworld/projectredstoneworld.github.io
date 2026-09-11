@@ -66,7 +66,7 @@ description: The official archive and guide to Project Redstoneworld Reborn.
       </header>
       <ol class="wiki-index">
         {% for article in wiki_pages %}
-          {% if article.section contains "Sector" %}
+          {% if article.section contains "Sector" or article.section contains "Reactor" %}
             {% assign wiki_number = wiki_number | plus: 1 %}
             <li>
               <a href="{{ article.url | relative_url }}">

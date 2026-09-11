@@ -8,6 +8,7 @@
   },
   "postCreateCommand": "bundle install",
   "forwardPorts": [4000],
+  "appPort": ["4000:4000"],
   "portsAttributes": {
     "4000": {
       "label": "Project Redstoneworld website preview",

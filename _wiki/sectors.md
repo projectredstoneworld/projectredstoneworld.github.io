@@ -5,8 +5,9 @@ section: "World guide"
 description: "How Project Redstoneworld organizes its primary sectors, mini-sectors, and regions."
 image: "/img/default_2024-06-14_13-05-31-17.denoised.png"
 image_alt: "A wide view across Project Redstoneworld"
-last_modified: "2026-05-20T21:00:19Z"
+last_modified: "2026-09-10T01:00:00Z"
 contributor: "Ijdtm7"
+source: "Fandom"
 ---
 
 ## Definition of a Sector {#definition-of-a-sector}

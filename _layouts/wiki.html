@@ -52,12 +52,12 @@ layout: base
     </div>
 
     <footer class="wiki-article__footer">
-      {% if page.last_modified or page.contributor %}
+      {% if page.source == "Fandom" %}
       <span>Imported from the original Project Redstoneworld Fandom wiki.</span>
-      {% if page.last_modified %}<span>Source revision: {{ page.last_modified | date: "%B %-d, %Y" }}{% if page.contributor %} · {{ page.contributor }}{% endif %}</span>{% endif %}
       {% else %}
       <span>Project Redstoneworld Wiki</span>
       {% endif %}
+      {% if page.last_modified %}<span>Source revision: {{ page.last_modified | date: "%B %-d, %Y" }}{% if page.contributor %} · {{ page.contributor }}{% endif %}</span>{% endif %}
     </footer>
   </article>
 

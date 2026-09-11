@@ -10,7 +10,7 @@ Wiki can be edited at <https://github.com/projectredstoneworld/projectredstonewo
 
 ## Preview locally
 
-Open the repository in its Dev Container and press `Ctrl+Shift+B`. Draft pages are included in this local preview but remain absent from the deployed website.
+Open the repository in its Dev Container and press `Ctrl+Shift+B`. Draft pages are included in this local preview but remain absent from the deployed website. Consult the README on the GitHub repository for more details on how to set this up.
 
 ## Edit an existing page
 
@@ -102,4 +102,6 @@ infobox:
   Started: "January 1, 2026"
   Main creators: "Ij, Huddo"
   Type: "Primary Sector"
+last_modified: "2026-09-11T02:00:00Z"
+contributor: "LLucas"
 ```

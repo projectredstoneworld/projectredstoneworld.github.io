@@ -7,6 +7,7 @@ image: "/img/default_2024-06-14_13-05-31-17.denoised.png"
 image_alt: "A wide view across Project Redstoneworld"
 last_modified: "2026-06-28T20:34:03Z"
 contributor: "Mr.Voidfromrw"
+source: "Fandom"
 ---
 
 <strong>Welcome to the official wiki page of <br></strong>

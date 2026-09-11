@@ -5,6 +5,7 @@ section: "Development history"
 description: "A chronological index of official devlogs, specials, and anniversary videos."
 last_modified: "2026-09-09T20:35:00Z"
 contributor: "Ijdtm7"
+source: "Fandom"
 ---
 
 <small><em>Return to <a href="/wiki/">home page</a></em></small>

@@ -8,6 +8,7 @@ image_alt: "A view of the redstone above the Founding Island Bunker's Blue Zone"
 last_modified: "2026-06-28T20:10:56Z"
 contributor: "Mr.Voidfromrw"
 infobox: {"Started": "August 9th, 2021", "Main creators": "Mr. Void, Mr. Ij, Huddo, Chambo", "Type": "Mini-Bunker (Sub-Sector of Founding Island)"}
+source: "Fandom"
 ---
 
 ## Establishment {#establishment}

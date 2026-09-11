@@ -3,8 +3,9 @@ title: "Staff"
 order: 5
 section: "Community"
 description: "Staff ranks, responsibilities, the Coalition, and the current Redstoneworld team."
-last_modified: "2026-09-09T20:26:37Z"
+last_modified: "2026-09-10T01:00:00Z"
 contributor: "Ijdtm7"
+source: "Fandom"
 ---
 
 <a href="/wiki/">Redstoneworld</a> staff actively build the world. Typically, the staff are split by specialization in either building or redstone. Applications are always open if you would like to contribute to our world!

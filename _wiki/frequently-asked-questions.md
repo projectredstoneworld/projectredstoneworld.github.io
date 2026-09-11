@@ -5,6 +5,7 @@ section: "Visitor guide"
 description: "Answers about joining the server, supported editions, downloads, and staff applications."
 last_modified: "2025-07-12T19:34:02Z"
 contributor: "Ijdtm7"
+source: "Fandom"
 ---
 
 These are some of the questions we get often on the <a href="/wiki/">Redstoneworld</a>. Hopefully this guide helps you out.
