@@ -4,7 +4,7 @@
     {
       "label": "Preview website",
       "type": "shell",
-      "command": "bundle exec jekyll serve --host 0.0.0.0 --port 4000",
+      "command": "bundle exec jekyll serve --host 0.0.0.0 --port 4000 --unpublished",
       "isBackground": true,
       "problemMatcher": [],
       "group": {
