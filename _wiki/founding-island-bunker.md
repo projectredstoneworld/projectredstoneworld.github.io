@@ -20,7 +20,7 @@ source: "Fandom"
   <figcaption>The extent of the tornado shelter from 2016, with one side fully open and the status lamp included.</figcaption>
 </figure>
 
-Near the start of <a href="/wiki/">Project Redstoneworld Reborn</a> in 2016, a "tornado shelter" was created in the <span class="wiki-redlink" title="This page is not available yet">Tower 1</span> Sub-Basement (known as Keller prior to 2016 and the Multiplayer Area between 2016 and 2017). The tornado shelter was an added room to the sub-basement consisting of 4 faces of full obsidian coverage, with the north side being completely open to the rest of the sub-basement. It also included a status redstone lamp that was connected to a Daylight Detector. The aforementioned daylight sensor was preserved for the Founding Island Bunker but was never utilized. The rest of the Sub-Basement consists of a Minecart race betting game, housing for pets of the old Team, an XP generator, the Mushroom Farm (Ij's friend), as well as paths to the rest of <span class="wiki-redlink" title="This page is not available yet">Tower 1</span> and a <span class="wiki-redlink" title="This page is not available yet">U2</span> Train Station. In 2023, a path connecting the sub-basement to the FI Tunnelsystem was created, which had to be redirected multiple times due to interference with the Founding Island Bunker Reactor.
+Near the start of <a href="/wiki/">Project Redstoneworld Reborn</a> in 2016, a "tornado shelter" was created in the {% include wiki-link.html title="Tower 1" %} Sub-Basement (known as Keller prior to 2016 and the Multiplayer Area between 2016 and 2017). The tornado shelter was an added room to the sub-basement consisting of 4 faces of full obsidian coverage, with the north side being completely open to the rest of the sub-basement. It also included a status redstone lamp that was connected to a Daylight Detector. The aforementioned daylight sensor was preserved for the Founding Island Bunker but was never utilized. The rest of the Sub-Basement consists of a Minecart race betting game, housing for pets of the old Team, an XP generator, the Mushroom Farm (Ij's friend), as well as paths to the rest of  {% include wiki-link.html title="Tower 1" %} and a  {% include wiki-link.html title="U2" %} Train Station. In 2023, a path connecting the sub-basement to the FI Tunnelsystem was created, which had to be redirected multiple times due to interference with the Founding Island Bunker Reactor.
 
 ### First Iteration {#first-iteration}
 
@@ -36,7 +36,7 @@ The Founding Island Bunker (now abbreviated as FI Bunker) was first proposed on 
   <figcaption>The first FI Bunker interior.</figcaption>
 </figure>
 
-The early FI Bunker had it's interior built in a strange <span class="wiki-redlink" title="This page is not available yet">Tower 1</span>-esque design, with the areas built being two enchantment rooms, a bedroom for Artur, a farm area designed for fully automatic farms, and a never completed storage system.
+The early FI Bunker had it's interior built in a strange  {% include wiki-link.html title="Tower 1" %}-esque design, with the areas built being two enchantment rooms, a bedroom for Artur, a farm area designed for fully automatic farms, and a never completed storage system.
 
 ### Present Iteration Catalyst {#present-iteration-catalyst}
 
@@ -45,12 +45,12 @@ The early FI Bunker had it's interior built in a strange <span class="wiki-redli
   <figcaption>The FI Bunker around the time of RW's 10 Year Anniversary, with several sections of the Blue Zone under construction</figcaption>
 </figure>
 
-The first iteration was not well liked by staff, and after finishing his work on the <span class="wiki-redlink" title="This page is not available yet">Founding Island Hotel</span> Overhaul, Mr.Void (voidkiller196) set off to restart the project from the ground up, only saving the airlock. This complete reconstruction was started by November of 2022.
+The first iteration was not well liked by staff, and after finishing his work on the  {% include wiki-link.html title="Founding Island Hotel" %} Overhaul, Mr.Void (voidkiller196) set off to restart the project from the ground up, only saving the airlock. This complete reconstruction was started by November of 2022.
 
 ## Full Description {#full-description}
 
 ### Ownership {#ownership}
-The Founding Island Bunker was a project sponsored by the <span class="wiki-redlink" title="This page is not available yet">Redstoneworld Government</span>, owned and operated by <span class="wiki-redlink" title="This page is not available yet">RCorp</span>. 
+The Founding Island Bunker was a project sponsored by the  {% include wiki-link.html title="Redstoneworld Government" %}, owned and operated by  {% include wiki-link.html title="RCorp" %}. 
 
 ### Rooms {#rooms}
 
@@ -67,7 +67,7 @@ The Primary section of the FI Bunker Admin Room can control bunker and founding 
 The Secondary section of the FI Bunker Admin Room can view the status of and control all individual doors within the Blue Zone. The Secondary Section is accessible by only a Level 2 or Level 3 key-card.
 
 ###### <small><strong>Tertiary Section</strong></small> {#tertiary-section}
-The Tertiary section is only accessible by a level 3 staff key-card and has access to more powerful and advanced settings of the FI Bunker. This includes when kill potions will activate on the airlock, which emergency exits are available to use , the ability to disable emergency exit alarms, the ability to shutdown and jump-start the reactor. The tertiary section also includes private rooms for staff to use as well as transportation to a Founding Island admin room and the <a href="/wiki/redstone-tower-complex-rtc-sector/">RTC</a> Bunker. Additionaly, the Tertiary Section can enable and disable access to the <span class="wiki-redlink" title="This page is not available yet">Gerudo Emergency Station</span>.
+The Tertiary section is only accessible by a level 3 staff key-card and has access to more powerful and advanced settings of the FI Bunker. This includes when kill potions will activate on the airlock, which emergency exits are available to use , the ability to disable emergency exit alarms, the ability to shutdown and jump-start the reactor. The tertiary section also includes private rooms for staff to use as well as transportation to a Founding Island admin room and the <a href="/wiki/redstone-tower-complex-rtc-sector/">RTC</a> Bunker. Additionaly, the Tertiary Section can enable and disable access to the  {% include wiki-link.html title="Gerudo Emergency Station" %}.
 
 ##### Guard Barracks {#guard-barracks}
 Complete with 36 beds, the Guard Barracks serve as a complimentary alternative to the main housing area, for use during emergencies when there are too many people within the bunker and the housing is full. 

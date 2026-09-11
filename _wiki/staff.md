@@ -55,7 +55,7 @@ This is the rank that you get when you first join the Minecraft Server. This ran
 The Redstoneworld Coalition's goal is to provide fair and just moderation decisions. These decisions can range from banning a player, staff applications or permission changes. It was also made so that Ij, the owner, could receive more input from the most trustworthy of his staff in order to make him more confident when making a decision. Any vote made by the Coalition can still be vetoed by Ij.
 
 ### Formation {#formation}
-The full name of the Coalition is "<span class="wiki-redlink" title="This page is not available yet">Anti-Council Coalition</span>" or ACC, for short. Before the Coalition and the <span class="wiki-redlink" title="This page is not available yet">RW Civil War</span>, the <span class="wiki-redlink" title="This page is not available yet">Redstoneworld Council</span> took the Coalition's place. However, several people on the Council turned out to act against the best interest of the server, so Ij made an Anti-Council Coalition in order to retaliate.
+The full name of the Coalition is "{% include wiki-link.html title="Anti-Council Coalition" %}" or ACC, for short. Before the Coalition and the {% include wiki-link.html title="RW Civil War" %}, the {% include wiki-link.html title="Redstoneworld Council" %} took the Coalition's place. However, several people on the Council turned out to act against the best interest of the server, so Ij made an Anti-Council Coalition in order to retaliate.
 
 ### Member List {#member-list}
 The Coalition currently consists of 8 members: Ij, Void, Hud, Chambo, Lucas, TSG/Jamal, Emil, and Finland
