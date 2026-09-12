@@ -111,7 +111,7 @@ Creepeton
 dulcenavia - Owner's Girl
 
 ### Team Senior Members {#team-senior-members}
-Noah
+Noah - Half Active
 
 TheWinBuilds - Inactive
 
