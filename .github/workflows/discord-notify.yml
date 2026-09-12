@@ -2,7 +2,7 @@ name: Discord Notify
 
 on:
   push:
-  pull_request:
+  pull_request_target:
     types: [opened, closed, reopened]
   issues:
     types: [opened, closed, reopened]
@@ -128,7 +128,7 @@ jobs:
             DESC+=$'\n\nFiles changed:\n'"$FILE_LIST"
             URL="$COMMIT_URL"
 
-          elif [ "$EVENT" = "pull_request" ]; then
+          elif [ "$EVENT" = "pull_request_target" ]; then
             TITLE="🔀 Pull Request $ACTION"
             DESC="$PR_TITLE"
             URL="$PR_URL"
