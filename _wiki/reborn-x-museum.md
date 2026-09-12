@@ -1,6 +1,6 @@
 ---
 title: "Reborn X Museum"
-order: 10
+order: 11
 section: "Transport Infrastructure"
 description: "The Reborn X Museum is a monument dedicated to the history of Redstoneworld, preserving and showcasing the story of Reborn
 ."
@@ -9,7 +9,7 @@ image_alt: "The Reborn Museum Head Builder EzraThunder and The Reborn Museum."
 last_modified: "2026-9-12T01:20:25Z"
 contributor: "EzraThunder"
 infobox: {"Started": "March 3rd, 2026", "Project Directors": "EzraThunder, Mr.Ij", "Completed":"July 10th, 2026", "Type": "Global Infrastructure"}
-published: false
+published: true
 ---
 
 The Reborn X Museum is the main monument of Reborn X, showcasing the history of all RW Chapters, RW Projects, RW Sectors, and much more. The museum also features the Curator’s Guest, offering visitors a closer look into the history and legacy of Redstoneworld.
