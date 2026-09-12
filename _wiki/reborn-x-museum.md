@@ -1,14 +1,13 @@
 ---
 title: "Reborn X Museum"
 order: 11
-section: "Transport Infrastructure"
-description: "The Reborn X Museum is a monument dedicated to the history of Redstoneworld, preserving and showcasing the story of Reborn
-."
+section: "Archival Center in FI & RTC Sectors"
+description: "The Reborn X Museum is a monument dedicated to the history of Redstoneworld, preserving and showcasing the story of Reborn."
 image: "/wiki/assets/images/2026-06-21_19.20.13.webp"
 image_alt: "The Reborn Museum Head Builder EzraThunder and The Reborn Museum."
 last_modified: "2026-09-12T01:20:25Z"
 contributor: "EzraThunder"
-infobox: {"Started": "March 3rd, 2026", "Project Directors": "EzraThunder, Mr.Ij", "Completed":"July 10th, 2026", "Type": "Global Infrastructure"}
+infobox: {"Started": "March 3rd, 2026", "Project Directors": "EzraThunder, Mr.Ij", "Completed":"July 10th, 2026", "Location": "FI-RTC"}
 published: true
 ---
 
