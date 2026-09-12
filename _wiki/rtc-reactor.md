@@ -1,8 +1,8 @@
 ---
 title: "RTC Reactor"
 order: 8
-section: "RTC-Blakewood Reactor"
 image: "/wiki/assets/images/rtcrisland_bliss.webp"
+section: "RTC Power Infrastructure"
 image-alt: "The RTC reactor island, as viewed from the balcony on the mall floor of RTC-2"
 description: "The RTC-Blakewood Nuclear Power Plant, located on Floor -1 of Tower 3.0 in the RTC."
 infobox: {"Started":"January 9th, 2025","Reactor Technical Start":"August 26th, 2025","Head builders and designers":"LLucas, Mr. Ij, SomeYTGuy, EzraThunder","Technical work":"LLucas, Mr. Ij","Approximate total number of commands":"1400","Sector":"Redstone Tower Complex (RTC)"}

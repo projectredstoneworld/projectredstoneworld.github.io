@@ -7,7 +7,7 @@ image: "/wiki/assets/images/rw-all-sector-render-rtc-bias.webp"
 image_alt: "The main Redstone Tower Complex towers, bridge, and surrounding sectors"
 last_modified: "2025-12-22T01:20:25Z"
 contributor: "Ijdtm7"
-infobox: {"Started": "July 10th, 2017", "Main creators": "Mr. Ij, LLucas, xKingEmilx", "Type": "Primary Sector"}
+infobox: {"Started": "July 10th, 2017", "Sector Directors": "Mr. Ij, LLucas, xKingEmilx", "Type": "Primary Sector"}
 source: "Fandom"
 ---
 
