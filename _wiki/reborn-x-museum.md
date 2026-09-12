@@ -6,7 +6,7 @@ description: "The Reborn X Museum is a monument dedicated to the history of Reds
 ."
 image: "/wiki/assets/images/2026-06-21_19.20.13.webp"
 image_alt: "The Reborn Museum Head Builder EzraThunder and The Reborn Museum."
-last_modified: "2026-9-12T01:20:25Z"
+last_modified: "2026-09-12T01:20:25Z"
 contributor: "EzraThunder"
 infobox: {"Started": "March 3rd, 2026", "Project Directors": "EzraThunder, Mr.Ij", "Completed":"July 10th, 2026", "Type": "Global Infrastructure"}
 published: true
@@ -28,10 +28,10 @@ The Reborn X Museum offers multiple exhibitions and a few unrelated activities c
 The chapter exhibition consists of 7 parts, each one for one Redstoneworld chapter. Each section includes joined staff, information about the chapter, many images and Chapter Posters by Creepeton. The exhibition takes the whole right wing of the museum and consists of two floors.
 
 ### Main Exhibition
-The main exhibition consists of multiple things, most notably being Sector Exhition, RW Map and Reborn X group photo. The main exhibition takes the whole left wing in 1 1/3 floors. This area also includes a cafe, a railway 3x3, Rcorp Rail Pod model, The Missile and many images and posters about RW and Reborn X. You can find stairs down to Project Exhibition on the left wing.
+The main exhibition consists of multiple things, most notably being Sector Exhition, RW Map and { % include wiki-link.html title="Reborn X" %} group photo. The main exhibition takes the whole left wing in 1 1/3 floors. This area also includes a cafe, a railway 3x3, Rcorp Rail Pod model, The Missile and many images and posters about RW and Reborn X. You can find stairs down to Project Exhibition on the left wing.
 
 ### Project Exhibition
-The Project Exhibition is an underground exhibition covering multiple projects. It covers Tower 1, Redstone Tower Complex, Rcorp Rail, Theme Park and Reborn X Museum. The exhibition is connected to the cave system, basement and left wing. 
+The Project Exhibition is an underground exhibition covering multiple projects. It covers {% include wiki-link.html title="Tower 1" %}, {% include wiki-link.html title="Redstone Tower Complex (RTC) Sector" text="Redstone Tower Complex" %}, {% include wiki-link.html title="RCorp Rail" %}, {% include wiki-link.html title="Theme Park" %} and Reborn X Museum. The exhibition is connected to the cave system, basement and left wing. 
 
 ### Basement
 {% include wiki-image.html file="/wiki/assets/images/2026-06-09_21.09.12.webp" caption="The basement main hall" side="right" %}
