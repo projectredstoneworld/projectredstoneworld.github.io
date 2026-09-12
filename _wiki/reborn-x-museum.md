@@ -31,10 +31,10 @@ The chapter exhibition consists of 7 parts, each one for one Redstoneworld chapt
 The main exhibition consists of multiple things, most notably being Sector Exhition, RW Map and Reborn X group photo. The main exhibition takes the whole left wing in 1 1/3 floors. This area also includes a cafe, a railway 3x3, Rcorp Rail Pod model, The Missile and many images and posters about RW and Reborn X. You can find stairs down to Project Exhibition on the left wing.
 
 ### Project Exhibition
-The Project Exhibition is an underground exhibition covering multiple projects. It covers Tower 1, Redstone Tower Complex, Rcorp Rail, Theme Park and Reborn X Museum. The exhibition is connected to the cave system, basememnt and left wing. 
+The Project Exhibition is an underground exhibition covering multiple projects. It covers Tower 1, Redstone Tower Complex, Rcorp Rail, Theme Park and Reborn X Museum. The exhibition is connected to the cave system, basement and left wing. 
 
 ### Basement
-{% include wiki-image.html file="/wiki/assets/images/2026-06-09_21.09.12.webp" caption="The basement main hallä" side="right" %}
+{% include wiki-image.html file="/wiki/assets/images/2026-06-09_21.09.12.webp" caption="The basement main hall" side="right" %}
 The basement is possibly the largest exhibition in the entire museum, covering a little bit of this and a little bit of that. Most posters made for the museum are located here, as well as The Curator - interactive character covering RW lore. Basement has entrance to Credit room, wich includes Museum's credits. Basement is designwise quite different from the rest of the museum with a more white and glorious style.
 
 ## Credits
