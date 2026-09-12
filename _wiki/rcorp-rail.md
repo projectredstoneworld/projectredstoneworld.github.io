@@ -8,7 +8,7 @@ image_alt: "RCorp Rail track and pods at the Global Control RTC Station."
 last_modified: "2026-9-12T01:20:25Z"
 contributor: "Ijdtm7"
 infobox: {"Started": "July 5th, 2023", "Project Directors": "Mr. Ij, Mr. Void, LLucas, EzraThunder, SomeYTguyFor1", "Completed":"March 18th, 2026", "Type": "Global Infrastructure"}
-published: false
+published: true
 ---
 
 RCorp Rail is the latest transportation system on Redstoneworld. Designed to be both a companion and successor to the old {% include wiki-link.html title="U1" %} system, RCorp Rail uses two player pods, a fast speed, interconnected rails, and a subscription model to move users around efficiently and economically. 
