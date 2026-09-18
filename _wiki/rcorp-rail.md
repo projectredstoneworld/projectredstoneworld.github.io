@@ -68,7 +68,10 @@ RW-15 is the north-south route for western {% include wiki-link.html title="Foun
 Known as the Dos Loop, RW-215 heads west from the FI Bunker and begins its one way counterclockwise loop. It first has an interchange with RW-215 CCW which completes the shorter loop then an interchange with RW-315 for the south side of the Main Bunker Station. Immediately after is the interchange with RW-113. It then heads south into the Dos Mountains for the {% include wiki-link.html title="Dos Village" %} station. It moves east then north to an interchange with RW-120 for the Villa and immediately after the SMP Base Station. After that going north has RW-215 CCW which reenters the shorter loop, while RW-215 continues east to the Gerudo Desert station, and then back to the FI Bunker.
 #### RW-315
 RW-315 is a spur that runs north to serve the south end of the Main Bunker station.
+#### RW-415
+RW-415 serves the FI Bunker station and was also the first segment of RCorp Rail made. Fully underground.
 #### RW-17
+{% include wiki-image.html file="/wiki/assets/images/rcrailcrazy.webp" caption="The Crazy Interchange as it appears after Reborn X. RW-17 runs straight north-south, RW-15 is seen on the west, RW-217 going into the RTC in northeast, and RW-317 serving the museum in the southwest." side="left" %}
 RW-17 is the north-south route for the Redstone Tower Complex. It begins at the interchange with RW-12 at Global control, then heads south under the bridge to {% include wiki-link.html title="Tower 3.0" %} where it splits and rejoins as RW-217. Immediately after is the nicknamed "Crazy Interchange" where RW-17, RW-217, RW-15, and RW-317 for the Reborn X Museum all meet. RW-17 continues southeast and terminates at RW-20 near {% include wiki-link.html title="Tavish Town" %}.
 #### RW-217
 RW-217 is a loop that goes through the lower levels of Tower 3.0 to serve one of the busiest stations.
