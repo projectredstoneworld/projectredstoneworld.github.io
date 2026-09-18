@@ -5,8 +5,8 @@ section: "Transport Infrastructure"
 description: "RCorp Rail is Redstoneworld's latest transport network. It connects all major landmarks and sectors in Chapter 7 using distinct highways and pods."
 image: "/wiki/assets/images/rcrailbanner.webp"
 image_alt: "RCorp Rail track and pods at the Global Control RTC Station."
-last_modified: "2026-9-12T01:20:25Z"
-contributor: "Ijdtm7"
+last_modified: "2026-09-18T04:02:30Z"
+contributor: "LLucas"
 infobox: {"Started": "July 5th, 2023", "Project Directors": "Mr. Ij, Mr. Void, LLucas, EzraThunder, SomeYTguyFor1", "Completed":"March 18th, 2026", "Type": "Global Infrastructure"}
 published: true
 ---
@@ -16,6 +16,8 @@ RCorp Rail is the latest transportation system on Redstoneworld. Designed to be 
 It was first proposed in 2023 during {% include wiki-link.html title="Chapter 6" %} by Mr. Void.
 
 Note that a video deep dive of RCorp Rail is available as <a href="/wiki/ijs-devlogs/#devlog34">Devlog 34</a>, it goes into detail on all stations as well as the code.
+
+It was also the first project where the GitHub datapack system was used for collaboration, followed by the {% include wiki-link.html title="RTC Reactor" %}.
 
 ## Subscription
 
@@ -78,3 +80,45 @@ RW-20 is the far southern east-west route. It starts east of the interchange wit
 RW-120 is a spur that runs northwest from RW-20 to serve the Villa station, then terminating at the Dos Loop RW-215.
 #### RW-220
 RW-220 is the Blakewood Forest emergency bypass. It quickly takes an unauthorized rider out of the zone to then end back at RW-20.
+
+## Pod speed mechanics
+
+The RCorp rail pod uses a myriad of entities, including block displays, a pig and famously, a tadpole mounted on a minecart. Below the main highway there is an ordinary minecart track, and therefore the default speed of the RCorp rail pod is 0.4 blocks/tick (8 blocks/sec at 20 TPS). However, on straight sections, the RCorp pod has the ability to accelerate to a much higher speed, allowing it to traverse the world faster than a U1 cart.
+
+### Teleportation
+
+Every tick, the minecart on which the RCorp pod is mounted summons a marker. This marker recursively checks ahead of itself until it encounters a block that is not a powered rail. Hence, it is able to determine the amount of blocks there are remaining on a straight path until the rail either goes up, down, or curves. Based on the amount of blocks, the RCorp rail pod will select an appropriate speed and teleport every tick in order to achieve that speed. On perfectly straight paths, the minecart has the ability to teleport 2.1 blocks every tick (and hence reach a speed of 2.5 blocks per tick or 50 blocks per second, since motion is still applied to the minecart after teleportation).
+
+<div class="wiki-table-wrap">
+<table>
+<caption>RCorp rail straight path requirements and speed values</caption>
+<thead><tr><th>Number of blocks</th><th>Additional speed (b/t)</th><th>Additional speed (b/s)</th><th>Total speed (b/t)</th><th>Total speed (b/s)</th></tr></thead>
+<tbody>
+<tr><td>0 blocks (Default)</td><td>0.0 blocks per tick</td><td>0 blocks per sec</td><td>0.4 blocks per tick</td><td>8 blocks per sec</td></tr>
+<tr><td>8 blocks (Boost I)</td><td>0.7 blocks per tick</td><td>14 blocks per sec</td><td>1.1 blocks per tick</td><td>22 blocks per sec</td></tr>
+<tr><td>16 blocks (Boost II)</td><td>1.1 blocks per tick</td><td>22 blocks per sec</td><td>1.5 blocks per tick</td><td>30 blocks per sec</td></tr>
+<tr><td>32 blocks (Boost III)</td><td>1.7 blocks per tick</td><td>34 blocks per sec</td><td>2.1 blocks per tick</td><td>42 blocks per sec</td></tr>
+<tr><td>48 blocks (Boost IV)</td><td>2.1 blocks per tick</td><td>42 blocks per sec</td><td>2.5 blocks per tick</td><td>50 blocks per sec</td></tr>
+</tbody>
+</table>
+</div>
+
+#### Speeding up
+
+Speeding up does not simply use the straight path requirement in order to determine the speed at that instant. Rather, it has a 12 game tick cooldown in order to make the acceleration more smooth. The target speed is selected purely based off of the straight path requirement, then that speed is reached via acceleration every 12 game ticks. Every single time the pod accelerates, it plays the `minecraft:block.beacon.activate` (beacon activation) sound with pitch 2.
+
+#### Slowing down
+
+Conversely, a cooldown is not required for the slowing down mechanic, as the straight path distance drops predictably and gradually as the pod approaches a portion of the rail which is not fully straight. Hence, there is no cooldown. Upon slowing down, the pod plays the `minecraft:block.beacon.deactivate` (beacon de-activation) sound with pitch 2.
+
+### Speedometer
+
+During an RCorp rail ride, the speed of the pod is displayed above the actionbar in metres per second and in kilometres per hour.
+
+Every 10 ticks, the speedometer first takes the x and z position of the minecart (scaled by a factor of 1000) and stores them in a scoreboard. One tick later, it does the same, storing the result in a different scoreboard value. Once this finishes, it finds the difference between the two values (which is in 1/1000ths of a block), and sets a temporary "speed" value to the speed on the x axis. If the speed on the z axis exceeds that of the x axis, it sets the temporary "speed" value to that of the z axis. After this, if the x and z values match, the speed value is multiplied by 1.414 (approximately the square root of 2) in order to account for diagonal rails.
+
+After this value is computed, it is multiplied by the TPS value on the TPS system, which is in ticks per 100 seconds (2000 is equivalent to 20.00 TPS). This allows the speed to be lag compensated (i.e. at normal minecart speed at 10 TPS, the speedometer would display 4.0 blocks per second). In order for this value to be useable, it is processed via division.
+
+For the value in kilometres per hour, the value is copied. Then, 1389 is added to the value (for rounding behaviour on the division rather than flooring), then divided by 2778, which yields the values in 1/10ths of a kilometre per hour. This value is later formatted on the action bar.
+
+For the value in metres per second, a similar procedure is executed, instead adding 5000 to the value and dividing by 10000 to yield the value in 1/10ths of a metre per second.
