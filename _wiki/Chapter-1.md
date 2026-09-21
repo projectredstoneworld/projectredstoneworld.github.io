@@ -43,3 +43,13 @@ Tower 1 therefore represents the closing point of the chapter's active construct
 Chapter 1 established the original identity of Redstoneworld. The founding island, early construction principles, and many of the project's practices originated during this period.
 
 Despite the relatively limited timeframe, the chapter became the basis for much of what followed. Later chapters would rebuild, expand, reorganize, and eventually merge the various parts of the project, but the foundations laid during **2013–2016** remained central to Redstoneworld.
+
+## Team Progression
+
+*Highest rank achieved*
+
+**Founder:** TheJoMinecraft/TheJoCraft
+
+**Reborn X Founder, Owner:** Ijd710
+
+**Theme Park Building:** Darkenya and rest of the team
