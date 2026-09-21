@@ -6,8 +6,9 @@ section: "RTC Power Infrastructure"
 image-alt: "The RTC reactor island, as viewed from the balcony on the mall floor of RTC-2"
 description: "The RTC-Blakewood Nuclear Power Plant, located on Floor -1 of Tower 3.0 in the RTC."
 infobox: {"Started":"January 9th, 2025","Reactor Technical Start":"August 26th, 2025","Head builders and designers":"LLucas, Mr. Ij, SomeYTGuy, EzraThunder","Technical work":"LLucas, Mr. Ij","Approximate total number of commands":"1400","Sector":"Redstone Tower Complex (RTC)"}
-last_modified: "2026-09-15T03:11:00Z"
+last_modified: "2026-09-21T14:31:00Z"
 contributor: "LLucas"
+math: true
 ---
 
 The RTC reactor is the newest reactor on Redstoneworld. Situated on the bottom of Tower 3.0 (in the industry complex), it is the most complicated and therefore realistic reactor on the map.
@@ -55,3 +56,17 @@ The bossbar displays the current radiation dose rate, formatted with proper unit
 </tbody>
 </table>
 </div>
+
+### Radiation calculation
+
+The radiation value is calculated based off of a large amount of factors. Including radiation from the reactor itself, emergencies, and radiation decay.
+
+#### Units
+
+When building the radiation system, one of the goals was to be able to display a background radiation value (0.08 microsieverts/hour). Hence, the radiation value had to be compatible with a newly named dose rate unit known as "fracs" which was equivalent to 0.01 microsieverts/hour (or 10 nSv/h). Every tick, the reactor radiation value would be added to each player's radiation "frac" value (which is displayed to some extent on the dosimeters). Since one hour was considered as 1000 game ticks, adding a dose rate frac to the dose value frac would give the radiation dose frac unit a value of 10 pSv (or 0.01 nanosieverts).
+
+For every 100 million dose rate fracs that accumulate, a millisievert is added to the player's `radiationdose` value.
+
+#### Decay
+
+The radiation decay system triggers every 180 game ticks (approx. 9 seconds) when the radiation value is above 0.08 microsieverts/hour. Each time a decay triggers, the radiation is divided by 1.1 (however this division does not affect the 80 nSv/h background radiation) via a multiplication by 10 and a division by 11. With these parameters, it can be determined that the half-life of this radiation is approximately 1309 ticks (~65.45 seconds).
