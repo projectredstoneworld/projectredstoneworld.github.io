@@ -36,6 +36,8 @@ This period would establish the foundation on which the later {% include wiki-li
 
 Tower 1 therefore represents the closing point of the chapter's active construction period and the end of the original founding era of Redstoneworld.
 
+<br><br><br>
+
 ## Legacy
 
 ### The foundation of modern Redstoneworld
@@ -46,10 +48,12 @@ Despite the relatively limited timeframe, the chapter became the basis for much 
 
 ## Team Progression
 
+There was no organized team during this period of Redstoneworld. TJC mostly worked solo. However, the Themepark had major work done on it by the Darkenya Build Team in the later years of Chapter 1 after Reborn was already started.
+
 *Highest rank achieved*
 
-**Founder:** TheJoMinecraft/TheJoCraft
+**Founder, Owner, Chief Redstoner / Tech Aspects:** TheJoMinecraft/TheJoCraft
 
-**Reborn X Founder, Owner:** Ijd710
+**Reborn Founder, Owner, Chief Redstoner / Tech Aspects:** Ijd710
 
-**Theme Park Building:** Darkenya and rest of the team
+**Theme Park Building:** Sergius144 and rest of his Darkenya team
