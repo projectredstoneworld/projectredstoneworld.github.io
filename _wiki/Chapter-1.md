@@ -2,10 +2,10 @@
 title: "Chapter 1"
 order: 12
 image: "wiki/assets/images/harbor2015.webp"
-section: "records"
+section: "Chapter Record"
 image-alt: "Founding Island, known as Redstoneworld 2015"
 description: "Redstoneworld's first chapter"
-infobox: {"Starded":"January 18, 2013","Ended":"2016"}
+infobox: {"Started":"January 18, 2013","Ended":"Summer 2016","Centered on":"Founding Island","Key Figures/Teams":"TheJoCraft, Darkenya, Mr. Ij"}
 last_modified: "2026-9-21"
 contributor: "EzraThunder"
 published: false
@@ -24,9 +24,9 @@ At the founding of Redstoneworld, thejominecraft was approximately 17 years old,
 
 ### The discovery of Redstoneworld
 
-In July 2014, Redstoneworld was discovered through a newly released **500-subscriber special** on the channel. From there, the project was introduced to real-life friends, marking the beginning of a new generation of Redstoneworld's development.
+In July 2014, Redstoneworld was discovered by Ij through a newly released **500-subscriber special** on the channel. From there, the project was introduced to real-life friends, marking the beginning of a new generation of Redstoneworld's development.
 
-This period would establish the foundation on which the later **{% include https://theredstoneworld.net/wiki/reborn/ title="Reborn %}** era would be built. Although the project was still relatively small, many of its defining characteristics were already present, including large-scale building and complex cretions for example.
+This period would establish the foundation on which the later {% include wiki-link.html title="Reborn" %} era would be built. Although the project was still relatively small, many of its defining characteristics were already present, including large-scale building and complex creations for example.
 
 ## The Final Developments
 
