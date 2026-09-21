@@ -1058,8 +1058,22 @@
   .wiki-cover { margin-bottom: 22px; border-radius: 10px; }
   .wiki-infobox { grid-template-columns: 1fr; }
   .wiki-infobox div:nth-child(odd) { border-right: 0; }
+  .wiki-toc--inline {
+   width: 100%;
+   box-sizing: border-box;
+    padding: 16px;
+  }
   .wiki-toc--inline ol {
-    columns: 1;
+   display: block;
+    width: 100%;
+    padding-left: 0;
+    columns: auto;
+    column-count: 1;
+    column-width: auto;
+    column-gap: 0;
+  }
+  .wiki-toc--inline li {
+    width: 100%;
   }
   .wiki-card { padding: 18px 16px; }
   .wiki-inline-image,
