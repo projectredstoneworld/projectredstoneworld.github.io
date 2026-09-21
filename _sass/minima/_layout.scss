@@ -947,13 +947,7 @@
   vertical-align: top;
 }
 
-.wiki-toc {
-  position: sticky;
-  top: 24px;
-  padding-left: 18px;
-  border-left: 1px solid rgba(255, 255, 255, .13);
-}
-
+/* Shared styling for both TOC copies */
 .wiki-toc > strong {
   display: block;
   margin-bottom: 10px;
@@ -971,6 +965,7 @@
 .wiki-toc li {
   margin: 0 0 7px;
   line-height: 1.35;
+  break-inside: avoid;
 }
 
 .wiki-toc a {
@@ -978,10 +973,45 @@
   font-size: .8rem;
 }
 
-.wiki-toc__level-3 { padding-left: 10px; }
+.wiki-toc__level-3 {
+  padding-left: 10px;
+}
+
 .wiki-toc__level-4,
 .wiki-toc__level-5,
-.wiki-toc__level-6 { padding-left: 20px; }
+.wiki-toc__level-6 {
+  padding-left: 20px;
+}
+
+/* Existing right-hand sticky TOC */
+.wiki-toc--sidebar {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  max-height: calc(100dvh - 48px);
+  padding-left: 18px;
+  padding-right: 8px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, .25) transparent;
+  border-left: 1px solid rgba(255, 255, 255, .13);
+}
+
+/* New TOC copy at the beginning of the article */
+.wiki-toc--inline {
+  margin: 0 0 30px;
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-left: 3px solid rgba(255, 255, 255, .3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .025);
+}
+
+.wiki-toc--inline ol {
+  columns: 2;
+  column-gap: 30px;
+}
 
 .wiki-article__footer {
   display: flex;
@@ -1001,8 +1031,9 @@
   .wiki-home-rail section { padding-top: 20px; border-bottom: 0; }
   .wiki-card-grid { grid-template-columns: 1fr; }
   .wiki-article-grid { grid-template-columns: 1fr; gap: 24px; }
-  .wiki-toc { position: static; order: -1; border-left: 0; padding: 16px; background: rgba(255, 255, 255, .03); border-radius: 8px; }
-  .wiki-toc ol { columns: 2; column-gap: 24px; }
+  .wiki-toc--sidebar {
+    display: none;
+  }
   .wiki-quickfacts { grid-template-columns: 1fr; }
   .wiki-quickfacts div { border-right: 0; border-bottom: 1px solid rgba(255, 255, 255, .1); padding: 14px 6px; }
   .wiki-quickfacts div:last-child { border-bottom: 0; }
@@ -1027,7 +1058,9 @@
   .wiki-cover { margin-bottom: 22px; border-radius: 10px; }
   .wiki-infobox { grid-template-columns: 1fr; }
   .wiki-infobox div:nth-child(odd) { border-right: 0; }
-  .wiki-toc ol { columns: 1; }
+  .wiki-toc--inline ol {
+    columns: 1;
+  }
   .wiki-card { padding: 18px 16px; }
   .wiki-inline-image,
   .wiki-inline-image--left { width: 100%; max-width: none; margin: 8px 0 22px; float: none; }
@@ -1401,4 +1434,10 @@
   .home-archive__action span {
     transition: none;
   }
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
 }

@@ -1,15 +1,17 @@
 (() => {
   const article = document.querySelector(".wiki-article__body");
-  const toc = document.querySelector("[data-wiki-toc]");
-  const list = toc?.querySelector("[data-wiki-toc-list]");
+  const tocs = document.querySelectorAll("[data-wiki-toc]");
 
-  if (!article || !toc || !list) return;
+  if (!article || !tocs.length) return;
 
-  const headings = Array.from(article.querySelectorAll("h2, h3, h4, h5, h6"))
-    .filter((heading) => heading.textContent.trim());
+  const headings = Array.from(
+    article.querySelectorAll("h2, h3, h4, h5, h6")
+  ).filter((heading) => heading.textContent.trim());
 
   if (!headings.length) {
-    toc.hidden = true;
+    tocs.forEach((toc) => {
+      toc.hidden = true;
+    });
     return;
   }
 
@@ -21,36 +23,51 @@
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "") || "section";
 
-  const reserveUniqueId = (heading) => {
-    if (heading.id) return heading.id;
+  const usedIds = new Set(
+    Array.from(document.querySelectorAll("[id]"))
+      .map((element) => element.id)
+  );
 
-    const base = slugify(heading.textContent.trim());
-    let id = base;
-    let suffix = 2;
+  const entries = headings.map((heading) => {
+    if (!heading.id) {
+      const base = slugify(heading.textContent.trim());
+      let id = base;
+      let suffix = 2;
 
-    while (document.getElementById(id)) {
-      id = `${base}-${suffix}`;
-      suffix += 1;
+      while (usedIds.has(id)) {
+        id = `${base}-${suffix}`;
+        suffix += 1;
+      }
+
+      heading.id = id;
+      usedIds.add(id);
     }
 
-    heading.id = id;
-    return id;
-  };
-
-  const fragment = document.createDocumentFragment();
-
-  headings.forEach((heading) => {
-    const item = document.createElement("li");
-    const link = document.createElement("a");
-    const level = heading.tagName.slice(1);
-
-    item.className = `wiki-toc__level-${level}`;
-    link.href = `#${reserveUniqueId(heading)}`;
-    link.textContent = heading.textContent.trim();
-    item.append(link);
-    fragment.append(item);
+    return {
+      id: heading.id,
+      title: heading.textContent.trim(),
+      level: heading.tagName.substring(1)
+    };
   });
 
-  list.replaceChildren(fragment);
-  toc.hidden = false;
+  tocs.forEach((toc) => {
+    const list = toc.querySelector("[data-wiki-toc-list]");
+    if (!list) return;
+
+    list.replaceChildren();
+
+    entries.forEach((entry) => {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+
+      item.className = `wiki-toc__level-${entry.level}`;
+      link.href = `#${entry.id}`;
+      link.textContent = entry.title;
+
+      item.appendChild(link);
+      list.appendChild(item);
+    });
+
+    toc.hidden = false;
+  });
 })();

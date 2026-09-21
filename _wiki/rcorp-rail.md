@@ -13,6 +13,8 @@ published: true
 
 RCorp Rail is the latest transportation system on Redstoneworld. Designed to be both a companion and successor to the old {% include wiki-link.html title="U1" %} system, RCorp Rail uses two player pods, a fast speed, interconnected rails, and a subscription model to move users around efficiently and economically. 
 
+RCorp Rail was opened live on March 18th, 2026, with the release of the [RCorp Rail Trailer](https://youtu.be/1IB7DyI7OLE)
+
 It was first proposed in 2023 during {% include wiki-link.html title="Chapter 6" %} by Mr. Void.
 
 Note that a video deep dive of RCorp Rail is available as <a href="/wiki/ijs-devlogs/#devlog34">Devlog 34</a>, it goes into detail on all stations as well as the code.
@@ -237,3 +239,13 @@ The Dos Village station was the first one-way station. It sends the rider west t
 The Main Bunker station was one of the first stations planned, and has a very strange setup. Originally, the Bunker was split into a Bunker South and Bunker North Mountains stations to coincide with the RCorp expansion of the Main Bunker (which has not happened at time of writing), with the south being part of Dos Loop and the north a different highway. However, the stations were moved to be right next to each other and seemingly together, however that split is still there. It operates as one station running north-south, but in reality it has South marked as being "Dos Loop" and north as being "Outer Dos", for the north the departing rider could head either direction. Served by [RW-315](#rw-315) for Dos Loop and [RW-512](#rw-512) for Outer Dos. <br><br>The station uses the Standard Station Model, with no bypasses. The station was made by Ij, with the cover by SomeYTguyFor1. It has a completely covered bridge and walkway to the purchasing module inside the Main Bunker entrance. The station welcome sign marks it as being "Central Dos"
 
 ### SMP Base - Station 5
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/smpbase.webp" caption="The SMP Base station, as seen from the outside." side="right" %}
+It was desired for a station in the Dos Prairie, however it was unsure to us whether we would put it at the SMP Base station or the actual Dos Prairie station. We decided to use the SMP Base since it was right against the loop. The station is one-way, sending the rider north along the Dos Loop. Served by [RW-215](#rw-215--rw-215-ccw). <br><br>The station uses the Standard Station Model at its own most minimum state. The station was made by Ij, with the cover by SomeYTguyFor1. The purchasing module is inside the SMP Base. The station welcome sign marks it as being "Central Dos"
+
+### Gerudo Desert - Station 6
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/gerudo.webp" caption="The Gerudo Desert Station, as seen from the platform side." side="left" %}
+The Gerudo Desert station was made to honor the original U1 gerudo station from a very long time ago. It runs east-west. Served by [RW-215](#rw-215--rw-215-ccw) with the westbound returning to the Dos Loop while the eastbound ends the 215 loop at the FI Bunker. <br><br> The station uses the Standard Station Model, minus one bypass. The station was made by Ij originally, but fully transformed by EzraThunder to a desert theme with a clocktower. The entrance to the platform was moved underground with stairs and an elevator to access it from the purchasing station. It also has a small garden inside of it. The station welcome sign marks it as being "FI West Outpost / Outer Dos"
+
+### Redstone Villa - Station 7

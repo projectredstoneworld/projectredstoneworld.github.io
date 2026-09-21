@@ -32,7 +32,20 @@ layout: base
       <h1>{{ page.title }}</h1>
       {% if page.description %}<p class="wiki-deck">{{ page.description }}</p>{% endif %}
     </header>
-
+    {% unless page.toc == false %}
+    <aside class="wiki-toc wiki-toc--inline" aria-label="Contents" data-wiki-toc{% unless page.toc and page.toc.size > 0 %} hidden{% endunless %}>
+      <strong>On this page</strong>
+      <ol data-wiki-toc-list>
+       {% if page.toc and page.toc.size > 0 %}
+          {% for item in page.toc %}
+           <li class="wiki-toc__level-{{ item.level }}">
+            <a href="#{{ item.id }}">{{ item.title }}</a>
+           </li>
+          {% endfor %}
+        {% endif %}
+      </ol>
+    </aside>
+    {% endunless %}      
     {% if page.infobox %}
     <dl class="wiki-infobox">
       {% for field in page.infobox %}
@@ -62,7 +75,7 @@ layout: base
   </article>
 
   {% unless page.toc == false %}
-  <aside class="wiki-toc" aria-label="Contents" data-wiki-toc{% unless page.toc and page.toc.size > 0 %} hidden{% endunless %}>
+  <aside class="wiki-toc wiki-toc--sidebar" aria-label="Contents" data-wiki-toc{% unless page.toc and page.toc.size > 0 %} hidden{% endunless %}>
     <strong>On this page</strong>
     <ol data-wiki-toc-list>
       {% if page.toc and page.toc.size > 0 %}
