@@ -1077,15 +1077,15 @@
   }
 
   .wiki-toc--inline ol {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 8px 20px;
+    display: block;
     padding-left: 0;
-    columns: initial;
+    columns: 2;
+    column-gap: 24px;
   }
 
   .wiki-toc--inline li {
-    margin: 0;
+    margin: 0 0 8px;
+    break-inside: avoid;
   }
   .wiki-card { padding: 18px 16px; }
   .wiki-inline-image,
