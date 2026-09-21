@@ -249,3 +249,13 @@ It was desired for a station in the Dos Prairie, however it was unsure to us whe
 The Gerudo Desert station was made to honor the original U1 gerudo station from a very long time ago. It runs east-west. Served by [RW-215](#rw-215--rw-215-ccw) with the westbound returning to the Dos Loop while the eastbound ends the 215 loop at the FI Bunker. <br><br> The station uses the Standard Station Model, minus one bypass. The station was made by Ij originally, but fully transformed by EzraThunder to a desert theme with a clocktower. The entrance to the platform was moved underground with stairs and an elevator to access it from the purchasing station. It also has a small garden inside of it. The station welcome sign marks it as being "FI West Outpost / Outer Dos"
 
 ### Redstone Villa - Station 7
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/villa.webp" caption="The Redstone Villa Station, as seen from the ocean side." side="right" %}
+The Redstone Villa station was made to give the Villa more presence in the world than just a random U1 tunnel in the Gerudo Desert. It runs north-south. Served by [RW-120](#rw-120). <br><br>The station fully follows the Standard Station Model. The station was made by Ij originally, but had another similar full transformation by EzraThunder in an overgrown style. It has an elevated platform accessible from below by stairs or elevator. The station welcome sign marks it as being "Outer Dos"
+
+### Blakewood Travel / Rakeport - Station 8
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/rakeport.webp" caption="The Rakeport Station, as seen from the platform side." side="left" %}
+The Rakeport station also known as Blakewood Travel was one of the key original planned stations, designed to help RCorp in the Rakegame. There were many scrapped plans for it, mainly due to challenges from the elevated RW-12 above. The final plan was then to put the station below, and have a spur to access it. The station is technically one way with the highway both terminating and starting at the station, however the quick interchange with RW-12 makes it an east-west station. Served by [RW-312](#rw-312). <br><br>The station follows the Standard without bypasses, and the arrival acts as a simple instant kill for pods. The station was made by Ij, Void, and LLucas originally, but fully transformed by EzraThunder to be a unique styled complex that contains a newsboard, the RCRail Map, and some other images. The purchasing station is right against the Blakewood Travel entrance and original U1 station. The station welcome sign marks it as being "Blakewood Travel / Outer FI"
+
+### Founding Island Spawn - Station 9
+
