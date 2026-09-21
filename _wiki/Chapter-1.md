@@ -36,6 +36,8 @@ This period would establish the foundation on which the later {% include wiki-li
 
 Tower 1 therefore represents the closing point of the chapter's active construction period and the end of the original founding era of Redstoneworld.
 
+<br><br><br>
+
 ## Legacy
 
 ### The foundation of modern Redstoneworld
@@ -43,3 +45,15 @@ Tower 1 therefore represents the closing point of the chapter's active construct
 Chapter 1 established the original identity of Redstoneworld. The founding island, early construction principles, and many of the project's practices originated during this period.
 
 Despite the relatively limited timeframe, the chapter became the basis for much of what followed. Later chapters would rebuild, expand, reorganize, and eventually merge the various parts of the project, but the foundations laid during **2013–2016** remained central to Redstoneworld.
+
+## Team Progression
+
+There was no organized team during this period of Redstoneworld. TJC mostly worked solo. However, the Themepark had major work done on it by the Darkenya Build Team in the later years of Chapter 1 after Reborn was already started.
+
+*Highest rank achieved*
+
+**Founder, Owner, Chief Redstoner / Tech Aspects:** TheJoMinecraft/TheJoCraft
+
+**Reborn Founder, Owner, Chief Redstoner / Tech Aspects:** Ijd710
+
+**Theme Park Building:** Sergius144 and rest of his Darkenya team
