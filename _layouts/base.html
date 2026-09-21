@@ -106,7 +106,9 @@
     </main>
 
     {%- include footer.html -%}
-
+    {%- if page.math -%}
+      {%- include katex.html -%}
+    {%- endif -%}
   </body>
 
 </html>

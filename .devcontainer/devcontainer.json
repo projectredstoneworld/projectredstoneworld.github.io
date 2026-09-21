@@ -13,6 +13,10 @@
     "4000": {
       "label": "Project Redstoneworld website preview",
       "onAutoForward": "openBrowser"
+    },
+    "35729": {
+      "label": "Jekyll LiveReload",
+      "onAutoForward": "silent"
     }
   }
 }

@@ -6,7 +6,7 @@ description: "RCorp Rail is Redstoneworld's latest transport network. It connect
 image: "/wiki/assets/images/rcrailbanner.webp"
 image_alt: "RCorp Rail track and pods at the Global Control RTC Station."
 last_modified: "2026-09-18T04:02:30Z"
-contributor: "LLucas"
+contributor: "Ijd710"
 infobox: {"Started": "July 5th, 2023", "Project Directors": "Mr. Ij, Mr. Void, LLucas, EzraThunder, SomeYTguyFor1", "Completed":"March 18th, 2026", "Type": "Global Infrastructure"}
 published: true
 ---
@@ -47,7 +47,7 @@ RW-10 is the far northern east-west route. It starts at the restricted {% includ
 #### RW-210
 RW-210 is the Site Omega-5 (Forgotten Isle) emergency bypass. It quickly takes an unauthorized rider out of the zone to then end back at RW-10 after.
 #### RW-11
-RW-11 is the other end of the Testing Sector station. It heads south before turning east and terminating at an interchange with RW-13/RW-20 at the {% include wiki-link.html title="Redstone Theme Park" %}.
+RW-11 is the other end of the Testing Sector station. It heads south before turning east and terminating at an interchange with RW-13/RW-20 at the {% include wiki-link.html title="Redstone Theme Park" %}. This was the last piece of track added in the original development of RCorp Rail.
 #### RW-12
 RW-12 is the central northern east-west route. It starts heading east from the 4 way interchange then heads south to hit the northern spur for the {% include wiki-link.html title="Main Redstone Bunker" %}. It continues east where it has another interchange for the spur to the {% include wiki-link.html title="Rakeport" %}. Continuing east and now very high above the FI Jungle, it has a major interchange with RW-15 and continues southeast to {% include wiki-link.html title="Global Control" %}. It terminates at the East Village station.
 #### RW-112
@@ -76,7 +76,7 @@ RW-17 is the north-south route for the Redstone Tower Complex. It begins at the 
 #### RW-217
 RW-217 is a loop that goes through the lower levels of Tower 3.0 to serve one of the busiest stations.
 #### RW-317
-RW-317 is a spur from that runs northwest to serve the Reborn X Museum and uses RW-15 to terminate.
+RW-317 is a spur from that runs northwest to serve the Reborn X Museum and uses RW-15 to terminate. This is the most recent piece of track as of Reborn X.
 #### RW-20
 RW-20 is the far southern east-west route. It starts east of the interchange with RW-11 and RW-13 at the Waterpark. It heads east, wrapping around the south Dos Mountains where it has an interchange with RW-120. It continues to its Tavish Town Station and then the interchange with RW-17. Afterwards there is a brief north stretch to the interchange with RW-112 where it then shoots east for the Blakewood Forest while wrapping around the barrier. It terminates just north of the Blakewood Forest station.
 #### RW-120
@@ -84,9 +84,9 @@ RW-120 is a spur that runs northwest from RW-20 to serve the Villa station, then
 #### RW-220
 RW-220 is the Blakewood Forest emergency bypass. It quickly takes an unauthorized rider out of the zone to then end back at RW-20.
 
-## Pod speed mechanics
+## Pod mechanics
 
-The RCorp rail pod uses a myriad of entities, including block displays, a pig and famously, a tadpole mounted on a minecart. Below the main highway there is an ordinary minecart track, and therefore the default speed of the RCorp rail pod is 0.4 blocks/tick (8 blocks/sec at 20 TPS). However, on straight sections, the RCorp pod has the ability to accelerate to a much higher speed, allowing it to traverse the world faster than a U1 cart.
+The RCorp rail pod uses a myriad of entities, including block & item displays, a pig and famously, a tadpole mounted on a minecart. Below the main highway there is an ordinary minecart track, and therefore the default speed of the RCorp rail pod is 0.4 blocks/tick (8 blocks/sec at 20 TPS). However, on straight sections, the RCorp pod has the ability to accelerate to a much higher speed, allowing it to traverse the world faster than a U1 cart. Each full RCorp Rail pod is 67 entities (65 ghost). All pod mechanics were designed and implemented by Ij and LLucas in early 2026. All RCorp pods have their own unique ID which is used to link up rotations and seats. This is stored in `redstoneworldID`, the next ID is stored in `#rcrailtrip redstoneworldID`
 
 ### Teleportation
 
@@ -125,3 +125,115 @@ After this value is computed, it is multiplied by the TPS value on the TPS syste
 For the value in kilometres per hour, the value is copied. Then, 1389 is added to the value (for rounding behaviour on the division rather than flooring), then divided by 2778, which yields the values in 1/10ths of a kilometre per hour. This value is later formatted on the action bar.
 
 For the value in metres per second, a similar procedure is executed, instead adding 5000 to the value and dividing by 10000 to yield the value in 1/10ths of a metre per second.
+
+As a bonus feature of the speedometer code, a subtitle is displayed to the user showing their current set destination.
+
+### Movement
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailpod.webp" caption="The RCorp Rail pod prototypes, as seen from the Testing Sector. Left is the first block display and right the original build." side="right" %}
+RCorp Rail pods are primarily physically moved through the rcraildrive minecart at the bottom riding the internal highway. See [Teleportation](#teleportation). However, the minecart rotation does not directly apply to any other entities, even the ones direct passengers of it, and matching rotation data every tick caused significant TPS lag, so this required some more ingenuity. The seat movement is handled every tick and cannot be interpolated smoothly, requiring separate commands depending on the current speed. Since there are a lot more entities for the pod rotation, that is ran every 3 ticks instead. The rotation is only applied to all entities if the rotation of the first armor stand is detected to be different from the bottom minecart. 
+
+Additionally, the pods are constantly inspected for player counts for regular pods and movement checks for ghost pods. Failure to reach these conditions start a timer that will automatically kill the pods after a certain time. Ghost pods have another automatic kill that triggers if they are anywhere too close to any other pod.
+
+## Routing mechanics
+
+RCorp Rail pods are spawned at [Stations](#stations) and are given a destination. The pods will then follow the rails to that destination, using the shortest path possible. 
+
+### Interchanges
+
+Under each RCorp Rail junction is a commandblock that is reading certain scoreboard info from the rcraildrive minecart under the pod and switching a rail to put the pod on the correct [rail](#highway-details). Specifically we are looking at its score of `rcsid`, `rcsx`, and `rcsz`, referring to the station's ID, RCx, and RCz grid coordinates respectively. Each junction was intelligently programmed to pick fast routes, keeping in mind that RCorp Rail highways are not a perfect grid and have routes that twist and turn. Our coordinates RCx and RCz are not the same as the world coordinates, they are our own grid system that is used to make the routing smart. The most accurate coordinate information is stored in our [RCorp Rail spreadsheet](https://docs.google.com/spreadsheets/d/1L-LnMNDEWJ6JDecYKffRuZo3hcXt2bSP2P0uQazk9oo/view), but the table below is up to date as of September 2026. 
+
+<div class="wiki-table-wrap">
+<table>
+<caption>RCorp Rail station IDs and grid coordinates</caption>
+<thead><tr><th>Station Name</th><th>Station ID (rcsid)</th><th>X Coordinate (rcsx)</th><th>Z Coordinate (rcsz)</th><th>Station Tellraw ID (rcrailtrig)</th></tr></thead>
+<tbody>
+<tr><td>Testing Sector</td><td>0</td><td>0</td><td>1</td><td>15</td></tr>
+<tr><td>Redstone Theme Park</td><td>1</td><td>1</td><td>14</td><td>1</td></tr>
+<tr><td>Redstone Cruise Ship</td><td>2</td><td>2</td><td>6</td><td>2</td></tr>
+<tr><td>Dos Village</td><td>3</td><td>3</td><td>13</td><td>3</td></tr>
+<tr><td>Main Bunker</td><td>4</td><td>4</td><td>3</td><td>4</td></tr>
+<tr><td>Dos SMP Base</td><td>5</td><td>5</td><td>12</td><td>5</td></tr>
+<tr><td>Gerudo Desert</td><td>6</td><td>6</td><td>9</td><td>6</td></tr>
+<tr><td>Villa</td><td>7</td><td>7</td><td>14</td><td>7</td></tr>
+<tr><td>Rakeport</td><td>8</td><td>8</td><td>2</td><td>8</td></tr>
+<tr><td>Founding Island - Spawn</td><td>9</td><td>9</td><td>7</td><td>9</td></tr>
+<tr><td>Forgotten Isle</td><td>10</td><td>9</td><td>0</td><td>16</td></tr>
+<tr><td>Founding Island - Bunker</td><td>11</td><td>10</td><td>8</td><td>10</td></tr>
+<tr><td>Tavish Town</td><td>12</td><td>11</td><td>15</td><td>11</td></tr>
+<tr><td>RTC - Global Control</td><td>13</td><td>12</td><td>4</td><td>12</td></tr>
+<tr><td>RTC - Tower 3.0</td><td>14</td><td>13</td><td>11</td><td>13</td></tr>
+<tr><td>East Village</td><td>15</td><td>14</td><td>5</td><td>14</td></tr>
+<tr><td>Blakewood Outpost</td><td>16</td><td>15</td><td>10</td><td>17</td></tr>
+<tr><td>Reborn X Museum</td><td>17</td><td>11</td><td>12</td><td>20</td></tr>
+</tbody>
+</table>
+</div>
+
+### Initialization
+
+When a RCorp Rail subscriber enters the platform of a station (coordinates all manually defined in our `stationmsg` function) they will be prompted with the station selection screen. After picking a station, the system will then check if the user needs to specify a direction as most stations have two directions. If the user is at a station with only one direction, this will be skipped. The user will be given another screen to pick the direction, however one direction will be marked as recommended. This is done by subtracting the current station's coordinates from the destination station's coordinates and using the ideal grid system. This generally sends the user in the right way but may not be the fastest due to the limitations of the ideal model. For instance, a user at Spawn wanting to go to the Cruise Ship will be told to take RW-15 North to RW-12 West to the Cruise Ship. This does not take them in the absolute wrong way, however taking RW-15 South to RW-215 Dos Loop will actually be faster. The direction compared is only the one relevant to the station, so if the station runs North South then only North South position is checked. If there is no difference then the system will always recommend the positive variant (East/South)
+
+After the user has selected a station and direction if needed, the system will then check if the invisible marker entities at pod spawning locations are available, and will only spawn the pod if they are. The user will then be marked as the `rcrailprimary` user, their pod will not depart until they have entered it. After they have entered, the doors will close and the pod departs. The user is given a screen in chat to change direction at any time if they want to go to a different station.
+
+At each station set ID change, the function `applycoords` is ran, this assigns the x and z coordinate based on current rcsid. 
+
+### Arrival
+
+When the pod arrives at a station, the pod will stop and the doors will open. The station second slot behind it will then close up, allowing one more arriving pod to queue up while waiting for the first to depart/despawn. The user is then given a screen to change their destination if they want to go somewhere else. If they exit the pod the pod will begin a timer and destroy itself after a few seconds.
+
+## Stations
+
+The following is a full list and detail on RCorp Rail stations as of late 2026.
+
+### Standard Station Model
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/standardstation.webp" caption="The Standard Station Model, as seen from the Testing Sector. The departure/arrival module is visible below it" side="right" %}
+The Standard Station Model was designed by Mr. Void and Mr. Ij during the summer of 2024 at the Founding Island - Spawn station. It consists of a three-block wide platform with two lanes on opposite directions on the sides, with the station bypass tracks adjacent to those. The departure modules are placed under the tracks and were designed specifically to fit within the Standard Model. All stations have been built following this model besides the two main stations at the Redstone Tower Complex and the Founding Island Bunker, which have their own unique designs. Note that some stations will remove up to 3 of the rail tracks depending on how the station is designed (one way, on a spur route, etc.)
+
+### Admin Controls
+
+Two RCorp Rail Stations are considered as "Main Stations". These were the first two stations of the original RCorp Rail plan in 2023 (FI Bunker station was built at this time, but RTC much later, however still following the original plan). These stations are the only two that have an Admin Control Room, which allow for the following for users with `rcorpsec ≥ 3` 
+
+<div class="wiki-table-wrap">
+<table>
+<caption>Admin Room Controls</caption>
+<thead><tr><th>Control</th><th>Function</th></tr></thead>
+<tbody>
+<tr><td>Ghost Pod Spawn delay</td><td>Adjusts the delay between ghost pod spawns. Options are 1 minute, 2 minutes, and 3 minutes.</td></tr>
+<tr><td>Global Departure Shutoff</td><td>Shuts down all RCorp Rail departures. This is used for maintenance or emergencies.</td></tr>
+<tr><td>Global Ghost Pod Shutoff</td><td>Shuts down all ghost pod spawns. This is used for maintenance or emergencies.</td></tr>
+<tr><td>Ghost Pod Spawn max count</td><td>Adjusts the maximum number of ghost pods that can be spawned at once. Options are 5, 10, and 15.</td></tr>
+<tr><td>Ghost Pod delay/threshold resets</td><td>Removes current tracking of delay and threshold. Note that the threshold button will also kill all loaded ghost pods</td></tr>
+<tr><td>Block and divert from main station</td><td>Blocks and diverts all pods from the main station. This is different depending on which control room. FIBunker will diver to Main Bunker. RTC Tower 3.0 will divert to the Global Control station.</td></tr>
+<tr><td>Cancel subscription</td><td>Allows a user to cancel their subscription in the maze. This is only available at the Tower 3.0 station.</td></tr>
+</tbody>
+</table>
+</div>
+
+### Testing Sector - Station 0
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/testing.webp" caption="The Testing Sector RCorp Rail station, as seen from the ocean." side="left" %}
+The testing sector runs north-south and is currently the western most station. Served by [RW-10](#rw-10) and [RW-11](#rw-11). It is one of three restricted stations that require RCorp clearance 2 or higher (Equivalent to a level 3 staff card). <br><br> The station uses the [Standard Station Model](#standard-station-model) and was one of the last stations of the initial bunch to be connected. The first pass and functionality was made by Ij, while Creepeton and Faiyaz worked on the outer design. This station does not have a purchasing module. The design is of a large closed sphere with openings for the rails and pedestrian bridge. On the other end is a wall with some credits for RCorp Rail. The station welcome sign marks it as being "Outer RW / Far Dos Region"
+
+### Redstone Theme Park - Station 1
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/themepark.webp" caption="The Redstone Theme Park Pirate Island with multiple highways entering, as seen from the north side of the ocean." side="right" %}
+The Redstone Theme Park station runs north-south and was one of the most desired stations to have, and also one of the hardest to intregate. The Theme Park is quite far west, and required two U1 trips to reach from Founding Island. The theme park station is in the {% include wiki-link.html title="Pirate Island" %} area, in the same way as U1. [RW-13](#rw-13) and [RW-213](#rw-213) directly enter the Pirate Island, with the latter serving it. This has to be done due to the Pirate Island being very hard to fit RCorp Rail track into, nearly half a decade after its original construction. <br><br>The station uses the Standard Station Model, minus the two bypass tracks. The station was made by Ij, with minor tweaks by Sean and SomeYTguyFor1. It has a purchasing module in the U1 station at the themepark. The station welcome sign marks it as being "Central Dos"
+
+### Redstone Cruise Ship - Station 2
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/cruiseship.webp" caption="The Redstone Cruise Ship station, as seen from the ocean. The cruise ship itself is seen on the left side." side="left" %}
+The Redstone Cruise Ship station runs north-south and was also heavily desired for the same reason. It was one of the earlier stations over a few iterations. The Cruise Ship was one of the most controversial stations in placement due to the {% include wiki-link.html title="RW Civil War" %}. The station was first made as a floating platform in the nearby lake, but was then moved to a grass platform more on the south side, putting it closer to the interchange with RW-113. This move made it easier to integrate the station, but put it very far from the original U1 station. We instead gave the station its own bridge to the cruise ship harbor. Served directly by [RW-13](#rw-13). <br><br>The station fully uses the Standard Station Model, including the bypass for RW-13. Both iterations of the station were made by Ij, with the cover by SomeYTguyFor1 and tweaks by Sean. It has a purchasing module along the cruise ship harbor. The station welcome sign marks it as being "Outer Dos"
+
+### Dos Village - Station 3
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/dosvillage.webp" caption="The Dos Village station, as seen from the outside." side="right" %}
+The Dos Village station was the first one-way station. It sends the rider west to follow the Dos Loop counterclockwise. It was a difficulty to integrate due to the Dos Village station already having a plethora of U1 tracks, but space was found next to the Main Bunker departure module. Served directly by [RW-215](#rw-215--rw-215-ccw). <br><br>The station uses the Standard Station Model at its most minimum state, with only a single track and no bypass that circles back onto the route. The station was made by Ij, with the cover by SomeYTguyFor1 and then redone by EzraThunder. It has a purchasing module inside the Dos Village U1 station. The station welcome sign marks it as being "Central Dos"
+
+### Main Bunker - Station 4
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/mainbunker.webp" caption="The Main Bunker station, as seen from the outside." side="left" %}
+The Main Bunker station was one of the first stations planned, and has a very strange setup. Originally, the Bunker was split into a Bunker South and Bunker North Mountains stations to coincide with the RCorp expansion of the Main Bunker (which has not happened at time of writing), with the south being part of Dos Loop and the north a different highway. However, the stations were moved to be right next to each other and seemingly together, however that split is still there. It operates as one station running north-south, but in reality it has South marked as being "Dos Loop" and north as being "Outer Dos", for the north the departing rider could head either direction. Served by [RW-315](#rw-315) for Dos Loop and [RW-512](#rw-512) for Outer Dos. <br><br>The station uses the Standard Station Model, with no bypasses. The station was made by Ij, with the cover by SomeYTguyFor1. It has a completely covered bridge and walkway to the purchasing module inside the Main Bunker entrance. The station welcome sign marks it as being "Central Dos"
+
+### SMP Base - Station 5
