@@ -4,10 +4,10 @@ order: 13
 section: "Record"
 description: "Chapter 2 is Redstoneworld's first chapter, often read to be the first chapter of Reborn."
 image: "wiki/assets/images/2017-01-26_18.48.58.webp"
-image_alt: "RCorp Rail track and pods at the Global Control RTC Station."
+image_alt: "An early photo of Chapter 2 at the start of 2017 looking northeast on Founding Island, taken a few months before the RTC was founded."
 last_modified: "2026-09-21"
 contributor: "EzraThunder"
-infobox: {"Started": "2016", "Ended": "2018"}
+infobox: {"Started":"Spring 2016","Ended":"Late 2018","Centered on":"Founding Island (including Tower 2), Bunker","Key Figures/Teams":"Mr. Ij, Nina, early IRL team"}
 published: false
 ---
 
@@ -18,13 +18,13 @@ Chapter 2
 
 ### Thejominecraft becomes thejocraft
 
-Chapter 2 marked the beginning of a new era for Redstoneworld. During this period, **thejominecraft rebranded to thejocraft** and moved on from Redstoneworld. With permission, then- eight-year-old IJD took over the project and continued it.
+Chapter 2 marked the beginning of a new era for Redstoneworld. During this period, **thejominecraft rebranded to thejocraft** and moved on from Redstoneworld. With permission, then- a very young IJD took over the project and continued it.
 
 This transition marked the beginning of what would later be known as the **Reborn** era. Although the original founder had moved on, the project was not abandoned. Instead, it was given a new direction under a much younger generation of leadership.
 
 ### The meaning of Reborn
 
-The name **Reborn** was chosen to describe this new period of Redstoneworld. Interestingly, the name had an unrelated origin: the file name of the *Hello Neighbor Alpha 1* installation used at the time was **HelloNeighbourReborn.exe**.
+The name **Reborn** was chosen to describe this new period of Redstoneworld. Interestingly, the name had an unrelated origin: the file name of the *Hello Neighbor Alpha 1* game installation used at the time was **HelloNeighbourReborn.exe**.
 
 The name would eventually become closely associated with the continuation and expansion of Redstoneworld after its original founding era.
 
@@ -32,7 +32,7 @@ The name would eventually become closely associated with the continuation and ex
 
 ### Bugfix, Translate, Continue, Complete
 
-One of the most important developments of Chapter 2 was the creation of the **BTCC method**:
+One of the most important developments of Chapter 2 was the creation by Ij of the **BTCC method**:
 
 > **Bugfix → Translate → Continue → Complete**
 
@@ -71,6 +71,8 @@ The creation of the BTCC method, the beginning of Tower 2, the introduction of t
 While Chapter 1 had established **Redstoneworld**, Chapter 2 established the foundation of **Reborn**.
 
 ## Team Progression
+
+The team was now an organized system, although only done with IRL connections of Ij, with him as the Owner. There were Admin and Mod roles that would then be transformed later, but generally Nina was the top admin with the others at a lower state. However, the difference in roles was minimal as everyone had OP. All work was done together or Ij solo.
 
 **Head Admins:** Nina
 
