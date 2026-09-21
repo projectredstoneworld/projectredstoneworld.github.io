@@ -1059,21 +1059,20 @@
   .wiki-infobox { grid-template-columns: 1fr; }
   .wiki-infobox div:nth-child(odd) { border-right: 0; }
   .wiki-toc--inline {
-   width: 100%;
-   box-sizing: border-box;
+    box-sizing: border-box;
     padding: 16px;
   }
+
   .wiki-toc--inline ol {
-   display: block;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 8px 20px;
     padding-left: 0;
-    columns: auto;
-    column-count: 1;
-    column-width: auto;
-    column-gap: 0;
+    columns: initial;
   }
+
   .wiki-toc--inline li {
-    width: 100%;
+    margin: 0;
   }
   .wiki-card { padding: 18px 16px; }
   .wiki-inline-image,
@@ -1454,4 +1453,54 @@
   overflow-x: auto;
   overflow-y: hidden;
   padding: 0.25rem 0;
+}
+
+
+/* Keep wiki components responsive when mobile Safari is zoomed out */
+@media (hover: none) and (pointer: coarse) {
+  .wiki-toolbar,
+  .wiki-cover,
+  .wiki-article-grid,
+  .wiki-article,
+  .wiki-infobox,
+  .wiki-toc--inline {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+  }
+
+  .wiki-toolbar,
+  .wiki-cover {
+    clear: both;
+  }
+
+  .wiki-search--compact {
+    width: 100%;
+    max-width: none;
+  }
+
+  .wiki-article-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .wiki-toc--sidebar {
+    display: none;
+  }
+
+  .wiki-toc--inline ol {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 20px;
+    padding-left: 0;
+    columns: initial;
+  }
+
+  .wiki-toc--inline li {
+    margin: 0;
+  }
+
+  .wiki-infobox {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
 }
