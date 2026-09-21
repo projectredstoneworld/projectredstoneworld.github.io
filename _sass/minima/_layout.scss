@@ -1502,13 +1502,16 @@
   }
 
   .wiki-toc--inline ol {
-    display: block;
+    display: block !important;
+    grid-template-columns: none !important;
     padding-left: 0;
-    columns: 2;
+    columns: 2 !important;
     column-gap: 24px;
   }
 
   .wiki-toc--inline li {
+    display: list-item;
+    width: auto;
     margin: 0 0 8px;
     break-inside: avoid;
   }
