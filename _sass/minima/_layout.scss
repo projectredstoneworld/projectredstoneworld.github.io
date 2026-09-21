@@ -837,6 +837,8 @@
 .wiki-article__body {
   font-size: 1rem;
   line-height: 1.72;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .wiki-article__body h2,
@@ -881,6 +883,13 @@
   float: right;
 }
 
+.wiki-article__body img,
+.wiki-article__body video,
+.wiki-article__body iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 .wiki-inline-image--left {
   margin-right: 28px;
   margin-left: 0;
@@ -920,6 +929,10 @@
   overflow-x: auto;
   border: 1px solid rgba(255, 255, 255, .11);
   border-radius: 9px;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .wiki-table-wrap table {
@@ -1030,7 +1043,7 @@
   .wiki-home-rail { position: static; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
   .wiki-home-rail section { padding-top: 20px; border-bottom: 0; }
   .wiki-card-grid { grid-template-columns: 1fr; }
-  .wiki-article-grid { grid-template-columns: 1fr; gap: 24px; }
+  .wiki-article-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .wiki-toc--sidebar {
     display: none;
   }
