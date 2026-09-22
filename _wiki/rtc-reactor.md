@@ -85,7 +85,7 @@ System 2:
 \dot{H}\_{new} = \frac{10\dot{H}_{old}}{11}
 \\]
 
-Note that radiation dose rate is denoted by \\(\dot{H}\\)
+_Note that radiation dose rate is denoted by \\(\dot{H}\\)_
 
 #### Radiation from Reactor Operation
 
@@ -109,7 +109,7 @@ As with the other variables, turbine power \\(P_{target}\\) target is used over 
 \Delta\dot{H}\_{tick} = \max(10(W_{RCB})(T_{target}-175) - \frac{1}{40}p_{target} + \frac{1}{7} W_{water} W_{fuel} P_{target}, 0)
 \\]
 
-_Note that the actual dose rate value approaches approximately 1800-1980 times the \\(\Delta\dot{H}\_{tick}\\) value, and that the default weighing factors (\\(W\\ ) values) are 1._
+_Note that the actual dose rate value approaches approximately 1800-1980 times the \\(\Delta\dot{H}\_{tick}\\) value, and that the default weighing factors (\\(W\\) values) are 1._
 
 #### Emergency-related radiation
 
