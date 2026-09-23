@@ -8,7 +8,7 @@ image_alt: "An early photo of Chapter 2 at the start of 2017 looking northeast o
 last_modified: "2026-09-21"
 contributor: "EzraThunder"
 infobox: {"Started":"Spring 2016","Ended":"Late 2018","Centered on":"Founding Island (including Tower 2), Bunker","Key Figures/Teams":"Mr. Ij, Nina, early IRL team"}
-published: false
+published: true
 ---
 
 Chapter 2 
@@ -54,7 +54,7 @@ The scale of these plans also affected the project's release schedule. The plann
 
 ### Tower 2 and the development of RW
 
-{% include wiki-image.html file="wiki/assets/images/t2first.webp" caption="Tower 2.0s base, in future forming to [RTC](_wiki/redstone-tower-complex-rtc-sector.md)" side="right" %}
+{% include wiki-image.html file="wiki/assets/images/t2first.webp" caption="Tower 2.0s base, in future forming to the RTC sector" side="right" %}
 
 The **Redstoneworld devlogs** were also started during this chapter, documenting the project's development and helping establish a record of its continued growth.
 

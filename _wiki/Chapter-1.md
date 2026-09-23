@@ -8,7 +8,7 @@ description: "Redstoneworld's first chapter"
 infobox: {"Started":"January 18, 2013","Ended":"Summer 2016","Centered on":"Founding Island","Key Figures/Teams":"TheJoCraft, Darkenya, Mr. Ij"}
 last_modified: "2026-9-21"
 contributor: "EzraThunder"
-published: false
+published: true
 ---
 
 Chapter 1

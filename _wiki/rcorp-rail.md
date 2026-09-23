@@ -254,8 +254,41 @@ The Gerudo Desert station was made to honor the original U1 gerudo station from 
 The Redstone Villa station was made to give the Villa more presence in the world than just a random U1 tunnel in the Gerudo Desert. It runs north-south. Served by [RW-120](#rw-120). <br><br>The station fully follows the Standard Station Model. The station was made by Ij originally, but had another similar full transformation by EzraThunder in an overgrown style. It has an elevated platform accessible from below by stairs or elevator. The station welcome sign marks it as being "Outer Dos"
 
 ### Blakewood Travel / Rakeport - Station 8
+
 {% include wiki-image.html file="/wiki/assets/images/rcrailstation/rakeport.webp" caption="The Rakeport Station, as seen from the platform side." side="left" %}
 The Rakeport station also known as Blakewood Travel was one of the key original planned stations, designed to help RCorp in the Rakegame. There were many scrapped plans for it, mainly due to challenges from the elevated RW-12 above. The final plan was then to put the station below, and have a spur to access it. The station is technically one way with the highway both terminating and starting at the station, however the quick interchange with RW-12 makes it an east-west station. Served by [RW-312](#rw-312). <br><br>The station follows the Standard without bypasses, and the arrival acts as a simple instant kill for pods. The station was made by Ij, Void, and LLucas originally, but fully transformed by EzraThunder to be a unique styled complex that contains a newsboard, the RCRail Map, and some other images. The purchasing station is right against the Blakewood Travel entrance and original U1 station. The station welcome sign marks it as being "Blakewood Travel / Outer FI"
 
 ### Founding Island Spawn - Station 9
 
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/spawn.webp" caption="The FI Spawn Station, as seen from the north side." side="right" %}
+The Founding Island Spawn station runs north-south and was the second station ever made for RCorp Rail (and one of the hardest to get Ij to approve due to cutting up the ancient terrain behind spawn). This was where the Standard Station Model, stopping modules, and purchasing station were designed and tested, as well as the entire network itself. While it is not one of the two main stations, the spawn station is definitely equal in significance, and was worked on by the entire original design team. Served by [RW-15](#rw-15). <br><br> The station is the Standard. The station was by Ij, LLucas, Void, and Chambo, and resulted in the first redesign of Spawn for Chapter 7. The purchasing station was the first ever and is behind the Staff Walls. The station welcome sign marks it as being "Founding Island"
+
+### Site Omega-5 / Forgotten Isle - Station 10
+
+{% include wiki-image.html file="/img/backgrounds/insanity/insanity-2.webp" caption="The Forgotten Isle station, as seen from above." side="left" %}
+The Forgotten Isle station runs east-west and is currently the northernmost station. It is the second of the three restricted stations that need RCorp level 2+ to access. Served by [RW-10](#rw-10) with [RW-210](#rw-210) acting as an emergency bypass for pods not going to the Isle. <br><br> The station follows the Standard without bypasses. There is no purchasing station. The station was made by Ij with the cover by Nutter Butter. The station welcome sign instructs the rider to "Stay out of the fog" and marks it as being "Outer RW / Far North Wing"
+
+<br>
+
+### Founding Island Bunker - Station 11
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/fibunker.webp" caption="The FI Bunker Station, as seen from the arrival side." side="right" %}
+The Founding Island Bunker station runs north-south and was the first station ever made for RCorp Rail. This was the only station / tracks made in {% include wiki-link.html title="Chapter 6" %} during the first brainstorming of RCorp Rail. It is also the only station fully underground. It is served by the first RCorp Rail tracks made, [RW-415](#rw-415) with [RW-15](#rw-15) having its first segments also passing above inside the FI Bunker. While this is inside the FI Bunker, it requires inserting a Masterkey to exit the station platform. <br><br> The station does not follow the standard model, the arrivals actually alternate spots rather than staying consistent to RW-415. The purchasing station is a simple single booth. This station also contains one of the two [Admin Rooms](#admin-controls). The station was made by Void and Ij with its welcome sign marking it as being "Founding Island"
+
+### Tavish Town - Station 12
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/tavishtown.webp" caption="The Tavish Town Station, as seen from the south side, the RTC is in the distance." side="left" %}
+The Tavish Town station runs east-west and is currently the southernmost station. It was desired to have a southern location on the large outer RW loop of Testing, Site Omega-5, and Blakewood Forest and Tavish Town was picked due to its significance with the start of Chapter 5 and due to having a secret GES emergency exit there. Served by [RW-20](#rw-20). <br><br> The station follows the Standard Station Model as a full clone of the original Spawn Station. The station was made by Ij with the cover by SomeYTguyFor1. The station welcome sign marks it as being "Outer FI-RTC / South Outpost"
+
+### Redstone Tower Complex at Global Control - Station 13
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/globalcontrol.webp" caption="The Global Control station as seen from the north side." side="right" %}
+The Global Control station runs east-west and was one of the first stations made. It is served by [RW-12](#rw-12). <br><br> The stations follows the Standard Station Model as a full clone of the original Spawn Station. The station was made by Ij with the cover by SomeYTguyFor1. The exit puts the rider right outside the north entrance of the [RTC](/wiki/redstone-tower-complex-rtc-sector). The station welcome sign marks it as being "Founding Desert / RTC Entrance"
+
+<br>
+
+### Redstone Tower Complex at Tower 3.0 - Station 14
+{% include wiki-image.html file="/redstoneworld-org/assets/images/rcorp-rail-banner.webp" caption="The RCorp Rail Trailer banner, showing the Tower 3.0 Station at RW-17." side="left" %}
+The Tower 3.0 station runs north-south and was the second station of the original plan, but took some more time to be built. It is considered to be the most important station. Tower 3.0 was designed with RCorp Rail in mind and the station takes up a significant portion of the Lobby floor. It is connected to the other RTC station via [RW-17](#rw-17) and served directly inside the tower by [RW-217](#rw-217). <br><br> The station does not follow the standard model due to it having a very large platform, however the departure and arrival function mostly as expected. The purchasing station is part of the Tower lobby, next to the exit is a maze that allows the player to cancel their [Subscription](#subscription) if enabled in the [Admin Room](#admin-controls) at the tower. Since the exit takes the player inside the FI-RTC secured compound it requires a Masterkey to exit. The station was made by Ij and has the main RCRail map shown along with a poster referencing Scooter's album *Mind The Gap*. The station welcome sign marks it as being "RTC Hub / Center Blakewood"
+
+### Eastern Village - Station 15
