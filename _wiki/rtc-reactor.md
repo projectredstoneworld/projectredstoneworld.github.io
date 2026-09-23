@@ -67,7 +67,7 @@ When building the radiation system, one of the goals was to be able to display a
 
 For every 100 million dose rate fracs that accumulate, a millisievert is added to the player's `radiationdose` value.
 
-#### System 1 & 2
+#### Systems 1 & 2
 
 Due to the use of fracs, there is potential for integer overflow in the decay equation (as seen below) at radiation values of approximately 2.14 Sv/h. Hence, at radiation values exceeding 1 Sv/h, the radiation system will switch from System 1 to System 2 (which uses millisieverts instead of fracs), appropriately converting the System 1 radiation value to millisieverts/hour. Conversely, when the radiation value drops below 1 Sv/h while System 2 is enabled, the System 2 millisievert value is converted back to fracs and System 1 is re-enabled. System 2 has the potential to overflow at approximately 214748 Sv/h, and is therefore capped at 100000 Sv/h (the real radiation values get nowhere near this, though) which is enough to kill a player 50 times over in a single tick.
 
@@ -111,7 +111,7 @@ As with the other variables, turbine power \\(P_{target}\\) target is used over 
 
 _Note that the actual dose rate value approaches approximately 1800-1980 times the \\(\Delta\dot{H}\_{tick}\\) value, and that the default weighing factors (\\(W\\) values) are 1._
 
-#### Emergency-related radiation
+### Emergency-related radiation
 
 Emergencies can cause enormous spikes in radiation, which allows it to reach levels that can kill players in a couple seconds.
 
@@ -121,8 +121,8 @@ Similarily, if the RCB begins being damaged, a warning message appears with chat
 
 During a limbo level explosion (either caused by the AI or the player), a 1000 Sv/h radiation spike can be observed.
 
-#### Radiation spewing mechanism
+### Radiation spewing mechanism
 
-#### Dose rate advancements
+
 
 

@@ -2,6 +2,7 @@
 layout: page
 title: Editing the Project Redstoneworld Wiki
 permalink: /wiki/editing/
+math: true
 ---
 
 
@@ -27,6 +28,8 @@ Explicit IDs imported from Fandom remain supported and are used by the automatic
 ```markdown
 ##### Admin Room {#admin-room}
 ```
+
+Headings should be used in a way where `##` represents the first heading and `###`, `####`, `#####` represent subheadings.
 
 Set `toc: false` in the page's front matter only when a page should have no table of contents.
 
@@ -105,3 +108,39 @@ infobox:
 last_modified: "2026-09-11T02:00:00Z"
 contributor: "LLucas"
 ```
+
+## Adding equations
+
+\\(\LaTeX\\) equations are supported via the KaTeX plugin. Hence, it is possible to add inline and display equations.
+
+```math
+Inline equation example: \\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\\)
+```
+
+Inline equation example: \\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\\)
+
+
+Display equations are possible using the following format:
+
+```math
+Display equation example:
+\\[
+r = \sqrt{\Delta x^2 + \Delta y^2 + \Delta z^2}
+\\]
+Some text here
+\\[
+-\frac{\hbar^2}{2m} \frac{d^2}{dx^2} \psi(x) + V(x)\psi(x) = E\psi(x)
+\\]
+```
+
+Display equation example:
+\\[
+r = \sqrt{\Delta x^2 + \Delta y^2 + \Delta z^2}
+\\]
+Some text here
+\\[
+-\frac{\hbar^2}{2m} \frac{d^2}{dx^2} \psi(x) + V(x)\psi(x) = E\psi(x)
+\\]
+
+
+Also, note that subscripts can occasionally interfere with markdown. In order to avoid this, a backslash can be used.

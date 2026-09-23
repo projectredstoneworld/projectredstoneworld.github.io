@@ -17,4 +17,6 @@ The RTC sector primarily constitutes of two towers: Tower 2 and Tower 3.0, which
 Beside Tower 2 is the RCorp bridge, also known as RTC Minor. The RCorp bridge serves as an entrance to multiple boutiques, including a neutronium processing boutique and an entrance to Project 159.
 
 ## RTC Reactor {#rtc-reactor}
+_Main page: {% include wiki-link.html title="RTC Reactor" text="RTC-Blakewood Nuclear Power Plant (RTC Reactor)" %} _
+
 The {% include wiki-link.html title="RTC Reactor" %}, found at the bottom of RTC-2 in its industrial complex (to the left when exiting the elevator on Floor -1) is considered to be the most powerful and realistic reactor on the map. The design of the rooms is based off of an RBMK reactor, and it works in the same way a PHWR (Pressurized Heavy Water Reactor) does. However some inaccuracies designed into the reactor in order to make the use of the reactor more entertaining.
