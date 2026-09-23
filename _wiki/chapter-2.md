@@ -2,7 +2,7 @@
 title: "Chapter 2"
 order: 13
 section: "Record"
-description: "Chapter 2 is Redstoneworld's first chapter, often read to be the first chapter of Reborn."
+description: "Chapter 2 is Redstoneworld's second chapter, and the first chapter of Reborn."
 image: "wiki/assets/images/2017-01-26_18.48.58.webp"
 image_alt: "An early photo of Chapter 2 at the start of 2017 looking northeast on Founding Island, taken a few months before the RTC was founded."
 last_modified: "2026-09-21"
