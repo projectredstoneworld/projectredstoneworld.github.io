@@ -1,7 +1,7 @@
 ---
 title: "Chapter 3"
 order: 14
-section: "Record"
+section: "Chapter Record"
 description: "Chapter 3 is Redstoneworld's third chapter, mainly focusing on Theme Park."
 image: "wiki/assets/images/Theme_Park_Render_1.webp"
 image_alt: "Official Theme Park render from Chapter 3."

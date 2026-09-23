@@ -5,7 +5,7 @@ section: "Transport Infrastructure"
 description: "RCorp Rail is Redstoneworld's latest transport network. It connects all major landmarks and sectors in Chapter 7 using distinct highways and pods."
 image: "/wiki/assets/images/rcrailbanner.webp"
 image_alt: "RCorp Rail track and pods at the Global Control RTC Station."
-last_modified: "2026-09-18T04:02:30Z"
+last_modified: "2026-09-22T04:02:30Z"
 contributor: "Ijd710"
 infobox: {"Started": "July 5th, 2023", "Project Directors": "Mr. Ij, Mr. Void, LLucas, EzraThunder, SomeYTguyFor1", "Completed":"March 18th, 2026", "Type": "Global Infrastructure"}
 published: true
@@ -288,7 +288,21 @@ The Global Control station runs east-west and was one of the first stations made
 <br>
 
 ### Redstone Tower Complex at Tower 3.0 - Station 14
+
 {% include wiki-image.html file="/redstoneworld-org/assets/images/rcorp-rail-banner.webp" caption="The RCorp Rail Trailer banner, showing the Tower 3.0 Station at RW-17." side="left" %}
 The Tower 3.0 station runs north-south and was the second station of the original plan, but took some more time to be built. It is considered to be the most important station. Tower 3.0 was designed with RCorp Rail in mind and the station takes up a significant portion of the Lobby floor. It is connected to the other RTC station via [RW-17](#rw-17) and served directly inside the tower by [RW-217](#rw-217). <br><br> The station does not follow the standard model due to it having a very large platform, however the departure and arrival function mostly as expected. The purchasing station is part of the Tower lobby, next to the exit is a maze that allows the player to cancel their [Subscription](#subscription) if enabled in the [Admin Room](#admin-controls) at the tower. Since the exit takes the player inside the FI-RTC secured compound it requires a Masterkey to exit. The station was made by Ij and has the main RCRail map shown along with a poster referencing Scooter's album *Mind The Gap*. The station welcome sign marks it as being "RTC Hub / Center Blakewood"
 
 ### Eastern Village - Station 15
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/easternvillage.webp" caption="The Eastern Village station as seen from the north side." side="right" %}
+The Eastern Village station (sometimes written as East Village) runs north-south and is the last station on the beltway around FI-RTC. It is served by [RW-12](#rw-12) and [RW-112](#rw-112). <br><br> The station follows the standard model completely and is a copy of the Spawn station. The station was made by Ij with a large cover made by EzraThunder. The purchasing station puts the rider by the old houses from {% include wiki-link.html title="Chapter 2" %}. The station welcome sign marks it as being "East Outpost / Outer FI-RTC" 
+
+### Blakewood Forest Outpost - Station 16
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/blakewoodforest.webp" caption="The Blakewood Forest station as seen from the west side." side="left" %}
+The Blakewood Forest Outpost station runs north-south and is the easternmost station. It is the second of the three restricted stations that need RCorp level 2+ to access. Served by [RW-10](#rw-10) and [RW-20](#rw-20) with [RW-220](#rw-220) acting as the emergency bypass. The track going through it is very straight, so that the rider gets in and out of the station at high speeds and avoids the dangerous Blakewood Forest. <br><br> The station follows the Standard Station Model minus the bypasses. The station was made by Ij and takes the form of a small military base. There is no purchasing station but RCorp Level 2+ is required to get through the barbed wire fence. There are some offices and a map of the area on the lower level. The station warns the user to not leave RCorp designated areas, and the welcome sign marks it as being "Far Blakewood"
+
+### Reborn X Museum - Station 17
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/rebornxmuseum.webp" caption="The Reborn X Museum station as seen from the south side." side="right" %}
+The Reborn X Museum station is the newest station and the only so far to be added outside of the original plan. It was one-way and takes the player in any path since it departs directly to the Crazy Interchange at [RW-17](#rw-17). It was built for the Reborn X event, and is considered to be the third station in both FI and RTC, it leads the rider to the bridge to the {% include wiki-link.html title="Reborn X Museum" %}. Served by [RW-317](#rw-317). <br><br> The station follows the Standard Station Model at the bare minimum, and the platform tellraw is actually duplicated onto both sides of the track. There is no purchasing station. The station was made by EzraThunder and Ij. The welcome sign marks it as being "South Extent of FI-RTC" meaning that it is in both FI and Blakewood regions.
