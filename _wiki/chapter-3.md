@@ -7,8 +7,8 @@ image: "wiki/assets/images/Theme_Park_Render_1.webp"
 image_alt: "Official Theme Park render from Chapter 3."
 last_modified: "2026-09-22"
 contributor: "EzraThunder"
-infobox: {"Started":"Mid 2019","Ended":"Late 2019","Centered on":"Theme Park","Key Figures/Teams":"No idea mr ij please add something :3"}
-published: false
+infobox: {"Started":"Summer 2019","Ended":"December 2019","Centered on":"Theme Park","Key Figures":"Mr. Ij, Sean, Grate, WalterLezerus, first real team"}
+published: true
 ---
 
 Chapter 3
