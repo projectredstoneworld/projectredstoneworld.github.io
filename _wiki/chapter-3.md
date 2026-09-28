@@ -24,6 +24,9 @@ Chapter 3 was a shorter chapter following a period of discontinuity. It marked a
 
 Development continued across the Theme Park, with new areas and improvements being made while additional plans were created for the future of the project.
 
+The chapter therefore served as a transition between the early Reborn period and the major structural changes that would define Redstoneworld in 2020.
+
+
 ### Expanding the vision
 
 Although the chapter was relatively short, several ideas developed during this period would later become important parts of Redstoneworld.
@@ -48,7 +51,10 @@ The idea was to bring the various Redstoneworld-related sectors and projects tog
 
 ### Preparing for the Great Merge
 
-Chapter 3 was brief, but it established several important foundations for the chapters that followed.
+Chapter 3 was brief, but it established several important foundations for the chapters that followed. The Theme Park received renewed development, a dedicated staff and build team was formed, new members joined the project, and the first major ideas for **The Great Merge** began to take shape.
+
+The chapter therefore served as a transition between the early Reborn period and the major structural changes that would define Redstoneworld in 2020.
+
 
 ## Team Progression
 
@@ -63,6 +69,3 @@ Chapter 3 was brief, but it established several important foundations for the ch
 **Supervisors:** Masteratchess
 
 **Senior Team Members:** THEPIONER, TheWinBuilds
-The Theme Park received renewed development, a dedicated staff and build team was formed, new members joined the project, and the first major ideas for **The Great Merge** began to take shape.
-
-The chapter therefore served as a transition between the early Reborn period and the major structural changes that would define Redstoneworld in 2020.
