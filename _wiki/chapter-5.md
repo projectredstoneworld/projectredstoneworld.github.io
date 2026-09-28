@@ -38,7 +38,7 @@ The **Cruise Ship** was also finally added to Redstoneworld during this chapter,
 
 ### Founding Island
 
-**Founding Island** also received a major amount of attention. A broad revitalization effort was started, with several older areas being rebuilt or improved.
+**Founding Island** also received a major amount of attention. A broad revitalization effort was started by Xtrwe, with several older areas being rebuilt or improved.
 
 The **FI Bunker** was started, while the **FI Hotel** was completely redone. These projects helped bring Founding Island back into active development rather than leaving it mostly as an old part of the world.
 
@@ -69,3 +69,22 @@ A new group began to form around **IJ, Hudson, Voidkiller, and Chambo**. Compare
 Chapter 5 marked a major return to active development after another period of inactivity. The staff structure became more organized, the Great Merge finally began receiving serious integration work, Founding Island was revitalized, and several long-term projects were pushed forward.
 
 It also laid the groundwork for the conflicts and alliances that would define Chapter 6, while the approaching tenth anniversary gave the project a new reason to keep moving.
+
+## Team Progression
+
+*It is notable that, as mentioned earlier, this was the first chapter to actually have applications for staff that were required for acceptance.*
+
+**Co-Owners:** Hud, Mr. Void
+
+**Head Admins:** Chambo
+
+**Senior Admins:** xKingEmilx, Bri (Owner Girl)
+
+**Admin**: Finland1945
+
+**Supervisors:** NoobbyKour, Xtrwe, dot_mp3, 
+
+**Senior Team Members:** RedArtur
+
+**Team Members**: LordDiss, Hors_, Dragonmaster, Sal
+
