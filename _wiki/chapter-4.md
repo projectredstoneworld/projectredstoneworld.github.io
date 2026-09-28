@@ -2,12 +2,12 @@
 title: "Chapter 4"
 order: 15
 section: "Chapter Record"
-description: "Chapter 4 is a short chapter, also being one of the most inactive ones to this day."
+description: "Chapter 4 is a short chapter, also being one of the most inactive ones to this day. It was however, very important for the future of Redstoneworld."
 image: "wiki/assets/images/2020-09-21_16.47.33.webp"
 image_alt: "Theme Park in Chapter 4."
 last_modified: "2026-09-28"
 contributor: "EzraThunder"
-infobox: {"Started":"Spring 2020","Ended":"Fall 2020","Centered on":"Theme Park","Key Figures":"Ij, sean, walterlezerus"}
+infobox: {"Started":"Spring 2020","Ended":"Fall 2020","Centered on":"FI, Bunker, Cruise, Theme Park","Key Figures":"Ij, Sean, Walterlezerus"}
 published: true
 ---
 
@@ -20,7 +20,7 @@ published: true
 
 Chapter 4 was a short chapter focused on **The Great Merge**, an effort to bring the previously separate Redstoneworld sectors into one unified world.
 
-The main work was carried out by **IJ, Sean, and Walterlezerus**. The merge required the different sectors to be imported and connected together, creating the basis for the larger Redstoneworld world that would continue to develop in later chapters.
+The main work was carried out by **IJ, Sean, and WalterLezerus**. The merge required the different sectors to be imported and connected together, creating the basis for the larger Redstoneworld world that would continue to develop in later chapters.
 
 As part of the process, the original Redstoneworld was renamed **Founding Island**, giving the original area its own name within the expanding project.
 
@@ -34,7 +34,7 @@ The Main Bunker received its train connections, allowing it to become part of th
 
 ### Cruise Ship
 
-The **Cruise Ship** was not imported during Chapter 4. More work was still required before it could be properly integrated into the merged world, so its addition was left for a later chapter.
+The **Cruise Ship** was not imported during Chapter 4. More work was still required before it could be properly integrated into the merged world, so its addition was left for a later chapter, but it was worked on extensively. 
 
 ## Legacy
 
