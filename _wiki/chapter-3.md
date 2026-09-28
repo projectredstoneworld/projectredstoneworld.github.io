@@ -24,9 +24,6 @@ Chapter 3 was a shorter chapter following a period of discontinuity. It marked a
 
 Development continued across the Theme Park, with new areas and improvements being made while additional plans were created for the future of the project.
 
-The chapter therefore served as a transition between the early Reborn period and the major structural changes that would define Redstoneworld in 2020.
-
-
 ### Expanding the vision
 
 Although the chapter was relatively short, several ideas developed during this period would later become important parts of Redstoneworld.
