@@ -4,7 +4,7 @@ order: 20
 section: "Chapter Record"
 description: "Chapter 7 is the ongoing chapter, most likely last one before map download and/or Completion."
 image: "wiki/assets/images/2025-12-14_17.57.04.webp"
-image_alt: ""
+image_alt: "Aura itself"
 last_modified: "2026-09-29"
 contributor: "EzraThunder"
 infobox: {"Started":"May 2024","Ended":"-","Centered on":"All Sectors","Key Figures":"Ij, Lucas, YT, Ezra"}
@@ -20,7 +20,7 @@ published: true
 
 Chapter 7 began after Hudson rebuilt the hardware of the **24/7 Redstoneworld project** in April 2024. This allowed Redstoneworld to operate as a true 24/7 server rather than only being available when a staff member was online.
 
-The change brought a noticeable increase in activity. A new group of players, often referred to as the **Plotworld Gooners**, became active on the server, with **Powercascade, Noah, and LLucas** being among the most notable additions during mid to late 2024.
+The change brought a noticeable increase in activity. A new group of players, often referred to as the **Plotworld Gooners**, became active on the server, with LLucas as the most notable early addition in 2024. He would go on to become the Deputy Director of Technical Aspects.
 
 ### A growing community
 
