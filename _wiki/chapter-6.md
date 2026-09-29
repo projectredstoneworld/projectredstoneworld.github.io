@@ -1,14 +1,14 @@
 ---
-title: "Chapter 4"
-order: 17
+title: "Chapter 6"
+order: 19
 section: "Chapter Record"
 description: "Chapter 6 is one of RW's unstabiliest chapters, focusing on Civil War."
 image: "wiki/assets/images/2023-02-03_20.20.15.webp"
 image_alt: "Group photo from the start of Chapter 6, before Civil War"
 last_modified: "2026-09-29"
 contributor: "EzraThunder"
-infobox: {"Started":"October 2022","Ended":"March 2024","Centered on":"FI, soon-to-be-RTC","Key Figures":"Ij, Hud, Chambo, Void, Emil, TSG"}
-published: true
+infobox: {"Started":"October 2022","Ended":"April 2024","Centered on":"All Sectors","Key Figures":"Ij, Hud, Chambo, Void, Emil, TSG"}
+published: false
 ---
 
 
