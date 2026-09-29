@@ -89,7 +89,7 @@ Other Redstoneworld videos separate from normal devlogs, including certain speci
 <tr><td>May 31, 2026</td><td>Redstoneworld Lore Trailers Compilation (2023-2026)</td><td>0:18:30</td><td><a href="https://www.youtube.com/watch?v=qrIRxmCKtqU">Watch</a></td><td>A compilation of all lore segments prior to Reborn X Fragments</td></tr>
 <tr><td>July 10, 2026</td><td>10 Years of Redstoneworld Reborn</td><td>0:31:44</td><td><a href="https://www.youtube.com/watch?v=GE72JaRnDkA">Watch</a></td><td>The major Reborn 10 year anniversary special, featuring the history of the seven chapters, a look at the museum, and the special cinematic</td></tr>
 <tr><td>July 17, 2026</td><td>Reborn Revisited Episode 1: Project RW Trailer and Bunker Cinematic</td><td>0:10:44</td><td><a href="https://www.youtube.com/watch?v=KLEPjrEYulE">Watch</a></td><td>Reborn Revisited on two of the earlier videos in this list</td></tr>
-<tr><td>July 24, 2026</td><td>“Welcome to my channel” Reborn Revisited Ep. 2 From July 2017</td><td>0:16:55</td><td><a href="https://www.youtube.com/watch?v=QDxr_QSslDU">Watch</a></td><td>Reborn Revisited on the first proper video of this channel, done as a reaction video</td></tr>
+<tr id="rebornre2"><td>July 24, 2026</td><td>“Welcome to my channel” Reborn Revisited Ep. 2 From July 2017</td><td>0:16:55</td><td><a href="https://www.youtube.com/watch?v=QDxr_QSslDU">Watch</a></td><td>Reborn Revisited on the first proper video of this channel, done as a reaction video</td></tr>
 </tbody>
 </table>
 </div>

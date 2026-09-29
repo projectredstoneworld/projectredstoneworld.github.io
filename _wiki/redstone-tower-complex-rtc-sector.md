@@ -12,11 +12,53 @@ source: "Fandom"
 ---
 
 ## Primary Elements {#primary-elements}
-The RTC sector primarily constitutes of two towers: Tower 2 and Tower 3.0, which are also often called RTC 1 and RTC 2, respectively. The towers are considered to be part of RTC Major. Both towers reach the 1.18 Minecraft height limit of 319 blocks.
+The RTC sector primarily constitutes of two towers: {% include wiki-link.html title="Tower 2" %} and {% include wiki-link.html title="Tower 3.0" %}, which are also often called RTC-1 and RTC-2, respectively (note: Initially RTC-1 and RTC-2 were named RTC-0 and RTC-1, respectively. They were later renamed). The towers are considered to be part of RTC Major. Both towers reach the 1.18 Minecraft height limit of 319 blocks.
 
-Beside Tower 2 is the RCorp bridge, also known as RTC Minor. The RCorp bridge serves as an entrance to multiple boutiques, including a neutronium processing boutique and an entrance to Project 159.
+Beside Tower 2 is the RCorp bridge, also known as RTC Minor. The RCorp bridge serves as an entrance to multiple boutiques, including a neutronium processing boutique and an entrance to {% include wiki-link.html title="Project 159" %}.
 
 ## RTC Reactor {#rtc-reactor}
-_Main page: {% include wiki-link.html title="RTC Reactor" text="RTC-Blakewood Nuclear Power Plant (RTC Reactor)" %} _
+*Main page: {% include wiki-link.html title="RTC Reactor" text="RTC-Blakewood Nuclear Power Plant (RTC Reactor)" %}*
 
 The {% include wiki-link.html title="RTC Reactor" %}, found at the bottom of RTC-2 in its industrial complex (to the left when exiting the elevator on Floor -1) is considered to be the most powerful and realistic reactor on the map. The design of the rooms is based off of an RBMK reactor, and it works in the same way a PHWR (Pressurized Heavy Water Reactor) does. However some inaccuracies designed into the reactor in order to make the use of the reactor more entertaining.
+
+## Tower 2 (RTC-1)
+*Main page: {% include wiki-link.html title="Tower 2" %}*
+
+{% include wiki-link.html title="Tower 2" %}, also known as RTC-1 by the RTC tower naming convention, was started in {% include wiki-link.html title="Chapter 2" %} as the major project preventing release (see <a href="/wiki/ijs-devlogs/#rebornre2">Reborn Revisited Ep. 2</a>). For many years, Tower 2 sat as a mostly empty stone and quartz box in the ocean featuring only the glass courtyard and TV room. It first got its shape in {% include wiki-link.html title="Chapter 5" %} but only had major developments starting {% include wiki-link.html title="Chapter 6" %} following the management change after the RW Civil War. By the end of the chapter, the tower was built all the way through the roof and has only had minor functionality work done ever since in {% include wiki-link.html title="Chapter 7" %}. Tower 2 mainly focuses on living spaces and leisure, featuring the most luxurious penthouse, the RTC Hotel, and the VIP Toilet. At the top is also the RW National Bank. While safer than the lower areas of Tower 3.0, Tower 2 is considered to be the more dangerous tower overall from the {% include wiki-link.html title="Anti-Catalyst" %}, especially due to the infamous antenna on its roof. Thus, when seeing the RTC as a good and evil sector, Tower 2 has the role of the latter.
+
+## Tower 3.0 (RTC-2)
+*Main page: {% include wiki-link.html title="Tower 3.0" %}*
+
+{% include wiki-link.html title="Tower 3.0" %}, also named RTC-2 by the RTC tower naming convention, was started after much progress had already been done on Tower 2, and was originally named Tower 2.5. Initially, Tower 2.5 was intended to be a smaller tower containing "leftover projects" from {% include wiki-link.html title="Tower 2" %}. However, as the size of the RTC-2 project began to increase, it was later renamed to Tower 3.0 and was considered a fully separate section of the RTC. Tower 3.0 is taller than Tower 2 (excluding Tower 2's antenna) and has a total of 19 floors, including Floor -1 (the industry complex, which houses the {% include wiki-link.html title="RTC Reactor" %}), and Floors 0 through 17.
+
+Tower 3.0 is chiefly split into two sections, separated by the auction house. "Lower" Tower 3.0 are Floors -1 through 5, and "Upper" Tower 3.0 consists of Floors 7 through 17.
+
+In lore, Tower 3.0 is designed to combat the actions of the antenna on Tower 2 using the probes installed on the minigame center floor (Floor 15) and is therefore a "good" tower, although it is prone to sabotage.
+
+## Tower 2 / Tower 3.0 Skyways and Connections
+
+One of the most iconic aspects of the RTC are the numerous bridges connecting the two towers. These bridges have various functions including pedways and IMS rails.
+
+<div class="wiki-table-wrap">
+<table>
+<caption>RTC Skyway Locations</caption>
+<thead><tr><th>RTC-1 floor</th><th>RTC-2 floor</th><th>Y-level</th><th>Purpose</th></tr></thead>
+<tbody>
+<tr><td>Basement (Floor 0)</td><td>Lounge (Floor 0)</td><td>Y = 56</td><td>Underground pedway</td></tr>
+<tr><td>Main Lobby (Floor 1)</td><td>Upper Lounge (Floor 0.5)</td><td>Y = 63</td><td>Dual Courtyard Pedways</td></tr>
+<tr><td>Floor 1.5</td><td>Floor -1/0/1 Stairwell</td><td>Y = 69 to 70</td><td>Underground pedway</td></tr>
+<tr><td>Floor 1.5</td><td>Foyer (Floor 1)</td><td>Y = 72</td><td>Pedway (sky)</td></tr>
+<tr><td>RTC-1 Commons (Floor 2)</td><td>RTC-2 Commons (Floor 2)</td><td>Y = 79 to 83</td><td>IMS route for T2</td></tr>
+<tr><td>RTC-1 Commons (Floor 2)</td><td>RTC-2 Commons (Floor 2)</td><td>Y = 82</td><td>Pedway</td></tr>
+<tr><td>Hotel (Floor 3)</td><td>Mall (Floor 3)</td><td>Y = 94</td><td>IMS route for T</td></tr>
+<tr><td>Hotel (Floor 3)</td><td>Mall (Floor 3)</td><td>Y = 96</td><td>Pedway</td></tr>
+<tr><td>Floor 4/5 Stairwell</td><td>Auction House (Floor 6)</td><td>Y = 144 to 152</td><td>Day Counter / IMS ready</td></tr>
+<tr><td>Floor 5/6 Stairwell</td><td>Upper Lobby (Floor 7)</td><td>Y = 161</td><td>Pedway (sky)</td></tr>
+<tr><td>Food Court (Floor 6)</td><td>Lower Hospital (Floor 8)</td><td>Y = 174</td><td>Pedway (sky)</td></tr>
+<tr><td>Penthouse (Ext. of Floor 3)</td><td>Science Lab (Floor 11)</td><td>Y = 204 to 206</td><td>IMS & item route for T2</td></tr>
+<tr><td>Bank (Floor 8)</td><td>Staff Offices (Floor 13)</td><td>Y = 245</td><td>Pedway (sky)</td></tr>
+<tr><td>Bank Vault (Floor 9)</td><td>Floor 13/14 Stairwell</td><td>Y = 256</td><td>RTC Secure Vault Railway</td></tr>
+<tr><td>Roof</td><td>Minigame Center (Floor 15)</td><td>Y = 276</td><td>Pedway (???)</td></tr>
+</tbody>
+</table>
+</div>
