@@ -17,7 +17,25 @@ permissions:
   deployments: read
 
 jobs:
+  capture-review:
+    if: github.event_name == 'pull_request_review'
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Save review details
+        run: |
+          jq '{pr_number: .pull_request.number, review_id: .review.id, action: .action}' \
+            "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/pr-review.json"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr-review
+          path: ${{ runner.temp }}/pr-review.json
+          retention-days: 1
+          if-no-files-found: error
+
   notify:
+    if: github.event_name != 'pull_request_review'
     runs-on: ubuntu-latest
 
     steps:

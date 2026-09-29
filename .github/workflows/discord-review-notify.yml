@@ -1,0 +1,86 @@
+name: Discord Review Notify
+
+on:
+  workflow_run:
+    workflows: [Discord Notify]
+    types: [completed]
+
+permissions:
+  actions: read
+  pull-requests: read
+
+jobs:
+  notify:
+    if: >-
+      github.event.workflow_run.event == 'pull_request_review' &&
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: pr-review
+          path: review-data
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Send Discord notification
+        uses: actions/github-script@v7
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        with:
+          script: |
+            const fs = require('node:fs');
+            const data = JSON.parse(
+              fs.readFileSync('review-data/pr-review.json', 'utf8')
+            );
+
+            for (const key of ['pr_number', 'review_id']) {
+              if (!Number.isSafeInteger(data[key]) || data[key] <= 0) {
+                throw new Error(`Invalid ${key}`);
+              }
+            }
+
+            if (!['submitted', 'edited', 'dismissed'].includes(data.action)) {
+              throw new Error('Invalid review action');
+            }
+
+            if (!process.env.WEBHOOK) {
+              throw new Error('DISCORD_WEBHOOK_URL is not configured');
+            }
+
+            const params = {
+              ...context.repo,
+              pull_number: data.pr_number
+            };
+
+            const { data: review } = await github.rest.pulls.getReview({
+              ...params,
+              review_id: data.review_id
+            });
+
+            const { data: pr } = await github.rest.pulls.get(params);
+            const repo = `${context.repo.owner}/${context.repo.repo}`;
+
+            const response = await fetch(process.env.WEBHOOK, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                allowed_mentions: { parse: [] },
+                embeds: [{
+                  title: `👀 PR Review ${data.action}`,
+                  description: `#${pr.number}: ${pr.title}\nReview: ${review.state}`.slice(0, 4096),
+                  url: `https://github.com/${repo}/pull/${pr.number}#pullrequestreview-${review.id}`,
+                  color: 3447003,
+                  footer: { text: repo },
+                  author: {
+                    name: review.user.login,
+                    icon_url: `https://github.com/${review.user.login}.png`
+                  },
+                  timestamp: new Date().toISOString()
+                }]
+              })
+            });
+
+            if (!response.ok) {
+              throw new Error(`Discord returned HTTP ${response.status}`);
+            }
