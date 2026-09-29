@@ -5,11 +5,13 @@ section: "Sector 707"
 description: "The towers, RCorp bridge, and reactor complex that form the Redstone Tower Complex."
 image: "/wiki/assets/images/rw-all-sector-render-rtc-bias.webp"
 image_alt: "The main Redstone Tower Complex towers, bridge, and surrounding sectors"
-last_modified: "2025-12-22T01:20:25Z"
-contributor: "Ijdtm7"
-infobox: {"Started": "July 10th, 2017", "Sector Directors": "Mr. Ij, LLucas, xKingEmilx", "Type": "Primary Sector"}
+last_modified: "2026-09-29T03:30:00Z"
+contributor: "LLucas, Ijdtm7"
+infobox: {"Started": "July 10th, 2017", "Sector Directors": "Mr. Ij, LLucas, xKingEmilx", "Type": "Primary Sector", "RTC Declared": "October 20th, 2023"}
 source: "Fandom"
 ---
+
+*The RTC is a Redstoneworld sector. See {% include wiki-link.html title="Sectors" text="the Sectors page" %} for more details.*
 
 ## Primary Elements {#primary-elements}
 The RTC sector primarily constitutes of two towers: {% include wiki-link.html title="Tower 2" %} and {% include wiki-link.html title="Tower 3.0" %}, which are also often called RTC-1 and RTC-2, respectively (note: Initially RTC-1 and RTC-2 were named RTC-0 and RTC-1, respectively. They were later renamed). The towers are considered to be part of RTC Major. Both towers reach the 1.18 Minecraft height limit of 319 blocks.
@@ -24,18 +26,24 @@ The {% include wiki-link.html title="RTC Reactor" %}, found at the bottom of RTC
 ## Tower 2 (RTC-1)
 *Main page: {% include wiki-link.html title="Tower 2" %}*
 
-{% include wiki-link.html title="Tower 2" %}, also known as RTC-1 by the RTC tower naming convention, was started in {% include wiki-link.html title="Chapter 2" %} as the major project preventing release (see <a href="/wiki/ijs-devlogs/#rebornre2">Reborn Revisited Ep. 2</a>). For many years, Tower 2 sat as a mostly empty stone and quartz box in the ocean featuring only the glass courtyard and TV room. It first got its shape in {% include wiki-link.html title="Chapter 5" %} but only had major developments starting {% include wiki-link.html title="Chapter 6" %} following the management change after the RW Civil War. By the end of the chapter, the tower was built all the way through the roof and has only had minor functionality work done ever since in {% include wiki-link.html title="Chapter 7" %}. Tower 2 mainly focuses on living spaces and leisure, featuring the most luxurious penthouse, the RTC Hotel, and the VIP Toilet. At the top is also the RW National Bank. While safer than the lower areas of Tower 3.0, Tower 2 is considered to be the more dangerous tower overall from the {% include wiki-link.html title="Anti-Catalyst" %}, especially due to the infamous antenna on its roof. Thus, when seeing the RTC as a good and evil sector, Tower 2 has the role of the latter.
+{% include wiki-image.html file="/wiki/assets/images/t2-aura.webp" caption="Tower 2, as viewed from the north-east side of the tower." side="full" %}
+
+{% include wiki-link.html title="Tower 2" %}, also known as RTC-1 by the RTC tower naming convention, was started in {% include wiki-link.html title="Chapter 2" %} as the major project preventing release (see <a href="/wiki/ijs-devlogs/#rebornre2">Reborn Revisited Ep. 2</a>). The original world download was scheduled to be released on July 10, 2017, however, this new tower caused this date to be postponed. For many years, Tower 2 sat as a mostly empty stone and quartz box in the ocean featuring only the glass courtyard and TV room. It first got its shape in {% include wiki-link.html title="Chapter 5" %} but only had major developments starting {% include wiki-link.html title="Chapter 6" %} following the management change after the RW Civil War. By the end of the chapter, the tower was built all the way through the roof and has only had minor functionality work done ever since in {% include wiki-link.html title="Chapter 7" %}. Tower 2 mainly focuses on living spaces and leisure, featuring the most luxurious penthouse, the RTC Hotel, and the VIP Toilet. At the top is also the RW National Bank. While safer than the lower areas of Tower 3.0, Tower 2 is considered to be the more dangerous tower overall from the {% include wiki-link.html title="Anti-Catalyst" %}, especially due to the infamous antenna on its roof. Thus, when seeing the RTC as a good and evil sector, Tower 2 has the role of the latter.
 
 ## Tower 3.0 (RTC-2)
 *Main page: {% include wiki-link.html title="Tower 3.0" %}*
 
-{% include wiki-link.html title="Tower 3.0" %}, also named RTC-2 by the RTC tower naming convention, was started after much progress had already been done on Tower 2, and was originally named Tower 2.5. Initially, Tower 2.5 was intended to be a smaller tower containing "leftover projects" from {% include wiki-link.html title="Tower 2" %}. However, as the size of the RTC-2 project began to increase, it was later renamed to Tower 3.0 and was considered a fully separate section of the RTC. Tower 3.0 is taller than Tower 2 (excluding Tower 2's antenna) and has a total of 19 floors, including Floor -1 (the industry complex, which houses the {% include wiki-link.html title="RTC Reactor" %}), and Floors 0 through 17.
+{% include wiki-image.html file="/wiki/assets/images/t3-aura.webp" caption="Tower 3.0, as viewed from the FI zoo." side="full" %}
+
+{% include wiki-link.html title="Tower 3.0" %}, also named RTC-2 by the RTC tower naming convention, was started after much progress had already been done on Tower 2 (during {% include wiki-link.html title="Chapter 6" %}), and was originally named Tower 2.5. Initially, Tower 2.5 was intended to be a smaller tower containing "leftover projects" from {% include wiki-link.html title="Tower 2" %}. However, as the size of the RTC-2 project began to increase, it was later renamed to Tower 3.0 and was considered a fully separate section of the RTC. Tower 3.0 is taller than Tower 2 (excluding Tower 2's antenna) and has a total of 19 floors, including Floor -1 (the industry complex, which houses the {% include wiki-link.html title="RTC Reactor" %}), and Floors 0 through 17.
 
 Tower 3.0 is chiefly split into two sections, separated by the auction house. "Lower" Tower 3.0 are Floors -1 through 5, and "Upper" Tower 3.0 consists of Floors 7 through 17.
 
 In lore, Tower 3.0 is designed to combat the actions of the antenna on Tower 2 using the probes installed on the minigame center floor (Floor 15) and is therefore a "good" tower, although it is prone to sabotage.
 
 ## Tower 2 / Tower 3.0 Skyways and Connections
+
+{% include wiki-image.html file="/wiki/assets/images/rtc-skybridge.webp" caption="The numerous bridges between the two towers." side="full" %}
 
 One of the most iconic aspects of the RTC are the numerous bridges connecting the two towers. These bridges have various functions including pedways and IMS rails.
 
@@ -62,3 +70,15 @@ One of the most iconic aspects of the RTC are the numerous bridges connecting th
 </tbody>
 </table>
 </div>
+
+## RTC Minor / RCorp Bridge
+*Main page: {% include wiki-link.html title="RCorp Bridge" %}*
+
+The RCorp bridge is considered the "RTC-Minor" section of the RTC. The RCorp bridge connects Founding Island's {% include wiki-link.html title="Tower 1" %} with the RTC's {% include wiki-link.html title="Tower 2" %}. On the east side of the bridge (near the part that connects to the RTC), the bridge also extends north, housing numerous shops (including the neutronium forge and club). At the North end of the bridge is {% include wiki-link.html title="Global Control" %}.
+
+
+## Project 159 - Site Iota-12
+
+{% include wiki-image.html file="/wiki/assets/images/proj159-mall.webp" caption="Project 159's underground mall" side="full" %}
+
+Project 159's Northern RTC branch named Site Iota-12 consists of multiple elements, including the underground mall, the club, a mysterious building on the North end of the {% include wiki-link.html title="RCorp Bridge" %}, and the bookstore (Site Zeta-9). Project 159 is a clandestine project launched by the Redstoneworld government in order to keep multiple sites secret and covered from the citizens of RW. Hidden within Project 159 is the catalyst initiative.

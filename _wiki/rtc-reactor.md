@@ -11,6 +11,9 @@ contributor: "LLucas"
 math: true
 ---
 
+*RTC Reactor is part of {% include wiki-link.html title="Tower 3.0" %}*
+*RTC Reactor is part of the {% include wiki-link.html title="Redstone Tower Complex (RTC) Sector" %}*
+
 The RTC reactor is the newest reactor on Redstoneworld. Situated on the bottom of Tower 3.0 (in the industry complex), it is the most complicated and therefore realistic reactor on the map.
 
 ## Design and Use in the World

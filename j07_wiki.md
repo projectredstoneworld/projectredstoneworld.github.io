@@ -59,14 +59,14 @@ description: The official archive and guide to Project Redstoneworld Reborn.
       </ol>
     </section>
 
-    <section class="wiki-directory-group" aria-labelledby="wiki-places-heading">
+    <section class="wiki-directory-group" aria-labelledby="wiki-primary-heading">
       <header class="wiki-directory-group__header">
-        <span>Places</span>
-        <h3 id="wiki-places-heading">Sectors and infrastructure</h3>
+        <span>Primary</span>
+        <h3 id="wiki-primary-heading">Primary Projects and Sectors</h3>
       </header>
       <ol class="wiki-index">
         {% for article in wiki_pages %}
-          {% if article.section contains "Sector" or article.section contains "Infrastructure" %}
+          {% if article.section == "Sector 707" or article.section == "Primary Transport Infrastructure" %}
             {% assign wiki_number = wiki_number | plus: 1 %}
             <li>
               <a href="{{ article.url | relative_url }}">
@@ -83,6 +83,32 @@ description: The official archive and guide to Project Redstoneworld Reborn.
       </ol>
     </section>
 
+    <section class="wiki-directory-group" aria-labelledby="wiki-places-heading">
+      <header class="wiki-directory-group__header">
+        <span>Places</span>
+        <h3 id="wiki-places-heading">Works and Infrastructure</h3>
+      </header>
+      <ol class="wiki-index">
+        {% for article in wiki_pages %}
+          {% if article.section contains "Sector" or article.section contains "Infrastructure" %}
+            {% unless article.section == "Sector 707" or article.section == "Primary Transport Infrastructure" %}
+              {% assign wiki_number = wiki_number | plus: 1 %}
+              <li>
+                <a href="{{ article.url | relative_url }}">
+                  <span class="wiki-index__number">{% if wiki_number < 10 %}0{% endif %}{{ wiki_number }}</span>
+                  <span class="wiki-index__entry">
+                    <span class="wiki-index__section">{{ article.section | default: "Wiki article" }}</span>
+                    <strong>{{ article.title }}</strong>
+                    {% if article.description %}<span class="wiki-index__description">{{ article.description }}</span>{% endif %}
+                  </span>
+                </a>
+              </li>
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </section>
+
     <section class="wiki-directory-group" aria-labelledby="wiki-records-heading">
       <header class="wiki-directory-group__header">
         <span>Records</span>
@@ -91,7 +117,7 @@ description: The official archive and guide to Project Redstoneworld Reborn.
       <ol class="wiki-index">
         {% for article in wiki_pages %}
           {% unless article.section == "Project overview" or article.section == "World guide" %}
-            {% unless article.section contains "Sector" or article.section contains "Infrastructure" %}
+            {% unless article.section contains "Sector" or article.section contains "Infrastructure" or article.section contains "hapter" or article.section contains "istory" %}
               {% assign wiki_number = wiki_number | plus: 1 %}
               <li>
                 <a href="{{ article.url | relative_url }}">
@@ -105,6 +131,30 @@ description: The official archive and guide to Project Redstoneworld Reborn.
               </li>
             {% endunless %}
           {% endunless %}
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section class="wiki-directory-group" aria-labelledby="wiki-history-heading">
+      <header class="wiki-directory-group__header">
+        <span>History</span>
+        <h3 id="wiki-history-heading">Projekt Redstoneworld History</h3>
+      </header>
+      <ol class="wiki-index">
+        {% for article in wiki_pages %}
+          {% if article.section contains "hapter" or article.section contains "istory" %}
+            {% assign wiki_number = wiki_number | plus: 1 %}
+            <li>
+              <a href="{{ article.url | relative_url }}">
+                <span class="wiki-index__number">{% if wiki_number < 10 %}0{% endif %}{{ wiki_number }}</span>
+                <span class="wiki-index__entry">
+                  <span class="wiki-index__section">{{ article.section | default: "Wiki article" }}</span>
+                  <strong>{{ article.title }}</strong>
+                  {% if article.description %}<span class="wiki-index__description">{{ article.description }}</span>{% endif %}
+                </span>
+              </a>
+            </li>
+          {% endif %}
         {% endfor %}
       </ol>
     </section>

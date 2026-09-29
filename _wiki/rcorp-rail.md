@@ -1,7 +1,7 @@
 ---
 title: "RCorp Rail"
 order: 9
-section: "Transport Infrastructure"
+section: "Primary Transport Infrastructure"
 description: "RCorp Rail is Redstoneworld's latest transport network. It connects all major landmarks and sectors in Chapter 7 using distinct highways and pods."
 image: "/wiki/assets/images/rcrailbanner.webp"
 image_alt: "RCorp Rail track and pods at the Global Control RTC Station."
