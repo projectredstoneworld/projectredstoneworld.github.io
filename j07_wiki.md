@@ -90,7 +90,7 @@ description: The official archive and guide to Project Redstoneworld Reborn.
       </header>
       <ol class="wiki-index">
         {% for article in wiki_pages %}
-          {% if article.section contains "Sector" or article.section contains "Infrastructure" %}
+          {% if article.section contains "Sector" or article.section contains "Infrastructure" or article.section contains "RTC" %}
             {% unless article.section == "Sector 707" or article.section == "Primary Transport Infrastructure" %}
               {% assign wiki_number = wiki_number | plus: 1 %}
               <li>
@@ -117,7 +117,7 @@ description: The official archive and guide to Project Redstoneworld Reborn.
       <ol class="wiki-index">
         {% for article in wiki_pages %}
           {% unless article.section == "Project overview" or article.section == "World guide" %}
-            {% unless article.section contains "Sector" or article.section contains "Infrastructure" or article.section contains "hapter" or article.section contains "istory" %}
+            {% unless article.section contains "Sector" or article.section contains "Infrastructure" or article.section contains "hapter" or article.section contains "istory" or article.section contains "RTC" %}
               {% assign wiki_number = wiki_number | plus: 1 %}
               <li>
                 <a href="{{ article.url | relative_url }}">

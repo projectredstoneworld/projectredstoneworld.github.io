@@ -55,7 +55,7 @@ One of the most iconic aspects of the RTC are the numerous bridges connecting th
 <tr><td>Basement (Floor 0)</td><td>Lounge (Floor 0)</td><td>Y = 56</td><td>Underground pedway</td></tr>
 <tr><td>Main Lobby (Floor 1)</td><td>Upper Lounge (Floor 0.5)</td><td>Y = 63</td><td>Dual Courtyard Pedways</td></tr>
 <tr><td>Floor 1.5</td><td>Floor -1/0/1 Stairwell</td><td>Y = 69 to 70</td><td>Underground pedway</td></tr>
-<tr><td>Floor 1.5</td><td>Foyer (Floor 1)</td><td>Y = 72</td><td>Pedway (sky)</td></tr>
+<tr><td>Floor 1.5</td><td>Foyer (Floor 1)</td><td>Y = 72</td><td>Pedway</td></tr>
 <tr><td>RTC-1 Commons (Floor 2)</td><td>RTC-2 Commons (Floor 2)</td><td>Y = 79 to 83</td><td>IMS route for T2</td></tr>
 <tr><td>RTC-1 Commons (Floor 2)</td><td>RTC-2 Commons (Floor 2)</td><td>Y = 82</td><td>Pedway</td></tr>
 <tr><td>Hotel (Floor 3)</td><td>Mall (Floor 3)</td><td>Y = 94</td><td>IMS route for T</td></tr>
