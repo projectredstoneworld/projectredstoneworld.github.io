@@ -70,8 +70,33 @@ One of the most iconic aspects of the RTC are the numerous bridges connecting th
 </table>
 </div>
 
+## Shared Areas between Towers
+
+Outside of the various skyways (see [RTC Skyways](#tower-2--tower-30-skyways-and-connections)) there are three main outdoor areas shared between both Towers. 
+
+### RTC Courtyard 1
+
+{% include wiki-image.html file="/wiki/assets/images/rtc/rtccourtyard1.webp" caption="The central courtyard" side="left" %}
+
+RTC Courtyard 1 is directly in between the Towers and is the oldest of the shared spaces. While the glass info room below is part of [Tower 2](/wiki/tower-2/), the area above was initially a viewing deck directly above sea level. However, it became a courtyard when the RTC island began forming in [Chapter 6](/wiki/chapter-6). Due to the glass roof, there is limited decorations and vegetation, but there are the cliffs on the non-tower sides made by Sean. <br><br>There is a direction connection to Floor 0 of both towers by ladder, and a direct opening on the courtyard itself to Floor 0.5 of Tower 3.0 and Floor 1 of Tower 2. There is also an entrance to the RTC cliffs tunnel which links Floor 1.5 of Tower 2 to various Tower 3.0 locations. <br>Courtyard 1 is noteworthy because it allows the player to see the classic and unpolished parts of Tower 2.  
+
+### RTC Courtyard 2
+
+{% include wiki-image.html file="/wiki/assets/images/rtc/rtccourtyard2.webp" caption="The RTC Garden" side="right" %}
+
+RTC Courtyard 2 is directly east of Tower 2 and was originally known as the Tower 2 Garden. However, it was connected to Tower 3.0 via the cliff tunnel in early 2025 (leading to the "We're all together here!" incident) It is connected to Floor 1 and is very decorated, it is a circle with a small butte in the middle. <br><br>The garden consists of multiple plants and trees. At the east end of it are blue and pink flowers along with a sign commemorating the relationship of Bri and Ij in 2024 and 2026, which is what the courtyard is dedicated to.
+
+### RTC Island
+
+{% include wiki-image.html file="/wiki/assets/images/rtc/rtcisland.webp" caption="The RTC Island from the east side" side="left" %}
+
+The RTC Island was first introduced in 2022 during Chapter 6 and was a major step in the RTC breaking away from Founding Island. It was initially planned by Ij but actually formed by Sean a year later. The east side has a large plateau with houses ontop and is part of the FI-RTC secured compound. It connects to various floors of Tower 2 and 3.0 and also has a bridge to the Reactor Island. Multiple houses were actually modified or removed during the start of Tower 3.0, as its size became larger than expected. <br><br><br>The climbable side of the plateau (west of the town) is blocked off from the other side with a barbed wire fence. There are many ground entrances and docks along the west side, and it was also the location of the **12 Year Anniversary Group Photo**.
+
 ## RTC Minor / RCorp Bridge
 *Main page: {% include wiki-link.html title="RCorp Bridge" %}*
+
+{% include wiki-image.html file="/assets/images/default_2024-06-12_00-42-17-1000.png" caption="The bridge at the start of Chapter 7." side="full" %}
+
 
 The RCorp bridge is considered the "RTC-Minor" section of the RTC. The RCorp bridge connects Founding Island's {% include wiki-link.html title="Tower 1" %} with the RTC's {% include wiki-link.html title="Tower 2" %}. On the east side of the bridge (near the part that connects to the RTC), the bridge also extends north, housing numerous shops (including the neutronium forge and club). At the North end of the bridge is {% include wiki-link.html title="Global Control" %}.
 

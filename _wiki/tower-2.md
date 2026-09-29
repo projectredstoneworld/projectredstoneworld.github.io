@@ -68,11 +68,6 @@ The progress of Chapter 5 despite its flaws gave hope to some members of the tea
 
 Tower 2 is based around a spruce plank and log cuboid, with a few extra segments bumping out on the north and south sides. Inspired by the Sears Tower of Chicago, different segments of the tower end as height increases. There is also a small two level balcony extension on the east side, however it is not connected to the tower interior at all. The south sides above reception end off at Floors 2 and 3, with many balconies along the way. At floor 4, the southwest corner of the main cuboid stops itself at a balcony. The southern extension then ends at a balcony on Floor 6. <br><br>After the first floor of the penthouse, the central north and south sides collapse to leave a middle segment inspired by the Empire State Building. The northeast corner then ends at Floor 7, and the southeast and northwest at the [Maintenance Floor](#maintenance-floor). Right above the center segments all end on all four sides. At the roof the tower switches to a stone look and continues up to a small off-center platform containing the antenna.
 
-## Shared Areas
-
-Outside of the various skyways (see [RTC Skyways](/wiki/redstone-tower-complex-rtc-sector/#tower-2--tower-30-skyways-and-connections))
-
-
 ## Floors Description
 
 ### Floor 0

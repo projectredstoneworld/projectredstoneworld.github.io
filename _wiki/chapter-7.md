@@ -3,8 +3,8 @@ title: "Chapter 7"
 order: 20
 section: "Chapter Record"
 description: "Chapter 7 is the ongoing chapter, most likely last one before map download and/or Completion."
-image: "wiki/assets/images/2025-12-14_17.57.04.webp"
-image_alt: "Aura itself"
+image: "/img/backgrounds/sunset/sunset-2.webp"
+image_alt: "FI-RTC from the villa"
 last_modified: "2026-09-29"
 contributor: "EzraThunder"
 infobox: {"Started":"May 2024","Ended":"-","Centered on":"All Sectors","Key Figures":"Ij, Lucas, YT, Ezra"}
@@ -15,6 +15,8 @@ published: true
 **May 2024 – Present**
 
 ## The Growth of Redstoneworld
+{% include wiki-image.html file="wiki/assets/images/2025-12-14_17.57.04.webp" caption="FI-RTC Aura" side="full" %} 
+
 
 ### A true 24/7 server
 
