@@ -67,7 +67,9 @@
       item.appendChild(link);
       list.appendChild(item);
     });
-
+    if (toc.classList.contains("wiki-toc--inline")) {
+      toc.classList.toggle("wiki-toc--two-column", entries.length >= 16);
+    }
     toc.hidden = false;
   });
 })();

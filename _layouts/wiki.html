@@ -33,6 +33,7 @@ layout: base
       {% if page.description %}<p class="wiki-deck">{{ page.description }}</p>{% endif %}
     </header>
     {% unless page.toc == false %}
+    {% assign toc_size = page.toc | size %}
     <aside class="wiki-toc wiki-toc--inline" aria-label="Contents" data-wiki-toc{% unless page.toc and page.toc.size > 0 %} hidden{% endunless %}>
       <strong>On this page</strong>
       <ol data-wiki-toc-list>

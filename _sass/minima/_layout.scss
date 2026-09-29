@@ -1022,8 +1022,12 @@
 }
 
 .wiki-toc--inline ol {
-  columns: 2;
+  columns: 1;
   column-gap: 30px;
+}
+
+.wiki-toc--inline.wiki-toc--two-column ol {
+  columns: 2;
 }
 
 .wiki-article__footer {
