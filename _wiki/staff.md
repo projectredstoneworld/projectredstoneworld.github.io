@@ -89,7 +89,7 @@ xKingEmilx - Assistant Director of Operations - Half Active
 ### Admins {#admins}
 Finland1945 (global_silliness) - Half Active
 
-WalterLezerus
+WalterLezerus - Inactive
 
 HellCat2234 - Inactive
 
@@ -98,6 +98,9 @@ SomeYTguyfor1 (YT) - Inactive
 EzraThunder - Top Builder
 
 ### Supervisors {#supervisors}
+
+dulcenavia - Owner's Girl
+
 Noobbykour12 - Inactive
 
 soldatoluca - Inactive
@@ -108,7 +111,8 @@ AcRonYm - Inactive
 
 Creepeton
 
-dulcenavia - Owner's Girl
+Xtrwe
+
 
 ### Team Senior Members {#team-senior-members}
 Noah - Half Active
@@ -123,9 +127,9 @@ Sal - Retired
 
 GMELemons - Inactive
 
-xFighterEyex - Inactive
+xFighterEyex - Half Active
 
-Faiyaz69
+Faiyaz69 - Inactive
 
 ### Team Members {#team-members}
 MUGGLE1234 - Half Active

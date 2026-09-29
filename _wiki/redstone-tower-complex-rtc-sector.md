@@ -40,7 +40,6 @@ The {% include wiki-link.html title="RTC Reactor" %}, found at the bottom of RTC
 Tower 3.0 is chiefly split into two sections, separated by the auction house. "Lower" Tower 3.0 are Floors -1 through 5, and "Upper" Tower 3.0 consists of Floors 7 through 17.
 
 In lore, Tower 3.0 is designed to combat the actions of the antenna on Tower 2 using the probes installed on the minigame center floor (Floor 15) and is therefore a "good" tower, although it is prone to sabotage.
-
 ## Tower 2 / Tower 3.0 Skyways and Connections
 
 {% include wiki-image.html file="/wiki/assets/images/rtc-skybridge.webp" caption="The numerous bridges between the two towers." side="full" %}
