@@ -1,7 +1,7 @@
 ---
 title: "Anti-Council Coalition"
 order: 21
-section: "Some Random ShitTM"
+section: "Administration"
 description: "The ACC is a group of trusted staff members that provides input on important Redstoneworld decisions."
 image: "wiki/assets/images/vlcsnap-2026-06-20-13h45m38s617.webp"
 image_alt: "Reborn X Staff Group Photo"
@@ -23,7 +23,7 @@ Any vote made by the Coalition can still be vetoed by Ij.
 
 ### Project Planning
 
-The Coalition is also responsible for planning many of Redstoneworld's major projects, from the initial idea all the way to development and release. This includes deciding how projects should be organized, who should be involved, and what needs to be completed before a project can be released.
+The Coalition is also responsible for planning many of Redstoneworld's major projects, from the initial idea all the way to development and release. This includes deciding how projects should be organized, who should be involved, and what needs to be completed before a project can be released. This was first applied to the [Redstone Tower Complex](/wiki/redstone-tower-complex-rtc-sector/)
 
 The Coalition has also been involved in wider changes to how Redstoneworld is run. This includes creating the **Emergency Protocol**, which defines how the staff should respond to serious or urgent situations.
 
