@@ -2,43 +2,43 @@
 title: "Chapter 6"
 order: 19
 section: "Chapter Record"
-description: "Chapter 6 is one of RW's unstabiliest chapters, focusing on Civil War."
+description: "Chapter 6 is one of RW's most chaotic chapters, containing the 10 year anniversary and Civil War"
 image: "wiki/assets/images/2023-02-03_20.20.15.webp"
 image_alt: "Group photo from the start of Chapter 6, before Civil War"
 last_modified: "2026-09-29"
-contributor: "EzraThunder"
+contributor: "EzraThunder and Ij"
 infobox: {"Started":"October 2022","Ended":"April 2024","Centered on":"All Sectors","Key Figures":"Ij, Hud, Chambo, Void, Emil, TSG"}
-published: false
+published: true
 ---
 
 
 
-# Chapter 6 - Determination and Civil War
+# Chapter 6 - Determination and A New Authority (Civil War)
 **Oct. 2022 – Mar. 2024**
 
 ## The Beginning of the Conflict
 
-### A strong start
+### Before the Storm
 
-Chapter 6 began with a major push of development. The **{% include wiki-link.html title="Theme Park" %} fully reopened**, a new Theme Park reactor project was started by **Hudson and IJ**, the **FI Hotel** was completed, and most importantly, **{% include wiki-link.html title="Ragegame" %}** was completed just in time for the **10 Year Anniversary**.
+Chapter 6 began with a major push of development. The **{% include wiki-link.html title="Theme Park" %} fully reopened** after its overhaul, a new Theme Park reactor project was started by **Hudson and IJ**, the **FI Hotel** was completed, and most importantly, **{% include wiki-link.html title="Blakewood Forest Rakegame" %}** was completed just in time for the **10 Year Anniversary**.
 
 The anniversary also marked the beginning of a series of special events and projects celebrating Redstoneworld's history.
 
 ### Growing tensions
 
-During the anniversary period, tensions surrounding **{% include wiki-link.html title="Tower 2" %}** reached a serious point. IJ stepped away from the area for the time being and instead focused heavily on the **{% include wiki-link.html title="Founding Island Bunker" %}** together with Voidkiller throughout much of early 2023.
+During the anniversary period, tensions surrounding **{% include wiki-link.html title="Tower 2" %}** reached a serious point with development being forcibly stunted by the incompetent build manager. IJ stepped away from the area for the time being and instead focused heavily on the **{% include wiki-link.html title="Founding Island Bunker" %}** together with Voidkiller throughout much of early 2023.
 
 At the same time, Sean helped IJ finish the remaining work of **The Great Merge**. With his main responsibilities largely fulfilled, Sean gradually became more of a retired figure within the project.
 
-## Rebuilding the Towers
+## Taking back the Towers
 
 ### A new connection
 
 {% include wiki-image.html file="wiki/assets/images/default_2023-09-10_14-39-53-1000.webp" caption="Bridge and Founding Island on Chapter 6" side="left" %} As the summer approached, Hudson began looking for ways to make Redstoneworld operate as a **24/7 server**.
 
-Around the same period, Chambo returned from a short hiatus and began working with IJ on a bridge extending from **Tower 1 toward the sea**. The bridge was planned to contain shops and eventually provide a connection toward {% include wiki-link.html title="Tower 2" %}.
+Around the same period, Chambo returned from a short hiatus and began working with IJ on a bridge extending from **{% include wiki-link.html title="Tower 1" %} toward the sea**. The bridge was planned to contain shops and eventually provide a connection toward {% include wiki-link.html title="Tower 2" %}.
 
-This became an important sign that development around the newer towers could move forward again.
+This became an important sign that development around the newer towers could move forward again, and Void and Ij started scheming their return.
 
 ### {% include wiki-link.html title="Tower 2" %} development
 
@@ -46,7 +46,8 @@ This became an important sign that development around the newer towers could mov
 
 {% include wiki-link.html title="Tower 2" %} itself began receiving serious development again. By the end of 2023, its floors were either completed or had been fully planned out, turning it from a mostly stalled project into one of the more active areas of Redstoneworld.
 
-## The Civil War
+## The RW Civil War
+*Main page: {% include wiki-link.html title="RW Civil War" %}*
 
 ### The {% include wiki-link.html title="Anti-Council Coalition" %}
 
@@ -60,11 +61,17 @@ The newly formed ACC became an important part of this period, with its members w
 
 ### {% include wiki-link.html title="Tower 3.0" %}
 
-By the end of 2023, development had expanded beyond {% include wiki-link.html title="Tower 3.0" %}. **{% include wiki-link.html title="Tower 3.0" %}** was started for the **11 Year Anniversary** by **IJ, Emil, and TSG**.
+By the end of 2023, development had expanded beyond {% include wiki-link.html title="Tower 2" %}. **{% include wiki-link.html title="Tower 3.0" %}** was started for the **11 Year Anniversary** by **IJ, Emil, and TSG**.
 
 This continued the renewed focus on the tower projects and gave Redstoneworld another major construction project while the organizational conflicts of the chapter were still being resolved.
 
-{% include wiki-link.html title="Tower 2" %} and {% include wiki-link.html title="Tower 3.0" %} would later be formed to {% include wiki-link.html title="Redstone Tower Complex (RTC) Sector" %}.
+{% include wiki-link.html title="Tower 2" %} and {% include wiki-link.html title="Tower 3.0" %} would now be grouped as their own sector, the {% include wiki-link.html title="Redstone Tower Complex (RTC) Sector" %}. Tower 2 was the first to be marked as such on October 20th, 2013
+
+## The Abyss
+
+The period from January 2024 to the end of Chapter 6 in April is known as The Abyss with weekly activity dropping to the lowest since pre-Chapter 5 levels. There were about four dedicated members and there was some noteworthy progress on the RTC. All contributions in this time were made by Ij, Emil, TSG, and Bri on a secret alt account. On Tower 2, Ij and Emil would finish out the whole RTC Penthouse, while also starting the Industry Complex in Tower 3.0, TSG would also add the RTC Bunker adjacent to it. The second RTC Courtyard was finished, with Ij and Bri dedicating it to their relationship, which would be put back into place again two years later. <br><br>Come late march, it seemed like the project may be dying completely, thankfully this would reverse course rapidly in May after Hudson made hardware upgrades for the 24/7 server.
+
+
 ## Legacy
 
 ### Determination after the conflict
