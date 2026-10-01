@@ -17,6 +17,17 @@ The idea was presented by EzraThunder in March 2026, and building started shortl
 
 ---
 
+## Exterior
+
+### {% include wiki-link.html title="RCorp Rail" %} Station
+
+{% include wiki-image.html file="/wiki/assets/images/rcrailstation/rebornxmuseum.webp" caption="The Reborn X Museum station as seen from the south side." side="right" %} The Reborn X Museum has (so far) the only station added after the official completion of RCorp Rail as a project. The station is placed in the bridge connecting Reborn X Museum and RTC. Techical configuration was made by IJD with the design by EzraThunder.
+
+### Design
+
+{% include wiki-image.html file="wiki/assets/images/2026-06-09_21.05.45.webp" caption="The Reborn X Museum" side="right" %} The museum was originally planned to have quartz pillars and flat roof, but it was soon changed to sandstone and more of a triangle roof. Roof material was chosen to be blackstone instead of deepslate in the original roof. The museum includes a fountain right on front of it.
+
+
 ## Museum Exhibitions
 
 The Reborn X Museum offers multiple exhibitions and a few unrelated activities covered under.
