@@ -30,10 +30,7 @@
       if (!query) return closeResults();
 
       indexPromise.then(function (pages) {
-        var matches = pages.filter(function (page) {
-          return (page.title + " " + page.description).toLowerCase().indexOf(query) !== -1;
-        }).slice(0, 6);
-
+        var matches = pages.filter(function (page) {return page.title.toLowerCase().indexOf(query.toLowerCase()) !== -1;}).concat(pages.filter(function (page) {return page.description.toLowerCase().indexOf(query.toLowerCase()) !== -1;})).filter(function (page, index, self) {return self.indexOf(page) === index;}).slice(0, 8);
         results.innerHTML = matches.length
           ? matches.map(function (page) {
               return '<a href="' + page.url + '"><strong>' + escapeHtml(page.title) + '</strong><span>' + escapeHtml(page.description) + "</span></a>";
