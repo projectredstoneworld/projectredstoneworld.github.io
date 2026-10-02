@@ -7,7 +7,7 @@ image: "wiki/assets/images/vlcsnap-2026-06-20-13h45m38s617.webp"
 image_alt: "Reborn X Staff Group Photo"
 last_modified: "2026-10-2T02:16:00"
 contributor: "EzraThunder, LLucas"
-infobox: {"Date": "10th of July 2026", "Reborn started": "15th of March 2016"}
+infobox: {"Date": "10th of July 2026", "Reborn started": "15th of March 2016", "Event Directors": "Ij, LLucas", "Head Builder": "EzraThunder"}
 published: true
 ---
 
@@ -29,18 +29,20 @@ At 11:00 CT (16:00 UTC), the [Reborn X Announcement Special](https://www.youtube
 
 At 12:00 CT (17:00 UTC), the {% include wiki-link.html title="Reborn X Museum" %} was fully opened, allowing public access to the exhibits for the first time, as well as the rest of the Reborn X features.
 
-The event also introduced the opening of Minigame Center, which included several games including spleef, parkour and tag (games are still being added to the minigame center after the fact). **[The Curator](/wiki/reborn-x#the-curator)** also became available during the event, giving players a new way to interact with the museum and its content. Both of these were opened at 12:00 CT.
+The event also introduced the opening of Minigame Center, which included several games including spleef, parkour and tag (games are still being added to the minigame center after the fact). **[The Curator](the-curator)** also became available during the event, giving players a new way to interact with the museum and its content. Both of these were opened at 12:00 CT.
 
 A large amount of preparation went into the event before its opening, with additional development and work continuing afterwards to finish projects and complete the remaining details. Reborn X therefore covered a wider period of preparation, activities, and follow-up work rather than being limited to the event itself.
 
-#### Group Photo
+### Group Photo
 
-Rather than a public group photo open to all visitors of the server, the group photo was staff-only and was taken on June 20th, 2026 just after 12:00 CT (despite being scheduled for 11:00 CT). The reason behind making the group photo private was because the purpose of Reborn X was to honour the staff team's efforts in developing the map. Every staff member that was unable to attend was replaced by an NPC.
+Rather than a public group photo open to all visitors of the server, the group photo was staff-only and was taken on June 20th, 2026 just after 12:00 CT (despite being scheduled for 11:00 CT, delayed because Ij had to pick up his girlfriend). The reason behind making the group photo private was because the purpose of Reborn X was to honour the staff team's efforts in developing the map. Every staff member that was unable to attend was replaced by an NPC.
 
 ### Reborn X Museum
 *Main page: {% include wiki-link.html title="Reborn X Museum" %}*
 
-{% include wiki-image.html file="wiki/assets/images/2026-06-09_21.05.45.webp" caption="The Reborn X Museum" side="right" %} {% include wiki-link.html title="Reborn X Museum" %} was the main project of the Reborn X event and was created as a monument to Redstoneworld's history. It showcases all seven RW Chapters, major projects and sectors, along with a map, images, posters, and other historical material. The museum also includes a dedicated Project Exhibition covering major projects such as Tower 1, {% include wiki-link.html title="Redstone Tower Complex (RTC) Sector" %}, {% include wiki-link.html title="RCorp Rail" %}, 	{% include wiki-link.html title="Theme Park" %}, and the museum itself. The basement contains additional exhibits, the museum credits, and  [The Curator](#the-curator), an interactive character focused on Redstoneworld lore.
+{% include wiki-image.html file="wiki/assets/images/2026-06-09_21.05.45.webp" caption="The Reborn X Museum" side="right" %} 
+
+{% include wiki-link.html title="Reborn X Museum" %} was the main project of the Reborn X event and was created as a monument to Redstoneworld's history. It showcases all seven RW Chapters, major projects and sectors, along with a map, images, posters, and other historical material. The museum also includes a dedicated Project Exhibition covering major projects such as Tower 1, {% include wiki-link.html title="Redstone Tower Complex (RTC) Sector" %}, {% include wiki-link.html title="RCorp Rail" %}, 	{% include wiki-link.html title="Theme Park" %}, and the museum itself. The basement contains additional exhibits, the museum credits, and [The Curator](#the-curator), an interactive character focused on Redstoneworld lore.
 
 The museum was proposed in March 2026, built over the following months, and officially opened on July 10th, 2026 as part of the Reborn X event. 
 
