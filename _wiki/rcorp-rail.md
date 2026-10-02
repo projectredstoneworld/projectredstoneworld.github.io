@@ -5,7 +5,7 @@ section: "Primary Transport Infrastructure"
 description: "RCorp Rail is Redstoneworld's latest transport network. It connects all major landmarks and sectors in Chapter 7 using distinct highways and pods."
 image: "/wiki/assets/images/rcrailbanner.webp"
 image_alt: "RCorp Rail track and pods at the Global Control RTC Station."
-last_modified: "2026-09-22T04:02:30Z"
+last_modified: "2026-10-01T04:02:30Z"
 contributor: "Ijd710"
 infobox: {"Started": "July 5th, 2023", "Project Directors": "Mr. Ij, Mr. Void, LLucas, EzraThunder, SomeYTguyFor1", "Completed":"March 18th, 2026", "Type": "Global Infrastructure"}
 published: true
@@ -72,6 +72,8 @@ Known as the Dos Loop, RW-215 heads west from the FI Bunker and begins its one w
 RW-315 is a spur that runs north to serve the south end of the Main Bunker station.
 #### RW-415
 RW-415 serves the FI Bunker station and was also the first segment of RCorp Rail made. Fully underground.
+#### RW-515
+Known as RCorp Rail: Underground, RW-515 is the emergency route that parallels the route of RW-15, RW-215, and RW-315 starting westbound from the Tower 3.0. It is fully underground and stops at the underground versions of Tower 3.0, FI Bunker, and Main Bunker stations. Established October 2026, it is the most recent piece of track added to RCorp Rail. For more info see [Underground](#underground)
 #### RW-17
 {% include wiki-image.html file="/wiki/assets/images/rcrailcrazy.webp" caption="The Crazy Interchange as it appears after Reborn X. RW-17 runs straight north-south, RW-15 is seen on the west, RW-217 going into the RTC in northeast, and RW-317 serving the museum in the southwest." side="left" %}
 RW-17 is the north-south route for the Redstone Tower Complex. It begins at the interchange with RW-12 at Global control, then heads south under the bridge to {% include wiki-link.html title="Tower 3.0" %} where it splits and rejoins as RW-217. Immediately after is the nicknamed "Crazy Interchange" where RW-17, RW-217, RW-15, and RW-317 for the Reborn X Museum all meet. RW-17 continues southeast and terminates at RW-20 near {% include wiki-link.html title="Tavish Town" %}.
@@ -306,3 +308,20 @@ The Blakewood Forest Outpost station runs north-south and is the easternmost sta
 
 {% include wiki-image.html file="/wiki/assets/images/rcrailstation/rebornxmuseum.webp" caption="The Reborn X Museum station as seen from the south side." side="right" %}
 The Reborn X Museum station is the newest station and the only so far to be added outside of the original plan. It was one-way and takes the player in any path since it departs directly to the Crazy Interchange at [RW-17](#rw-17). It was built for the Reborn X event, and is considered to be the third station in both FI and RTC, it leads the rider to the bridge to the {% include wiki-link.html title="Reborn X Museum" %}. Served by [RW-317](#rw-317). <br><br> The station follows the Standard Station Model at the bare minimum, and the platform tellraw is actually duplicated onto both sides of the track. There is no purchasing station. The station was made by EzraThunder and Ij. The welcome sign marks it as being "South Extent of FI-RTC" meaning that it is in both FI and Blakewood regions.
+
+
+## Underground
+
+Officially titled as RCorp Rail: UNDERGROUND - Emergency Transport, Underground is the latest piece of RCorp Rail, going live on October 1st, 2026. In lore, it was implemented due to the government seeing the "Anti-Catalyst Control Transmission Seizure" (see [The Curator](/wiki/reborn-x/#the-curator)) <br><br>Underground is meant to serve as rapid transit between the Bunkers of Redstoneworld, as current transportation takes the player above ground which could expose them to potential issues, whereas Underground uses mostly straight segments and keeps the player fully deep in the ground. This was especially desired for the Main Bunker, which lacked any sort of transport to the rest of the world while inside. There are 3 stations that are completely separate from their surface RCorp Rail counterpart. Only served by [RW-515](#rw-515). Underground bypasses all RCorp Rail and Station lockdowns.
+
+### Main Bunker (Underground)
+
+The Main Bunker station is at Y=36 in the Bunkerhotel. It accessed by subway stairs right next to the Bunkertram. There is a signup station and to exit the player is required to enter a Masterkey or Bunker Keycard / Admincard.
+
+### FI Bunker @ GES
+
+RCRail Underground avoids the area of Founding Island Proper by stopping at the {% include wiki-link.html title="Gerudo Emergency Station" %} at Y=31. It is accessed at the 3rd floor of the GES where the player can access various safe transport options, including to the FI Bunker if it is not locked down. To exit a Masterkey is required. This is also where the interchange is that connects the three stations together.
+
+### RTC @ Tower 3.0 Bunker
+
+The RTC station is at Y=-3 right inside the RTC Bunker, adjacent to the regular public track to the FI Bunker. To exit a Masterkey is required. The track to and from this bunker does take the rider under Founding Island, but deep underground.
