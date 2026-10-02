@@ -11,6 +11,8 @@ infobox: {"Started": "March 3rd, 2026", "Project Directors": "EzraThunder, Mr.Ij
 published: true
 ---
 
+*The Reborn X museum is part of {% include wiki-link.html title="Reborn X" %}*
+
 The Reborn X Museum is the main monument of Reborn X, showcasing the history of all RW Chapters, RW Projects, RW Sectors, and much more. The museum also features the Curator’s Guest, offering visitors a closer look into the history and legacy of Redstoneworld.
 
 The idea was presented by EzraThunder in March 2026, and building started shortly after. The museum was opened at July 10th, 2026 as part of the Reborn X event.
