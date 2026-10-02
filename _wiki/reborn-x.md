@@ -29,7 +29,7 @@ At 11:00 CT (16:00 UTC), the [Reborn X Announcement Special](https://www.youtube
 
 At 12:00 CT (17:00 UTC), the {% include wiki-link.html title="Reborn X Museum" %} was fully opened, allowing public access to the exhibits for the first time, as well as the rest of the Reborn X features.
 
-The event also introduced the opening of Minigame Center, which included several games including spleef, parkour and tag (games are still being added to the minigame center after the fact). **[The Curator](the-curator)** also became available during the event, giving players a new way to interact with the museum and its content. Both of these were opened at 12:00 CT.
+The event also introduced the opening of Minigame Center, which included several games including spleef, parkour and tag (games are still being added to the minigame center after the fact). **[The Curator](#the-curator)** also became available during the event, giving players a new way to interact with the museum and its content. Both of these were opened at 12:00 CT.
 
 A large amount of preparation went into the event before its opening, with additional development and work continuing afterwards to finish projects and complete the remaining details. Reborn X therefore covered a wider period of preparation, activities, and follow-up work rather than being limited to the event itself.
 
