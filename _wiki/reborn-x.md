@@ -11,6 +11,8 @@ infobox: {"Date": "10th of July 2026", "Reborn started": "15th of March 2016", "
 published: true
 ---
 
+*Reborn X happened during {% include wiki-link.html title="Chapter 7" %}*
+
 ## What is Reborn?
 
 Before getting into Reborn X, it is important to understand what Reborn actually means.
