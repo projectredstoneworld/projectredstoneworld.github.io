@@ -5,7 +5,7 @@ section: "RTC-Major (RTC-2)"
 description: "The more southern RTC (Redstone Tower Complex) tower."
 image: "/wiki/assets/images/t3-aura.webp"
 image-alt: "Tower 3.0 as viewed from the Founding Island Zoo"
-last_modified: "2026-10-06T13:46:35Z"
+last_modified: "2026-10-07T13:43:20Z"
 contributor: "LLucas"
 infobox: {"Started":"January 3rd, 2024","Design Leaders":"Ij, LLucas","Status":"Work In Progress","Type":"Subsector of RTC"}
 published: true
@@ -18,6 +18,17 @@ Tower 3.0 is the larger of the two towers. It boasts 19 full floors, and a huge 
 ## Industry Complex
 
 Floor -1 of Tower 3.0 (chiefly known as the Industry Complex) is a huge part of the tower. Apart from housing the {% include wiki-link.html title="RTC Reactor" %}, it also houses the IMS storage and farm systems.
+
+### Farming Complex (IMS Farms)
+
+This area of the industry complex produces a large majority of the items shipped around the RTC. It has a large variety of animal farms, food farms, and other miscellaneous farms. 
+
+#### Plantation
+
+{% include wiki-image.html file="/wiki/assets/images/rtc/plantatio.webp" caption="An portion of the plantation area" side="right"%}
+Originally considered to be an area reserved for plant-only farms, it also features a food farm as well. Many of its farms were recycled from other sectors, especially the {% include wiki-link.html title="Founding Island Bunker" text="FI Bunker" %}. The list of farms includes: eggs, beetroot, (uncooked) potatoes*, carrots, melon slices, wheat seeds, wheat, sugarcane, bamboo, pumpkin, bread, cactus, bone meal (from moss), cocoa beans, and finally the cooked meats (chicken, porkchop, steak). Some of these farms cannot be disabled due to the nature of their mechanic or the fact that they use villagers to produce the material. The farms that are toggleable are cocoa beans, melon/pumpkin, bone meal, bamboo, and sugarcane.
+
+*\*The potatoes are cooked inside of the IMS storage super-smelter using charcoal*
 
 ### IMS storage
 
