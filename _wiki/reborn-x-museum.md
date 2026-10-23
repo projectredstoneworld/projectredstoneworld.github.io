@@ -49,6 +49,12 @@ The Project Exhibition is an underground exhibition covering multiple projects. 
 {% include wiki-image.html file="/wiki/assets/images/2026-06-09_21.09.12.webp" caption="The basement main hall" side="right" %}
 The basement is possibly the largest exhibition in the entire museum, covering a little bit of this and a little bit of that. Most posters made for the museum are located here, as well as The Curator - interactive character covering RW lore. Basement has entrance to Credit room, which includes Museum's credits. Basement is quite different design-wise from the rest of the museum with a more white and glorious style.
 
+### The Curator {#the-curator}
+
+The Curator was introduced as part of Reborn X through the **Curator Lore**. During the event, players could interact with The Curator and receive different tasks to complete.
+
+These tasks gradually revealed more of The Curator's story and gave players an additional storyline to follow during Reborn X. Each task involved retrieving a total of seven items around the Redstoneworld map (one for each chapter of Redstoneworld), each of which revealed a video (known as a fragment). The Curator Lore chronologically takes place before the (as of 2026) work in progress Redstory lore.
+
 ## Credits
 
 **Head Builder** 
